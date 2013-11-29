@@ -17,7 +17,7 @@
 #ifndef _FATFS
 #define _FATFS  6502  /* Revision ID */
 
-#ifdef __cplusplus
+#if defined (__cplusplus) || defined (__XC__)
 extern "C" {
 #endif
 
@@ -222,7 +222,7 @@ FRESULT f_rename (const TCHAR*, const TCHAR*);    /* Rename/Move a file or direc
 FRESULT f_chdrive (BYTE);              /* Change current drive */
 FRESULT f_chdir (const TCHAR*);            /* Change current directory */
 FRESULT f_getcwd (TCHAR*, UINT);          /* Get current directory */
-FRESULT f_forward (FIL*, UINT(*)(const BYTE*,UINT), UINT, UINT*);  /* Forward data to the stream */
+//FRESULT f_forward (FIL*, UINT(*)(const BYTE*,UINT), UINT, UINT*);  /* Forward data to the stream */
 FRESULT f_mkfs (BYTE, BYTE, UINT);          /* Create a file system on the drive */
 FRESULT  f_fdisk (BYTE, const DWORD[], void*);    /* Divide a physical drive into some partitions */
 int f_putc (TCHAR, FIL*);              /* Put a character to the file */
@@ -330,7 +330,7 @@ int ff_del_syncobj (_SYNC_t);    /* Delete a sync object */
 #define  ST_DWORD(ptr,val)  *(BYTE*)(ptr)=(BYTE)(val); *((BYTE*)(ptr)+1)=(BYTE)((WORD)(val)>>8); *((BYTE*)(ptr)+2)=(BYTE)((DWORD)(val)>>16); *((BYTE*)(ptr)+3)=(BYTE)((DWORD)(val)>>24)
 #endif
 
-#ifdef __cplusplus
+#if defined (__cplusplus) || defined (__XC__)
 }
 #endif
 
