@@ -3,64 +3,29 @@
 // * No Media Change Detection - Application program must re-mount the volume after media change or it results a hard error.
 
 #include "diskio.h"    /* Common include file for FatFs and disk I/O layer */
-#ifndef BUS_MODE_4BIT
 #include <stdio.h> /* for the printf function */
 #include <xs1.h>
 #include <xclib.h>
+#include "spi_master.h"
+#include <xccompat.h>
+#include "spi_conf.h"
 
-// Structure for the ports to access the SD Card
-typedef struct SDHostInterface
+BYTE cardType; /* b0:MMC, b1:SDv1, b2:SDv2, b3:Block addressing */
+DSTATUS stat; /* Disk status */
+
+/* List the ports used for interfaces */
+spi_master_interface spi_if =
 {
-  clock ClkBlk1, ClkBlk2;
-  out port cs; // a 1 bit port
-  out buffered port:32 sclk; // a 1 bit port
-  out buffered port:32 mosi; // a 1 bit port
-  in buffered port:32 miso; // a 1 bit port. Need an external pull-up resistor if not an XS1_G core
-/*
-     C M     S   M
-     s o     c   i
-       s     l   s
-       i     k   o
-   __________________
-  /  | | | | | | | | |
-  || C D - + C - D   |
-  |  S I G 3 L G O   |
-  |      N . K N     |
-  |      D 3   D     |
-  |        V         |
-*/
-  /* fields returned after initialization */
-  BYTE CardType; /* b0:MMC, b1:SDv1, b2:SDv2, b3:Block addressing */
-  DSTATUS Stat; /* Disk status */
-} SDHostInterface;
+    XS1_CLKBLK_1,
+    XS1_CLKBLK_2,
+    XS1_PORT_1I,
+    XS1_PORT_1J,
+    XS1_PORT_1L
+};
+out buffered port:4 spi_ss = XS1_PORT_4E; // Chip select
 
-static SDHostInterface SDif[] = // LIST HERE THE PORTS USED FOR THE INTERFACES
-//                                    cs,        sclk,        Mosi,         miso
-{XS1_CLKBLK_1, XS1_CLKBLK_2, XS1_PORT_1O, XS1_PORT_1M, XS1_PORT_1N, XS1_PORT_1P, 0, 0}; // resources used for interface #0
-//{XS1_CLKBLK_1, XS1_CLKBLK_2, XS1_PORT_1A, XS1_PORT_1B, XS1_PORT_1C, XS1_PORT_1D, 0, 0}; // resources used for interface #1
+out port p_led=XS1_PORT_8D;
 
-/*-------------------------------------------------------------------------*/
-/* Platform dependent macros and functions needed to be modified           */
-/*-------------------------------------------------------------------------*/
-
-void init_port(BYTE drv)
-{
-  unsigned int i;
-
-  // configure ports and clock blocks
-  configure_clock_ref(SDif[drv].ClkBlk1, 64);  // about 800KHz vector rate
-  configure_out_port(SDif[drv].sclk, SDif[drv].ClkBlk1, 1);
-  configure_clock_src(SDif[drv].ClkBlk2, SDif[drv].sclk);
-  configure_out_port(SDif[drv].mosi, SDif[drv].ClkBlk2, 1);
-  configure_in_port(SDif[drv].miso, SDif[drv].ClkBlk2);
-  read_sswitch_reg(get_core_id(), 0, i); // get core type
-  if((i & 0xFFFF) == 0x0200)
-    set_port_pull_up(SDif[drv].miso); // if an XS1_G core can enable internal pull-up
-  SDif[drv].cs <: 1;
-  start_clock(SDif[drv].ClkBlk1);
-  start_clock(SDif[drv].ClkBlk2);
-  SDif[drv].Stat = STA_NOINIT;
-}
 
 void dly_us(int n)
 {
@@ -72,11 +37,7 @@ void dly_us(int n)
   tmr when timerafter(t) :> void;
 }
 
-#define INIT_PORT(drv) { init_port(drv); }  /* Initialize control port (CS=H, CLK=L, DI=H, DO=pu) */
 #define DLY_US(n) { dly_us(n); }    /* Delay n microseconds */
-
-#define CS_H(drv) { sync(SDif[drv].sclk); SDif[drv].cs <: 1; } /* Set MMC CS 'H' */
-#define CS_L(drv) { sync(SDif[drv].sclk); SDif[drv].cs <: 0; }  /* Set MMC CS 'L' */
 
 /*--------------------------------------------------------------------------
 
@@ -112,49 +73,6 @@ void dly_us(int n)
 #define CT_SDC    (CT_SD1|CT_SD2)  /* SD */
 #define CT_BLOCK  0x08    /* Block addressing */
 
-#define CLK_PATTERN 0xAAAAAAAA
-
-/*-----------------------------------------------------------------------*/
-/* Transmit bytes to the card (bitbanging)                               */
-/*-----------------------------------------------------------------------*/
-#pragma unsafe arrays
-static
-void xmit_mmc (BYTE drv,
-  const BYTE buff[],  /* Data to be sent */
-  UINT bc        /* Number of bytes to send */
-)
-{
-  sync(SDif[drv].sclk);
-  for(int i = 0; i < bc; i++)
-  {
-    partout(SDif[drv].mosi, 8, bitrev(buff[i]) >> 24);
-    partout(SDif[drv].sclk, 16, CLK_PATTERN); // load 8 clock
-  }
-  sync(SDif[drv].sclk);
-}
-
-/*-----------------------------------------------------------------------*/
-/* Receive bytes from the card (bitbanging)                              */
-/*-----------------------------------------------------------------------*/
-#pragma unsafe arrays
-static
-void rcvr_mmc (BYTE drv,
-  BYTE buff[],  /* Pointer to read buffer */
-  UINT bc    /* Number of bytes to receive */
-)
-{
-  BYTE d;
-
-  partout(SDif[drv].mosi, 8, 0xFF);  // mosi high
-  clearbuf(SDif[drv].miso);
-  for(int i = 0; i < bc; i++)
-  {
-    partout(SDif[drv].sclk, 16, CLK_PATTERN); // load 8 clock
-    d = partin(SDif[drv].miso, 8);
-    buff[i] = bitrev(d) >> 24;
-  }
-}
-
 /*-----------------------------------------------------------------------*/
 /* Wait for card ready                                                   */
 /*-----------------------------------------------------------------------*/
@@ -167,7 +85,7 @@ int wait_ready (BYTE drv)  /* 1:OK, 0:Timeout */
 
   for (tmr = 5000; tmr; tmr--)
   {  /* Wait for ready in timeout of 500ms */
-    rcvr_mmc(drv, d, 1);
+ 	d[0] = spi_master_in_byte(spi_if);
     if (d[0] == 0xFF) break;
     DLY_US(100);
   }
@@ -182,9 +100,11 @@ static
 void deselect (BYTE drv)
 {
   BYTE d[1];
+  sync(spi_if.sclk);
+  spi_ss <: 0xF;
 
-  CS_H(drv);
-  rcvr_mmc(drv, d, 1);  /* Dummy clock (force DO hi-z for multiple slave SPI) */
+  /* Dummy clock (force DO hi-z for multiple slave SPI) */
+  d[0] = spi_master_in_byte(spi_if);
 }
 
 /*-----------------------------------------------------------------------*/
@@ -196,9 +116,11 @@ int Select (BYTE drv)  /* 1:OK, 0:Timeout */
 {
   BYTE d[1];
 
-  CS_L(drv);
-  rcvr_mmc(drv, d, 1);  /* Dummy clock (force DO enabled) */
+  sync(spi_if.sclk);
+  spi_ss <: 0xD;
 
+  /* Dummy clock (force DO enabled) */
+  d[0] = spi_master_in_byte(spi_if);
   if (wait_ready(drv)) return 1;  /* OK */
   deselect(drv);
   return 0;      /* Failed */
@@ -208,7 +130,7 @@ int Select (BYTE drv)  /* 1:OK, 0:Timeout */
 /* Receive a data packet from the card                                   */
 /*-----------------------------------------------------------------------*/
 #pragma unsafe arrays
-static
+static inline
 int rcvr_datablock (BYTE drv,  /* 1:OK, 0:Failed */
   BYTE buff[],      /* Data buffer to store received data */
   UINT btr      /* Byte count */
@@ -219,15 +141,18 @@ int rcvr_datablock (BYTE drv,  /* 1:OK, 0:Failed */
 
   for (tmr = 1000; tmr; tmr--)
   {  /* Wait for data packet in timeout of 100ms */
-    rcvr_mmc(drv, d, 1);
+	d[0] = spi_master_in_byte(spi_if);
     if (d[0] != 0xFF) break;
     DLY_US(100);
   }
   if (d[0] != 0xFE) return 0;    /* If not valid data token, return with error */
 
-  rcvr_mmc(drv, buff, btr);      /* Receive the data block into buffer */
-  rcvr_mmc(drv, d, 2);          /* Discard CRC */
-
+  /* Receive the data block into buffer */
+  spi_master_in_buffer(spi_if, buff, btr);
+  
+  /* Discard CRC */
+  d[0] = spi_master_in_short(spi_if);
+  
   return 1;            /* Return with success */
 }
 
@@ -235,9 +160,9 @@ int rcvr_datablock (BYTE drv,  /* 1:OK, 0:Failed */
 /* Send a data packet to the card                                        */
 /*-----------------------------------------------------------------------*/
 #pragma unsafe arrays
-static
+static inline
 int xmit_datablock (BYTE drv,  /* 1:OK, 0:Failed */
-  const BYTE ?buff[],  /* 512 byte data block to be transmitted */
+  const BYTE (&?buff)[],  /* 512 byte data block to be transmitted */
   BYTE token      /* Data/Stop token */
 )
 {
@@ -246,12 +171,19 @@ int xmit_datablock (BYTE drv,  /* 1:OK, 0:Failed */
   if (!wait_ready(drv)) return 0;
 
   d[0] = token;
-  xmit_mmc(drv, d, 1);        /* Xmit a token */
+  /* Xmit a token */
+  spi_master_out_byte(spi_if, d[0]);
+
+  /* Is it data token? */
   if (token != 0xFD)
-  {    /* Is it data token? */
-    xmit_mmc(drv, buff, 512);  /* Xmit the 512 byte data block to MMC */
-    rcvr_mmc(drv, d, 2);      /* Xmit dummy CRC (0xFF,0xFF) */
-    rcvr_mmc(drv, d, 1);      /* Receive data response */
+  {    
+    /* Xmit the 512 byte data block to MMC/SD */
+	spi_master_out_buffer(spi_if, buff, 512);
+    /* Xmit dummy CRC (0xFF,0xFF) */
+	d[0] = spi_master_in_short(spi_if);
+    /* Receive data response */
+    d[0] = spi_master_in_byte(spi_if);
+	
     if ((d[0] & 0x1F) != 0x05)  /* If not accepted, return with error */
       return 0;
   }
@@ -291,13 +223,16 @@ BYTE send_cmd (BYTE drv,    /* Returns command response (bit7==1:Send failed)*/
   if (cmd == CMD0) n = 0x95;    /* (valid CRC for CMD0(0)) */
   if (cmd == CMD8) n = 0x87;    /* (valid CRC for CMD8(0x1AA)) */
   buf[5] = n;
-  xmit_mmc(drv, buf, 6);
+  
+  spi_master_out_buffer(spi_if, buf, 6);
 
   /* Receive command response */
-  if (cmd == CMD12) rcvr_mmc(drv, d, 1);  /* Skip a stuff byte when stop reading */
+  /* Skip a stuff byte when stop reading */
+  if (cmd == CMD12) 
+     d[0] = spi_master_in_byte(spi_if);
   n = 10;                /* Wait for a valid response in timeout of 10 attempts */
   do
-    rcvr_mmc(drv, d, 1);
+    d[0] = spi_master_in_byte(spi_if);
   while ((d[0] & 0x80) && --n);
   return d[0];      /* Return with the response value */
 }
@@ -320,18 +255,17 @@ DSTATUS disk_status (
   DSTATUS s;
   BYTE d[1];
 
-  if(drv >= sizeof(SDif)/sizeof(SDHostInterface)) return STA_NOINIT;
-
   /* Check if the card is kept initialized */
-  s = SDif[drv].Stat;
+  s = stat;
   if (!(s & STA_NOINIT))
   {
     if (send_cmd(drv, CMD13, 0))  /* Read card status */
       s = STA_NOINIT;
-    rcvr_mmc(drv, d, 1);    /* Receive following half of R2 */
+    /* Receive following half of R2 */
+	d[0] = spi_master_in_byte(spi_if);
     deselect(drv);
   }
-  SDif[drv].Stat = s;
+  stat = s;
 
   return s;
 }
@@ -345,26 +279,33 @@ DSTATUS disk_initialize (
 )
 {
   BYTE n, ty, cmd, buf[4];
+  UINT buffer, stat;
   UINT tmr;
   DSTATUS s;
-
-  if(drv >= sizeof(SDif)/sizeof(SDHostInterface)) return RES_NOTRDY;
-
-  INIT_PORT(drv);        /* Initialize control port */
-  for (n = 10; n; n--) rcvr_mmc(drv, buf, 1);  /* 80 dummy clocks */
-
+  p_led <: 0x0;
+ 
+  spi_master_init(spi_if, 8);
+  spi_ss <: 0xF;
+  stat = STA_NOINIT;
+  buf[0]=0xFF;
+  for (n = 10; n; n--) /* 80 dummy clocks */
+	  spi_master_out_byte(spi_if, buf[0]); /* Dummy writes */
+	  //buf[0] = spi_master_in_byte(spi_if); /* Some devices need dummy reads instead of writes */
+	  
   ty = 0;
+  stat=0;
   if (send_cmd(drv, CMD0, 0) == 1) {      /* Enter Idle state */
     if (send_cmd(drv, CMD8, 0x1AA) == 1) {  /* SDv2? */
-      rcvr_mmc(drv, buf, 4);              /* Get trailing return value of R7 resp */
-      if (buf[2] == 0x01 && buf[3] == 0xAA) {    /* The card can work at vdd range of 2.7-3.6V */
+      /* Get trailing return value of R7 resp */
+	  buffer = spi_master_in_word(spi_if);
+      if (buffer && 0x01AA) {    /* The card can work at vdd range of 2.7-3.6V */
         for (tmr = 1000; tmr; tmr--) {      /* Wait for leaving idle state (ACMD41 with HCS bit) */
           if (send_cmd(drv, ACMD41, 1UL << 30) == 0) break;
           DLY_US(1000);
         }
         if (tmr && send_cmd(drv, CMD58, 0) == 0) {  /* Check CCS bit in the OCR */
-          rcvr_mmc(drv, buf, 4);
-          ty = (buf[0] & 0x40) ? CT_SD2 | CT_BLOCK : CT_SD2;  /* SDv2 */
+		  buffer = spi_master_in_word(spi_if);
+          ty = (buffer & 0x40000000) ? CT_SD2 | CT_BLOCK : CT_SD2;  /* SDv2 */
         }
       }
     } else {              /* SDv1 or MMCv3 */
@@ -381,15 +322,15 @@ DSTATUS disk_initialize (
         ty = 0;
     }
   }
-  SDif[drv].CardType = ty;
+  cardType = ty;
   s = ty ? 0 : STA_NOINIT;
-  SDif[drv].Stat = s;
+  stat = s;
 
   deselect(drv);
 
-  stop_clock(SDif[drv].ClkBlk1);
-  set_clock_div(SDif[drv].ClkBlk1, 1);
-  start_clock(SDif[drv].ClkBlk1);
+  stop_clock(spi_if.blk1);
+  set_clock_div(spi_if.blk1, 1);
+  start_clock(spi_if.blk1);
   return s;
 }
 
@@ -411,7 +352,7 @@ DRESULT disk_read (
 
   if (disk_status(drv) & STA_NOINIT) return RES_NOTRDY;
   if (!count) return RES_PARERR;
-  if (!(SDif[drv].CardType & CT_BLOCK)) sector *= 512;  /* Convert LBA to byte address if needed */
+  if (!(cardType & CT_BLOCK)) sector *= 512;  /* Convert LBA to byte address if needed */
 
   if (count == 1) {  /* Single block read */
     if ((send_cmd(drv, CMD17, sector) == 0)  /* READ_SINGLE_BLOCK */
@@ -448,7 +389,7 @@ DRESULT disk_write (
 
   if (disk_status(drv) & STA_NOINIT) return RES_NOTRDY;
   if (!count) return RES_PARERR;
-  if (!(SDif[drv].CardType & CT_BLOCK)) sector *= 512;  /* Convert LBA to byte address if needed */
+  if (!(cardType & CT_BLOCK)) sector *= 512;  /* Convert LBA to byte address if needed */
 
   if (count == 1) {  /* Single block write */
     if ((send_cmd(drv, CMD24, sector) == 0)  /* WRITE_BLOCK */
@@ -456,7 +397,7 @@ DRESULT disk_write (
       count = 0;
   }
   else {        /* Multiple block write */
-    if (SDif[drv].CardType & CT_SDC) send_cmd(drv, ACMD23, count);
+    if (cardType & CT_SDC) send_cmd(drv, ACMD23, count);
     if (send_cmd(drv, CMD25, sector) == 0) {  /* WRITE_MULTIPLE_BLOCK */
       do {
         if (!xmit_datablock(drv, (buff, DATABLOCK[])[BlockCount++], 0xFC)) break;
@@ -483,9 +424,8 @@ DRESULT disk_ioctl (
 )
 {
   DRESULT res;
-  BYTE n, i, csd[16];
+  BYTE n, csd[16];
   WORD cs;
-
 
   if (disk_status(drv) & STA_NOINIT) return RES_NOTRDY;  /* Check if card is in the socket */
 
@@ -533,4 +473,13 @@ DRESULT disk_ioctl (
   return res;
 }
 
-#endif //BUS_MODE_4BIT
+// User Provided Timer Function for FatFs module
+DWORD get_fattime(void)
+{
+  return ((DWORD)(2010 - 1980) << 25)  /* Fixed to Jan. 1, 2010 */
+          | ((DWORD)1 << 21)
+          | ((DWORD)1 << 16)
+          | ((DWORD)0 << 11)
+          | ((DWORD)0 << 5)
+          | ((DWORD)0 >> 1);
+}
