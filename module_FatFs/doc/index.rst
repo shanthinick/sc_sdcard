@@ -1,4 +1,4 @@
-Display controller component
+FAT Filesystem component
 ============================
 
 .. toctree::
