@@ -161,7 +161,7 @@ int rcvr_datablock (BYTE drv,  /* 1:OK, 0:Failed */
 /* Send a data packet to the card                                        */
 /*-----------------------------------------------------------------------*/
 #pragma unsafe arrays
-static
+static inline
 int xmit_datablock (BYTE drv,  /* 1:OK, 0:Failed */
   const BYTE (&?buff)[],  /* 512 byte data block to be transmitted */
   BYTE token      /* Data/Stop token */
@@ -179,9 +179,9 @@ int xmit_datablock (BYTE drv,  /* 1:OK, 0:Failed */
   if (token != 0xFD)
   {    
     /* Xmit the 512 byte data block to MMC/SD */
-    spi_master_out_buffer(spi_if, buff, 512);
+	spi_master_out_buffer(spi_if, buff, 512);
     /* Xmit dummy CRC (0xFF,0xFF) */
-    d[0] = spi_master_in_short(spi_if);
+	d[0] = spi_master_in_short(spi_if);
     /* Receive data response */
     d[0] = spi_master_in_byte(spi_if);
 	
@@ -280,20 +280,21 @@ DSTATUS disk_initialize (
 )
 {
   BYTE n, ty, cmd, buf[4];
-  UINT buffer;
+  UINT buffer, stat;
   UINT tmr;
   DSTATUS s;
-  p_led <: 0x0; /* Turn ON LEDs */
+  p_led <: 0x0;
  
-  spi_master_init(spi_if, DEFAULT_SPI_CLOCK_DIV);
+  spi_master_init(spi_if, 8);
   spi_ss <: 0xF;
   stat = STA_NOINIT;
   buf[0]=0xFF;
   for (n = 10; n; n--) /* 80 dummy clocks */
-     spi_master_out_byte(spi_if, buf[0]); /* Dummy writes */
-     //buf[0] = spi_master_in_byte(spi_if); /* Some devices need dummy reads instead of writes */
+	  spi_master_out_byte(spi_if, buf[0]); /* Dummy writes */
+	  //buf[0] = spi_master_in_byte(spi_if); /* Some devices need dummy reads instead of writes */
 	  
   ty = 0;
+  stat=0;
   if (send_cmd(drv, CMD0, 0) == 1) {      /* Enter Idle state */
     if (send_cmd(drv, CMD8, 0x1AA) == 1) {  /* SDv2? */
       /* Get trailing return value of R7 resp */
@@ -304,7 +305,7 @@ DSTATUS disk_initialize (
           DLY_US(1000);
         }
         if (tmr && send_cmd(drv, CMD58, 0) == 0) {  /* Check CCS bit in the OCR */
-	  buffer = spi_master_in_word(spi_if);
+		  buffer = spi_master_in_word(spi_if);
           ty = (buffer & 0x40000000) ? CT_SD2 | CT_BLOCK : CT_SD2;  /* SDv2 */
         }
       }
