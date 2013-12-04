@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.8.21)  4 DEC 2013 11:47
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX) (format=pdflatex 2012.8.21)  4 DEC 2013 16:19
 entering extended mode
  \write18 enabled.
  %&-line parsing enabled.
@@ -12,9 +12,9 @@ aded.
 
 (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/xlat
 ex/index.tex
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/xmosmodern.cls
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xmosmodern.cls
 Document Class: xmosmodern 2010/12/10 v3.0b XMOS Modern Style Class
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/memoir.cls
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/memoir.cls
 Document Class: memoir 2010/02/20 v1.618033988c configurable book, report, arti
 cle document class
 \onelineskip=\skip41
@@ -23,18 +23,18 @@ cle document class
 \@memcnta=\count79
 \c@@memmarkcntra=\count80
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
 Class memoir Info: An `ifetex' package is being emulated on input line 251.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/i
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/i
 fxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/ifluatex.sty
 Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
@@ -44,12 +44,12 @@ Package ifluatex Info: LuaTeX not detected.
 \trimtop=\skip46
 \trimedge=\skip47
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ete
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ete
 x-pkg/etex.sty
 Package: etex 1998/03/26 v2.0 eTeX basic definition package (PEB)
 \et@xins=\count81
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/mem9.clo
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/mem9.clo
 File: mem9.clo 2008/01/30 v0.4 memoir class 9pt size option
 )
 \binding=\skip48
@@ -344,10 +344,10 @@ Package tocvsec2 [2008/07/23] emulated by memoir.
 Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/mempatch.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/mempatch.sty
 Package: mempatch 2009/07/24 v6.0f Patches for memoir class v1.6180339
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
 ls/calc.sty
 Package: calc 2007/08/22 v4.3 Infix arithmetic (KKT,FJ)
 \calc@Acount=\count137
@@ -391,38 +391,38 @@ Sidefootvsep and sidefootheight: 10.0pt and 546.99997pt
 
 \adjustforbug=\skip192
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
 phics/graphicx.sty
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
 phics/keyval.sty
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks22
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
 phics/graphics.sty
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
 phics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
 exconfig/graphics.cfg
 File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/pdf
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/pdf
 tex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
@@ -444,29 +444,29 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 
 Writing index file xmos_texfile.idx 
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 math/amsmath.sty
 Package: amsmath 2000/07/18 v2.13 AMS math features
 \@mathmargin=\skip196
 
 For additional information on amsmath, use the `?' option.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 math/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 math/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks23
 \ex@=\dimen151
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 math/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen152
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 math/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
@@ -508,16 +508,16 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
 LaTeX Info: Redefining \[ on input line 2666.
 LaTeX Info: Redefining \] on input line 2667.
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/pst
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/pst
 ool/pstool.sty
 Package: pstool 2009/07/17 v1.3 Wrapper for processing PostScript/psfrag figure
 s
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/catchfile.sty
 Package: catchfile 2011/03/01 v1.6 Catch the contents of a file (HO)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/etexcmds.sty
 Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
 Package etexcmds Info: Could not find \expanded.
@@ -525,20 +525,20 @@ Package etexcmds Info: Could not find \expanded.
 (etexcmds)             that some package has redefined \expanded.
 (etexcmds)             In the latter case, load this package earlier.
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
 phics/color.sty
 Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
 exconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package color Info: Driver file: pdftex.def on input line 130.
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/ifplatform.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/ifplatform.sty
 Package: ifplatform 2009/09/10 v0.3a Testing for the operating system
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
@@ -547,19 +547,19 @@ Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/psfrag.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/psfrag.sty
 Package: psfrag 1998/04/11 v3.04 PSfrag (MCG)
 \pfg@pcount=\count155
 \pfg@scount=\count156
 \pfg@temp=\write5
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/suffix.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/suffix.sty
 Package: suffix 2006/07/15 1.5 Variant command support
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/xkeyval.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xkeyval.sty
 Package: xkeyval 2008/08/13 v2.6a package option processing (HA)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/x
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/x
 keyval/xkeyval.tex
 \XKV@toks=\toks28
 \XKV@tempa@toks=\toks29
@@ -568,7 +568,7 @@ File: xkeyval.tex 2008/08/13 v2.6a key=value parser (HA)
 ))
 \pstool@out=\write6
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/microtype.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/microtype.sty
 Package: microtype 2009/03/27 v2.3d Micro-typography with pdfTeX (RS)
 \MT@toks=\toks30
 \MT@count=\count158
@@ -580,21 +580,21 @@ LaTeX Info: Redefining \textls on input line 1616.
 LaTeX Info: Redefining \textmicrotypecontext on input line 2167.
 Package microtype Info: Loading configuration file microtype.cfg.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
 rotype/microtype.cfg
 File: microtype.cfg 2010/01/10 v2.4 microtype main configuration file (RS)
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/stmaryrd.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/alltt.sty
 Package: alltt 1997/06/16 v2.0g defines alltt environment
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 fonts/amsfonts.sty
 Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 \symAMSa=\mathgroup5
@@ -602,7 +602,7 @@ Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
 ls/multicol.sty
 Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \c@tracingmulticols=\count159
@@ -651,11 +651,11 @@ Package: multicol 2011/06/27 v1.7a multicolumn formatting (FMi)
 \colbreak@box=\box55
 \multicol@sort@counter=\count167
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/ifthen.sty
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
 ls/longtable.sty
 Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \LTleft=\skip202
@@ -674,7 +674,7 @@ Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
 \c@LT@chunks=\count172
 \LT@p@ftn=\toks31
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/textcomp.sty
 Package: textcomp 2005/09/27 v1.99g Standard LaTeX package
 Package textcomp Info: Sub-encoding information:
@@ -690,7 +690,7 @@ Package textcomp Info: Sub-encoding information:
 (textcomp)             See the documentation for details.
 Package textcomp Info: Setting ? sub-encoding to TS1/1 on input line 71.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/ts1enc.def
 File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
 )
@@ -757,11 +757,11 @@ Package textcomp Info: Setting pplj sub-encoding to TS1/3 on input line 338.
 Package textcomp Info: Setting ptmx sub-encoding to TS1/4 on input line 339.
 Package textcomp Info: Setting ptmj sub-encoding to TS1/4 on input line 340.
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/url.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/url.sty
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/listings.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/listings.sty
 \lst@mode=\count173
 \lst@gtempboxa=\box60
 \lst@token=\toks32
@@ -775,61 +775,61 @@ Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 \lst@lineno=\count178
 \lst@maxwidth=\dimen173
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lis
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lis
 tings/lstmisc.sty
 File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
 \c@lstnumber=\count179
 \lst@skipnumbers=\count180
 \lst@framebox=\box61
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lis
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lis
 tings/listings.cfg
 File: listings.cfg 2007/02/22 1.4 listings configuration
 ))
 Package: listings 2007/02/22 1.4 (Carsten Heinz)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/gensymb.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/gensymb.sty
 Package: gensymb 2003/07/02 v1.0 (WaS)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/man
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/man
 fnt/manfnt.sty
 Package: manfnt 1999/07/010.2LaTeX2e manfnt package
 \dbend@height=\skip206
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psn
 fss/pifont.sty
 Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
 LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psn
 fss/upzd.fd
 File: upzd.fd 2001/06/04 font definitions for U/pzd.
 )
 LaTeX Font Info:    Try loading font information for U+psy on input line 64.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psn
 fss/upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
 ls/xspace.sty
 Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/multirow.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/multirow.sty
 \bigstrutjot=\dimen174
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/col
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/col
 ortbl/colortbl.sty
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 \everycr=\toks33
 \minrowclearance=\skip207
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
 ls/varioref.sty
 Package: varioref 2011/10/02 v1.4z package for extended references (FMi)
 \c@vrcnt=\count181
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/fixltx2e.sty
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
@@ -837,21 +837,21 @@ LaTeX Info: Redefining \textsubscript on input line 424.
 LaTeX Info: The control sequence `\[' is already robust on input line 471.
 LaTeX Info: The control sequence `\]' is already robust on input line 472.
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/enumitem.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/enumitem.sty
 Package: enumitem 2009/05/18 v2.2 Customized lists
 \enit@toks=\toks34
 \labelindent=\skip208
 \enit@outerparindent=\dimen175
 \enitdp@desc=\count182
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/placeins.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/placeins.sty
 Package: placeins 2005/04/18  v 2.2
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/flafter.sty
 Package: flafter 2000/07/23 v1.2i Standard LaTeX floats after reference (FMi)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/float.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count183
 \float@exts=\toks35
@@ -859,11 +859,11 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks36
 \@floatcapt=\box63
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/marginnote.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/marginnote.sty
 Package: marginnote 2009/05/06 v1.1d non floating margin notes for LaTeX
 \c@mn@abspage=\count184
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lay
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lay
 outs/layouts.sty
 Package: layouts 2009/09/02 v2.6d graphical depiction of document elements
 \l@ylen=\skip209
@@ -941,45 +941,45 @@ Normal \count register pool exhausted, switching to extended pool.
 \l@youtyco=\count284
 \l@ytempdima=\skip257
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/uni
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/uni
 ts/units.sty
 Package: units 1998/08/04 v0.9b Typesetting units
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/uni
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/uni
 ts/nicefrac.sty
 Package: nicefrac 1998/08/04 v0.9b Nice fractions
 \L@UnitsRaiseDisplaystyle=\skip258
 \L@UnitsRaiseTextstyle=\skip259
 \L@UnitsRaiseScriptstyle=\skip260
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/sav
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/sav
 esym/savesym.sty
 
 LaTeX Warning: You have requested package `savesym',
                but the package provides `savesymbol'.
 
 Package: savesymbol 2003/06/01 v1.1 Saves and restores symbols
-) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/marvosym.sty
+) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/marvosym.sty
 Package: marvosym 2006/05/11 v2.1 Martin Vogel's Symbols font definitions
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bbd
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bbd
 ing/bbding.sty
 Package: bbding 1999/04/15 v1.01 Dingbats symbols
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/din
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/din
 gbat/dingbat.sty
 Package: dingbat 2001/04/27 v1.00 Hands and other dingbats
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
 erref/hyperref.sty
 Package: hyperref 2012/08/18 v6.83b Hypertext links for LaTeX
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/hobsub-hyperref.sty
 Package: hobsub-hyperref 2012/05/28 v1.13 Bundle oberdiek, subset hyperref (HO)
 
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/hobsub-generic.sty
 Package: hobsub-generic 2012/05/28 v1.13 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/05/28 v1.13 Construct package bundles (HO)
@@ -1010,11 +1010,11 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
 rdiek/auxhook.sty
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
 rdiek/kvoptions.sty
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
@@ -1022,13 +1022,13 @@ Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 \Hy@linkcounter=\count285
 \Hy@pagecounter=\count286
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
 erref/pd1enc.def
 File: pd1enc.def 2012/08/18 v6.83b Hyperref: PDFDocEncoding definition (HO)
 )
 \Hy@SavedSpaceFactor=\count287
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
 exconfig/hyperref.cfg
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
@@ -1059,7 +1059,7 @@ LaTeX Info: Redefining \pageref on input line 6167.
 \Hy@abspage=\count290
 \c@Item=\count291
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/memhfixc.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/memhfixc.sty
 Package: memhfixc 2009/02/06 v1.12 nameref/hyperref package fixes for memoir cl
 ass
 \c@memhycontfloat=\count292
@@ -1068,13 +1068,13 @@ ass
 Package hyperref Message: Driver (autodetected): hpdftex.
 
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
 erref/hpdftex.def
 File: hpdftex.def 2012/08/18 v6.83b Hyperref driver for pdfTeX
 \Fld@listcount=\count293
 \c@bookmark@seq@number=\count294
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
 rdiek/rerunfilecheck.sty
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
@@ -1087,36 +1087,36 @@ Package hyperref Info: Option `pdfdisplaydoctitle' set `true' on input line 469
 Package hyperref Info: Option `breaklinks' set `true' on input line 469.
 Package hyperref Info: Option `colorlinks' set `true' on input line 474.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/lastpage.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/lastpage.sty
 Package: lastpage 1994/06/25 v0.1b LaTeX2e package for refs to last page number
  (JPG)
 )
 \c@sheetsavedcounter=\count295
 \ppagespace=\skip262
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
 ls/afterpage.sty
 Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
 \AP@output=\toks38
 \AP@partial=\box65
 \AP@footins=\box66
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/fontenc.sty
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/t1enc.def
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cidabr/lucidabr.sty
 Package: lucidabr 2005/11/29 v4.3 Lucida Bright + Lucida New Math + Lucida Expe
 rt (SPQR/DPC/TUG)
 LaTeX Font Info:    Try loading font information for T1+hls on input line 129.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cida/t1hls.fd
 File: t1hls.fd 2005/09/15 font definitions for T1/hls (WaS/PCTeX/TUG)
 )
@@ -1266,7 +1266,7 @@ LaTeX Font Info:    Redeclaring math delimiter \lrcorner on input line 682.
 )
 \cloverleafheight=\skip263
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/upquote.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/upquote.sty
 Package: upquote 2003/08/11 v1.1 Covington's upright-quote modification to verb
 atim and verb
 )
@@ -1411,18 +1411,18 @@ Package color Info: Redefining color darkblue on input line 1231.
 \syntaxlen=\skip279
 \grammarindentlen=\skip280
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/terminology.tex)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/bib.tex)
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/terminology.tex)
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/bib.tex)
 \revisiontoks=\toks39
 \c@revcounter=\count416
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks40
 \inpenc@posthook=\toks41
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/utf8.def
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
@@ -1430,7 +1430,7 @@ Now handling font encoding OML ...
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/t1enc.dfu
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
@@ -1581,7 +1581,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/ot1enc.dfu
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
@@ -1613,7 +1613,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/omsenc.dfu
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
@@ -1630,7 +1630,7 @@ Now handling font encoding U ...
 Now handling font encoding TS1 ...
 ... processing UTF-8 mapping file for font encoding TS1
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/ts1enc.dfu
 File: ts1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A2 (decimal 162)
@@ -1720,15 +1720,15 @@ Now handling font encoding LMR ...
 ))
    defining Unicode char U+00A0 (decimal 160)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/xsphinx.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xsphinx.sty
 Package: xsphinx 2010/01/15 LaTeX package (Sphinx markup)
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/framed.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/framed.sty
 Package: framed 2007/10/04 v 0.95: framed or shaded text with page breaks
 \fb@frw=\dimen180
 \fb@frh=\dimen181
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/fancyvrb.sty
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/fancyvrb.sty
 Package: fancyvrb 2008/02/07
 
 Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
@@ -1740,13 +1740,13 @@ Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
 \FV@StepNumber=\count419
 \FV@OutFile=\write7
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/threeparttable.s
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/threeparttable.s
 ty
 Package: threeparttable 2003/06/13  v 3.0
 \@tempboxb=\box68
 )
 \py@argswidth=\skip281
-) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/indent.sty)
+) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/indent.sty)
 \xmos_texfile@idxfile=\write8
 \openout8 = `xmos_texfile.idx'.
 
@@ -1771,7 +1771,7 @@ LaTeX Font Info:    ... okay on input line 30.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 30.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/ts1cmr.fd
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
@@ -1782,13 +1782,13 @@ LaTeX Font Info:    Checking defaults for LMR/hlcm/m/n on input line 30.
 LaTeX Font Info:    Try loading font information for LMR+hlcm on input line 30.
 
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cidabr/lmrhlcm.fd
 File: lmrhlcm.fd 2005/11/28 v4.3 Lucida New Math Arrows (SPQR/DPC/TUG)
 )
 LaTeX Font Info:    ... okay on input line 30.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/context/b
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/context/b
 ase/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count420
@@ -1803,11 +1803,11 @@ ase/supp-pdf.mkii
 \makeMPintoPDFobject=\count425
 \everyMPtoPDFconversion=\toks43
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
 rdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
 rdiek/grfext.sty
 Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
 )
@@ -1816,7 +1816,7 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
 exconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
@@ -1852,11 +1852,11 @@ Package layouts Warning: Layout scale set to 0.5 on input line 30.
 \AtBeginShipoutBox=\box70
 Package hyperref Info: Link coloring ON on input line 30.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
 erref/nameref.sty
 Package: nameref 2012/07/31 v2.42 Cross-referencing by name of section
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
 berdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
@@ -1879,13 +1879,13 @@ LaTeX Font Info:    Font shape `T1/hls/m/n' will be
 (Font)              scaled to size 15.72485pt on input line 32.
 LaTeX Font Info:    Try loading font information for TS1+hls on input line 32.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cida/ts1hls.fd
 File: ts1hls.fd 2005/09/15 font definitions for TS1/hls (WaS/PCTeX/TUG)
 )
 LaTeX Font Info:    Font shape `TS1/hls/m/n' will be
 (Font)              scaled to size 8.64006pt on input line 32.
- <xmoslogo18pt.pdf, id=92, 54.06036pt x 15.07974pt>
+ <xmoslogo18pt.pdf, id=100, 54.06036pt x 15.07974pt>
 File: xmoslogo18pt.pdf Graphic file (type pdf)
 
 <use xmoslogo18pt.pdf>
@@ -1894,8 +1894,8 @@ Package pdftex.def Info: xmoslogo18pt.pdf used on input line 32.
  [1
 Non-PDF special ignored!
 
-{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-var/fonts/map/pdft
-ex/updmap/pdftex.map} <c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texi
+{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-var/fonts/map/pdft
+ex/updmap/pdftex.map} <c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texi
 nputs/xmoslogo18pt.pdf>]
 LaTeX Font Info:    Font shape `T1/hls/m/n' will be
 (Font)              scaled to size 11.15991pt on input line 33.
@@ -1908,7 +1908,7 @@ LaTeX Font Info:    Font shape `T1/hls/b/n' will be
 (Font)              scaled to size 8.64006pt on input line 1.
 LaTeX Font Info:    Try loading font information for T1+hlh on input line 1.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cida/t1hlh.fd
 File: t1hlh.fd 2005/09/15 font definitions for T1/hlh (WaS/PCTeX/TUG)
 )
@@ -1920,7 +1920,7 @@ LaTeX Font Info:    Font shape `T1/hlh/m/n' will be
 (Font)              scaled to size 5.19997pt on input line 1.
 LaTeX Font Info:    Try loading font information for OML+hlcm on input line 1.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cidabr/omlhlcm.fd
 File: omlhlcm.fd 2005/11/28 v4.3 Lucida New Math Italic (SPQR/DPC/TUG)
 )
@@ -1932,7 +1932,7 @@ LaTeX Font Info:    Font shape `OML/hlcm/m/it' will be
 (Font)              scaled to size 5.19997pt on input line 1.
 LaTeX Font Info:    Try loading font information for OMS+hlcy on input line 1.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cidabr/omshlcy.fd
 File: omshlcy.fd 2005/11/28 v4.3 Lucida New Math Symbols (SPQR/DPC/TUG)
 )
@@ -1944,7 +1944,7 @@ LaTeX Font Info:    Font shape `OMS/hlcy/m/n' will be
 (Font)              scaled to size 5.19997pt on input line 1.
 LaTeX Font Info:    Try loading font information for OMX+hlcv on input line 1.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
 cidabr/omxhlcv.fd
 File: omxhlcv.fd 2005/11/28 v4.3 Lucida New Math Extension (SPQR/DPC/TUG)
 )
@@ -1959,28 +1959,28 @@ LaTeX Font Info:    No file Ustmry.fd. on input line 1.
 LaTeX Font Warning: Font shape `U/stmry/m/n' undefined
 (Font)              using `U/cmr/m/n' instead on input line 1.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
 rotype/mt-cmr.cfg
 File: mt-cmr.cfg 2009/11/09 v2.0 microtype config. file: Computer Modern Roman 
 (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msa on input line 1.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 fonts/umsa.fd
 File: umsa.fd 2009/06/22 v3.00 AMS symbols A
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
 rotype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 1.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
 fonts/umsb.fd
 File: umsb.fd 2009/06/22 v3.00 AMS symbols B
 )
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
 rotype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
@@ -2008,9 +2008,9 @@ LaTeX Font Info:    Font shape `T1/hls/m/n' will be
 (Font)              scaled to size 7.76001pt on input line 46.
 LaTeX Font Info:    Try loading font information for U+mvs on input line 47.
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mar
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mar
 vosym/umvs.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
 rotype/mt-mvs.cfg
 File: mt-mvs.cfg 2006/07/05 v1.1 microtype config. file: Marvosym Euro (RS)
 )
@@ -2020,160 +2020,140 @@ Underfull \hbox (badness 10000) in paragraph at lines 51--51
 
 File: xmoslogo18pt.pdf Graphic file (type pdf)
 <use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 118.
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 110.
 (pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
  [3
 
 ]
-File: xmoslogo18pt.pdf Graphic file (type pdf)
- <use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 118.
-(pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 124--124
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
 
  []
 
 LaTeX Font Info:    Font shape `T1/hls/m/n' will be
-(Font)              scaled to size 9.49997pt on input line 135.
+(Font)              scaled to size 9.49997pt on input line 127.
 LaTeX Font Info:    Font shape `T1/hls/b/n' will be
-(Font)              scaled to size 9.49997pt on input line 135.
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 165.
+(Font)              scaled to size 9.49997pt on input line 127.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 159.
 
 
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
 e/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 165--166
-[]\T1/hls/m/n/9 (+20) This com-bi-na-tion demo em-ploys the []\T1/cmtt/m/n/9 mo
-dule_lcd \T1/hls/m/n/9 (+20) along with the
- []
-
-
-Underfull \hbox (badness 6978) in paragraph at lines 165--166
-[]\T1/cmtt/m/n/9 module_sdram\T1/hls/m/n/9 (+20) , []\T1/cmtt/m/n/9 module_touc
-h_controller_lib\T1/hls/m/n/9 (+20) , []\T1/cmtt/m/n/9 module_i2c_master \T1/hl
-s/m/n/9 (+20) and the
+Underfull \hbox (badness 7344) in paragraph at lines 159--160
+[]\T1/hls/m/n/9 (+20) This demo uses the []\T1/cmtt/m/n/9 module_FatFs \T1/hls/
+m/n/9 (+20) along with the []\T1/cmtt/m/n/9 module_sdcardSPI\T1/hls/m/n/9 (+20)
+ ,
  []
 
 File: xmoslogo18pt.pdf Graphic file (type pdf)
 <use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 182.
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 172.
+(pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
+ [4
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 178--178
+
+ []
+
+LaTeX Font Warning: Font shape `T1/cmtt/b/n' undefined
+(Font)              using `T1/cmtt/m/n' instead on input line 241.
+File: xmoslogo18pt.pdf Graphic file (type pdf)
+<use xmoslogo18pt.pdf>
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 285.
 (pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
  [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 188--188
-
- []
-
-<warnmargin.pdf, id=171, 19.91692pt x 19.91692pt>
-File: warnmargin.pdf Graphic file (type pdf)
- <use warnmargin.pdf>
-Package pdftex.def Info: warnmargin.pdf used on input line 241.
-(pdftex.def)             Requested size: 16.53253pt x 16.53188pt.
-File: warnmargin.pdf Graphic file (type pdf)
-
-<use warnmargin.pdf>
-Package pdftex.def Info: warnmargin.pdf used on input line 244.
-(pdftex.def)             Requested size: 16.53253pt x 16.53188pt.
-File: warnmargin.pdf Graphic file (type pdf)
- <use warnmargin.pdf>
-Package pdftex.def Info: warnmargin.pdf used on input line 247.
-(pdftex.def)             Requested size: 16.53253pt x 16.53188pt.
-File: warnmargin.pdf Graphic file (type pdf)
- <use warnmargin.pdf>
-Package pdftex.def Info: warnmargin.pdf used on input line 250.
-(pdftex.def)             Requested size: 16.53253pt x 16.53188pt.
-File: warnmargin.pdf Graphic file (type pdf)
-
-<use warnmargin.pdf>
-Package pdftex.def Info: warnmargin.pdf used on input line 253.
-(pdftex.def)             Requested size: 16.53253pt x 16.53188pt.
 File: xmoslogo18pt.pdf Graphic file (type pdf)
  <use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 261.
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 351.
 (pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
- [6
-
- <c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xpd/texinputs/warnmargin.pdf>
-]
-Underfull \hbox (badness 10000) in paragraph at lines 269--269
+ [6]
+Underfull \hbox (badness 10000) in paragraph at lines 359--359
 
  []
 
 
-LaTeX Warning: \verb may be unreliable inside tabularx on input line 298.
+LaTeX Warning: \verb may be unreliable inside tabularx on input line 388.
 
 File: xmoslogo18pt.pdf Graphic file (type pdf)
 <use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 311.
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 401.
 (pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
  [7
 
 ]
 File: xmoslogo18pt.pdf Graphic file (type pdf)
  <use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 347.
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 437.
 (pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
  [8]
-Underfull \hbox (badness 10000) in paragraph at lines 353--353
+Underfull \hbox (badness 10000) in paragraph at lines 443--443
 
  []
 
-LaTeX Font Info:    Font shape `T1/hls/m/n' will be
-(Font)              scaled to size 6.93004pt on input line 395.
+LaTeX Font Info:    Try loading font information for TS1+cmtt on input line 491
+.
+
+(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
+e/ts1cmtt.fd
+File: ts1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
 File: xmoslogo18pt.pdf Graphic file (type pdf)
-<use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 395.
+ <use xmoslogo18pt.pdf>
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 495.
 (pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
  [9
 
 ]
+LaTeX Font Info:    Font shape `T1/hls/m/n' will be
+(Font)              scaled to size 6.93004pt on input line 521.
 File: xmoslogo18pt.pdf Graphic file (type pdf)
  <use xmoslogo18pt.pdf>
-Package pdftex.def Info: xmoslogo18pt.pdf used on input line 395.
+Package pdftex.def Info: xmoslogo18pt.pdf used on input line 521.
 (pdftex.def)             Requested size: 54.06023pt x 15.0797pt.
 
 AED: lastpage setting LastPage [10]
 \tf@toc=\write10
 \openout10 = `xmos_texfile.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 395.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 395.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 521.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 521.
 
 (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/xlat
 ex/xmos_texfile.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 395.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 395.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 521.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 521.
 Package rerunfilecheck Info: File `xmos_texfile.out' has not changed.
-(rerunfilecheck)             Checksum: B9D9667D8274D1C1E8ED025E198779EB;1381.
+(rerunfilecheck)             Checksum: 6A57E20271150FF23A9AC32C37F40CA3;1525.
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 395.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 521.
  ) ) 
 Here is how much of TeX's memory you used:
- 17571 strings out of 495063
- 269970 string characters out of 3181368
- 454587 words of memory out of 3000000
- 20274 multiletter control sequences out of 15000+200000
- 32189 words of font info for 131 fonts, out of 3000000 for 9000
+ 17620 strings out of 495063
+ 270944 string characters out of 3181368
+ 454858 words of memory out of 3000000
+ 20298 multiletter control sequences out of 15000+200000
+ 32812 words of font info for 136 fonts, out of 3000000 for 9000
  14 hyphenation exceptions out of 8191
- 46i,13n,68p,572b,529s stack positions out of 5000i,500n,10000p,200000b,50000s
-{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/enc
-/dvips/cm-super/cm-super-t1.enc}{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.1
-5/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:/Program Files (x86)/XMOS/xSo
-ftIPTools/1.0.15/latex/texmf-local/fonts/type1/bh/lucida/lsd.pfb><c:/Program Fi
-les (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/fonts/type1/bh/lucida/lsr.
-pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/typ
-e1/public/marvosym/marvosym.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.1
-5/latex/texmf-dist/fonts/type1/public/cm-super/sftt0800.pfb><c:/Program Files (
-x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/type1/public/cm-super/sftt
-0900.pfb>
-Output written on xmos_texfile.pdf (10 pages, 413939 bytes).
+ 46i,13n,68p,572b,703s stack positions out of 5000i,500n,10000p,200000b,50000s
+{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/enc
+/dvips/cm-super/cm-super-ts1.enc}{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.
+17/latex/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc}{c:/Program Files 
+(x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/enc/dvips/base/8r.enc}<c:
+/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/fonts/type1/bh/
+lucida/lsd.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-loc
+al/fonts/type1/bh/lucida/lsr.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.
+17/latex/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><c:/Program Files 
+(x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/type1/public/cm-super/sft
+t0800.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fon
+ts/type1/public/cm-super/sftt0900.pfb>
+Output written on xmos_texfile.pdf (10 pages, 241650 bytes).
 PDF statistics:
- 262 PDF objects out of 1000 (max. 8388607)
- 218 compressed objects within 3 object streams
- 44 named destinations out of 1000 (max. 500000)
- 26811 words of extra memory for PDF output out of 29859 (max. 10000000)
+ 273 PDF objects out of 1000 (max. 8388607)
+ 242 compressed objects within 3 object streams
+ 60 named destinations out of 1000 (max. 500000)
+ 27334 words of extra memory for PDF output out of 29859 (max. 10000000)
 

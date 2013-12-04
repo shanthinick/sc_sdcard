@@ -1,0 +1,942 @@
+Building documentation target 'xmospdf' in doc
+    Copying ../src
+    Copying ../src
+    Run 'git stash' in C:\Users\Shanthini\.xdoc\docs_xref
+         No local changes to save
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git config --get remote.origin.url' in .
+         https://github.com/shanthinick/sc_sdcard.git
+    Run 'git rev-parse --show-prefix' in C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_FatFs\doc
+         module_FatFs/doc/
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Found document info for 'FAT File System Function Library'
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git add *.xml' in C:\Users\Shanthini\.xdoc\docs_xref
+    Run 'git update-index -q --refresh' in C:\Users\Shanthini\.xdoc\docs_xref
+    Run 'git diff-index --name-only HEAD --' in C:\Users\Shanthini\.xdoc\docs_xref
+    Processing document structure for xref database
+    Processing TOC for XMOS xref database
+    Run 'git stash' in C:\Users\Shanthini\.xdoc\docs_xref
+         No local changes to save
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git config --get remote.origin.url' in .
+         https://github.com/shanthinick/sc_sdcard.git
+    Run 'git rev-parse --show-prefix' in C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_FatFs\doc
+         module_FatFs/doc/
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git add *.xml' in C:\Users\Shanthini\.xdoc\docs_xref
+    Run 'git update-index -q --refresh' in C:\Users\Shanthini\.xdoc\docs_xref
+    Run 'git diff-index --name-only HEAD --' in C:\Users\Shanthini\.xdoc\docs_xref
+         sc_sdcard.git__module_FatFs__doc__examples.xml
+         sc_sdcard.git__module_FatFs__doc__hw.xml
+         sc_sdcard.git__module_FatFs__doc__overview.xml
+         sc_sdcard.git__module_FatFs__doc__programming.xml
+    Run 'git commit -a -m Automatic Update' in C:\Users\Shanthini\.xdoc\docs_xref
+         fatal: Paths with -a does not make sense.
+    Run 'git push' in C:\Users\Shanthini\.xdoc\docs_xref
+         warning: push.default is unset; its implicit value is changing in
+         Git 2.0 from 'matching' to 'simple'. To squelch this message
+         and maintain the current behavior after the default changes, use:
+         
+           git config --global push.default matching
+         
+         To squelch this message and adopt the new behavior now, use:
+         
+           git config --global push.default simple
+         
+         See 'git help config' and search for 'push.default' for further information.
+         (the 'simple' mode was introduced in Git 1.7.11. Use the similar mode
+         'current' instead of 'simple' if you sometimes use older versions of Git)
+         
+         Everything up-to-date
+    Running Doxygen
+    Run 'xdoxygen' in C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_FatFs\doc
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+         err:'xdoxygen_prefilter' is not recognized as an internal or external command,
+         err:operable program or batch file.
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    'xdoxygen_prefilter' is not recognized as an internal or external command,
+
+    operable program or batch file.
+
+    Running Sphinx
+    Run 'git rev-parse --show-toplevel' in .
+         C:/Users/Shanthini/Documents/GitHub/sc_sdcard
+    Run 'git rev-parse --show-prefix' in .
+         module_FatFs/doc/
+    Run 'git stash' in C:\Users\Shanthini\.xdoc\docs_xref
+         Saved working directory and index state WIP on master: 97c615d Automatic Update
+         HEAD is now at 97c615d Automatic Update
+    Run 'git pull' in C:\Users\Shanthini\.xdoc\docs_xref
+         Already up-to-date.
+    Run 'git config --get remote.origin.url' in .
+         https://github.com/shanthinick/sc_sdcard.git
+    Run 'git rev-parse --show-prefix' in C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_FatFs\doc
+         module_FatFs/doc/
+    WARNING: api.rst:49:(WARNING/2) doxygenfunction: Cannot find function "f_mount" in doxygen xml output
+    WARNING: api.rst:50:(WARNING/2) doxygenfunction: Cannot find function "f_open" in doxygen xml output
+    WARNING: api.rst:51:(WARNING/2) doxygenfunction: Cannot find function "f_read" in doxygen xml output
+    WARNING: api.rst:52:(WARNING/2) doxygenfunction: Cannot find function "f_lseek" in doxygen xml output
+    WARNING: api.rst:53:(WARNING/2) doxygenfunction: Cannot find function "f_close" in doxygen xml output
+    WARNING: api.rst:54:(WARNING/2) doxygenfunction: Cannot find function "f_opendir" in doxygen xml output
+    WARNING: api.rst:55:(WARNING/2) doxygenfunction: Cannot find function "f_readdir" in doxygen xml output
+    WARNING: api.rst:56:(WARNING/2) doxygenfunction: Cannot find function "f_stat" in doxygen xml output
+    WARNING: api.rst:57:(WARNING/2) doxygenfunction: Cannot find function "f_write" in doxygen xml output
+    WARNING: api.rst:58:(WARNING/2) doxygenfunction: Cannot find function "f_getfree" in doxygen xml output
+    WARNING: api.rst:59:(WARNING/2) doxygenfunction: Cannot find function "f_truncate" in doxygen xml output
+    WARNING: api.rst:60:(WARNING/2) doxygenfunction: Cannot find function "f_unlink" in doxygen xml output
+    WARNING: api.rst:61:(WARNING/2) doxygenfunction: Cannot find function "f_mkdir" in doxygen xml output
+    WARNING: api.rst:62:(WARNING/2) doxygenfunction: Cannot find function "f_chmod" in doxygen xml output
+    WARNING: api.rst:63:(WARNING/2) doxygenfunction: Cannot find function "f_rename" in doxygen xml output
+    WARNING: api.rst:64:(WARNING/2) doxygenfunction: Cannot find function "f_chdrive" in doxygen xml output
+    WARNING: api.rst:65:(WARNING/2) doxygenfunction: Cannot find function "f_chdir" in doxygen xml output
+    WARNING: api.rst:66:(WARNING/2) doxygenfunction: Cannot find function "f_getcwd" in doxygen xml output
+    WARNING: api.rst:67:(WARNING/2) doxygenfunction: Cannot find function "f_fdisk" in doxygen xml output
+    WARNING: api.rst:68:(WARNING/2) doxygenfunction: Cannot find function "f_putc" in doxygen xml output
+    WARNING: api.rst:69:(WARNING/2) doxygenfunction: Cannot find function "f_printf" in doxygen xml output
+    WARNING: programming.rst:51:(WARNING/2) Definition list ends without a blank line; unexpected unindent.
+    Full details of errors/warnings can be found in .\_build\xlatex\sphinx.output
+    Running Latex 1
+    Run 'pdflatex -shell-escape -interaction=nonstopmode xmos_texfile.tex' in .\_build\xlatex
+         This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX)
+          \write18 enabled.
+         entering extended mode
+         
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.tex
+         LaTeX2e <2011/06/27>
+         Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+         aded.
+         
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/i
+         ndex.tex
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/xmosmodern.cls
+         Document Class: xmosmodern 2010/12/10 v3.0b XMOS Modern Style Class
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/memoir.cls
+         Document Class: memoir 2010/02/20 v1.618033988c configurable book, report, arti
+         cle document class
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/ifpdf.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/i
+         fxetex/ifxetex.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/ifluatex.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ete
+         x-pkg/etex.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/mem9.clo)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/mempatch.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/calc.sty)
+         
+         ******************************************************
+         Stock height and width: 668.63976pt by 506.45905pt
+         Top and edge trims: 0.0pt and 0.0pt
+         Page height and width: 668.63976pt by 506.45905pt
+         Text height and width: 519.0pt by 341.0pt
+         Spine and edge margins: 113.81102pt and 51.21497pt
+         Upper and lower margins: 71.13188pt and 78.50787pt
+         Headheight and headsep: 10.0pt and 20.0pt
+         Footskip: 20.0pt
+         Columnsep and columnseprule: 10.0pt and 0.0pt
+         Marginparsep and marginparwidth: 11.38109pt and 51.21495pt
+         Sidecapsep and sidecapwidth: 7.0pt and 85.0pt
+         Sidebarhsep and sidebarwidth: 7.0pt and 85.0pt
+         Sidebarvsep and sidebartopsep: 10.0pt and 0.0pt
+         Sidebarheight: 546.99997pt
+         Sidefoothsep and sidefootwidth: 7.0pt and 85.0pt
+         Sidefootvsep and sidefootheight: 10.0pt and 546.99997pt
+         ******************************************************
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/graphicx.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/keyval.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/graphics.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/trig.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/graphics.cfg)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/pdf
+         tex-def/pdftex.def
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/infwarerr.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/ltxcmds.sty))))
+         Writing index file xmos_texfile.idx
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsmath.sty
+         For additional information on amsmath, use the `?' option.
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amstext.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsgen.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsbsy.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsopn.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/pst
+         ool/pstool.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/catchfile.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/etexcmds.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/color.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/color.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/ifplatform.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/pdftexcmds.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/psfrag.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/suffix.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/xkeyval.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/x
+         keyval/xkeyval.tex)))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/microtype.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/microtype.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/stmaryrd.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/alltt.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         fonts/amsfonts.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/multicol.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ifthen.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/longtable.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/textcomp.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ts1enc.def))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/url.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/listings.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lis
+         tings/lstmisc.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lis
+         tings/listings.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/gensymb.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/man
+         fnt/manfnt.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+         fss/pifont.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+         fss/upzd.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+         fss/upsy.fd))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/xspace.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/multirow.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/col
+         ortbl/colortbl.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/varioref.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/fixltx2e.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/enumitem.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/placeins.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/flafter.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/float.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/marginnote.sty)
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lay
+         outs/layouts.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/uni
+         ts/units.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/uni
+         ts/nicefrac.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/sav
+         esym/savesym.sty
+         
+         LaTeX Warning: You have requested package `savesym',
+                        but the package provides `savesymbol'.
+         
+         ) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/marvosym.sty)
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bbd
+         ing/bbding.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/din
+         gbat/dingbat.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/hyperref.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/hobsub-hyperref.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/hobsub-generic.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/auxhook.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/kvoptions.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/pd1enc.def)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/hyperref.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/memhfixc.sty)
+         
+         Package hyperref Message: Driver (autodetected): hpdftex.
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/hpdftex.def
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/rerunfilecheck.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/lastpage.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/afterpage.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/fontenc.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/t1enc.def))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/lucidabr.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cida/t1hls.fd))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/upquote.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/terminology.tex
+         ) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/bib.tex))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/inputenc.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/utf8.def
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/t1enc.dfu)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ot1enc.dfu)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/omsenc.dfu)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ts1enc.dfu)))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/xsphinx.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/framed.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/fancyvrb.sty
+         Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
+         <2008/02/07> (tvz))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/threeparttable.
+         sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/indent.sty)
+         Writing index file xmos_texfile.idx
+         No file xmos_texfile.aux.
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ts1cmr.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/lmrhlcm.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/context/b
+         ase/supp-pdf.mkii
+         [Loading MPS to PDF converter (version 2006.09.02).]
+         )
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/epstopdf-base.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/grfext.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/epstopdf-sys.cfg))
+         
+         Package layouts Warning: Layout scale set to 0.5 on input line 30.
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/nameref.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/gettitlestring.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cida/ts1hls.fd) <xmoslogo18pt.pdf, id=4, 54.06036pt x 15.07974pt>
+         <use xmoslogo18pt.pdf> [1
+         Non-PDF special ignored!{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/
+         texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Program Files (x86)/XMOS/xSof
+         tIPTools/1.0.15/xdoc/texinputs/xmoslogo18pt.pdf>]
+         
+         LaTeX Warning: Reference `LastPage' on page 2 undefined on input line 33.
+         
+         <use xmoslogo18pt.pdf> [2]
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mar
+         vosym/umvs.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-mvs.cfg)
+         
+         LaTeX Warning: Reference `overview:features' on page 3 undefined on input line
+         47.
+         
+         
+         LaTeX Warning: Reference `overview:memory-requirements' on page 3 undefined on
+         input line 48.
+         
+         
+         LaTeX Warning: Reference `overview:resource-requirements' on page 3 undefined o
+         n input line 49.
+         
+         
+         LaTeX Warning: Reference `overview:performance' on page 3 undefined on input li
+         ne 50.
+         
+         
+         Underfull \hbox (badness 10000) in paragraph at lines 51--51
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cida/t1hlh.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/omlhlcm.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/omshlcy.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/omxhlcv.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-cmr.cfg)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         fonts/umsa.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-msa.cfg)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         fonts/umsb.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-msb.cfg) <use xmoslogo18pt.pdf> [3]
+         
+         LaTeX Warning: Reference `LastPage' on page 4 undefined on input line 118.
+         
+         <use xmoslogo18pt.pdf> [4]
+         
+         LaTeX Warning: Reference `hw:sec-hardware-platforms' on page 5 undefined on inp
+         ut line 122.
+         
+         
+         LaTeX Warning: Reference `hw:demonstration-applications' on page 5 undefined on
+          input line 123.
+         
+         
+         Underfull \hbox (badness 10000) in paragraph at lines 124--124
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/t1cmtt.fd)
+         Underfull \hbox (badness 10000) in paragraph at lines 165--166
+         []\T1/hls/m/n/9 (+20) This com-bi-na-tion demo em-ploys the []\T1/cmtt/m/n/9 mo
+         dule_lcd \T1/hls/m/n/9 (+20) along with the
+         
+         Underfull \hbox (badness 6978) in paragraph at lines 165--166
+         []\T1/cmtt/m/n/9 module_sdram\T1/hls/m/n/9 (+20) , []\T1/cmtt/m/n/9 module_touc
+         h_controller_lib\T1/hls/m/n/9 (+20) , []\T1/cmtt/m/n/9 module_i2c_master \T1/hl
+         s/m/n/9 (+20) and the
+         <use xmoslogo18pt.pdf> [5]
+         
+         LaTeX Warning: Reference `api:configuration-defines' on page 6 undefined on inp
+         ut line 186.
+         
+         
+         LaTeX Warning: Reference `api:api' on page 6 undefined on input line 187.
+         
+         
+         Underfull \hbox (badness 10000) in paragraph at lines 188--188
+         
+         <use xmoslogo18pt.pdf> [6] <warnmargin.pdf, id=66, 19.91692pt x 19.91692pt>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         
+         LaTeX Warning: Reference `LastPage' on page 7 undefined on input line 330.
+         
+         <use xmoslogo18pt.pdf> [7 <c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc
+         /texinputs/warnmargin.pdf>]
+         
+         LaTeX Warning: Reference `programming:shared-memory-interface' on page 8 undefi
+         ned on input line 334.
+         
+         
+         LaTeX Warning: Reference `programming:source-code-structure' on page 8 undefine
+         d on input line 335.
+         
+         
+         LaTeX Warning: Reference `programming:executing-the-project' on page 8 undefine
+         d on input line 336.
+         
+         
+         LaTeX Warning: Reference `programming:software-requirements' on page 8 undefine
+         d on input line 337.
+         
+         
+         Underfull \hbox (badness 10000) in paragraph at lines 338--338
+         
+         
+         LaTeX Warning: \verb may be unreliable inside tabularx on input line 367.
+         
+         <use xmoslogo18pt.pdf> [8]
+         
+         LaTeX Warning: Reference `LastPage' on page 9 undefined on input line 416.
+         
+         <use xmoslogo18pt.pdf> [9]
+         
+         LaTeX Warning: Reference `examples:app-display-controller-demo' on page 10 unde
+         fined on input line 420.
+         
+         
+         LaTeX Warning: Reference `examples:application-notes' on page 10 undefined on i
+         nput line 421.
+         
+         
+         Underfull \hbox (badness 10000) in paragraph at lines 422--422
+         
+         
+         LaTeX Warning: Reference `hw:sec-hardware-platforms' on page 10 undefined on in
+         put line 426.
+         
+         <use xmoslogo18pt.pdf> [10] <use xmoslogo18pt.pdf>
+         AED: lastpage setting LastPage
+         
+         LaTeX Warning: Reference `LastPage' on page 11 undefined on input line 464.
+         
+         [11]
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.aux)
+         
+         Package rerunfilecheck Warning: File `xmos_texfile.out' has changed.
+         (rerunfilecheck)                Rerun to get outlines right
+         (rerunfilecheck)                or use package `bookmark'.
+         
+         
+         LaTeX Warning: There were undefined references.
+         
+         
+         LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+         
+          ) )
+         (see the transcript file for additional information){c:/Program Files (x86)/XMO
+         S/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+         }{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/enc/dv
+         ips/base/8r.enc}<c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-lo
+         cal/fonts/type1/bh/lucida/lsd.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0
+         .15/latex/texmf-local/fonts/type1/bh/lucida/lsr.pfb><c:/Program Files (x86)/XMO
+         S/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb
+         ><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/type1/
+         public/cm-super/sftt0800.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/l
+         atex/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+         Output written on xmos_texfile.pdf (11 pages, 410802 bytes).
+         Transcript written on xmos_texfile.log.
+    Running Latex 2
+    Run 'pdflatex -shell-escape -interaction=nonstopmode xmos_texfile.tex' in .\_build\xlatex
+         This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX)
+          \write18 enabled.
+         entering extended mode
+         
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.tex
+         LaTeX2e <2011/06/27>
+         Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+         aded.
+         
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/i
+         ndex.tex
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/xmosmodern.cls
+         Document Class: xmosmodern 2010/12/10 v3.0b XMOS Modern Style Class
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/memoir.cls
+         Document Class: memoir 2010/02/20 v1.618033988c configurable book, report, arti
+         cle document class
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/ifpdf.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/i
+         fxetex/ifxetex.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/ifluatex.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ete
+         x-pkg/etex.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/mem9.clo)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/mempatch.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/calc.sty)
+         
+         ******************************************************
+         Stock height and width: 668.63976pt by 506.45905pt
+         Top and edge trims: 0.0pt and 0.0pt
+         Page height and width: 668.63976pt by 506.45905pt
+         Text height and width: 519.0pt by 341.0pt
+         Spine and edge margins: 113.81102pt and 51.21497pt
+         Upper and lower margins: 71.13188pt and 78.50787pt
+         Headheight and headsep: 10.0pt and 20.0pt
+         Footskip: 20.0pt
+         Columnsep and columnseprule: 10.0pt and 0.0pt
+         Marginparsep and marginparwidth: 11.38109pt and 51.21495pt
+         Sidecapsep and sidecapwidth: 7.0pt and 85.0pt
+         Sidebarhsep and sidebarwidth: 7.0pt and 85.0pt
+         Sidebarvsep and sidebartopsep: 10.0pt and 0.0pt
+         Sidebarheight: 546.99997pt
+         Sidefoothsep and sidefootwidth: 7.0pt and 85.0pt
+         Sidefootvsep and sidefootheight: 10.0pt and 546.99997pt
+         ******************************************************
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/graphicx.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/keyval.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/graphics.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/trig.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/graphics.cfg)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/pdf
+         tex-def/pdftex.def
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/infwarerr.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/ltxcmds.sty))))
+         Writing index file xmos_texfile.idx
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsmath.sty
+         For additional information on amsmath, use the `?' option.
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amstext.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsgen.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsbsy.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         math/amsopn.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/pst
+         ool/pstool.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/catchfile.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/etexcmds.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/gra
+         phics/color.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/color.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/ifplatform.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/pdftexcmds.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/psfrag.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/suffix.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/xkeyval.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/x
+         keyval/xkeyval.tex)))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/microtype.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/microtype.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/stmaryrd.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/alltt.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         fonts/amsfonts.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/multicol.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ifthen.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/longtable.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/textcomp.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ts1enc.def))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/url.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/listings.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lis
+         tings/lstmisc.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lis
+         tings/listings.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/gensymb.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/man
+         fnt/manfnt.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+         fss/pifont.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+         fss/upzd.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/psn
+         fss/upsy.fd))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/xspace.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/multirow.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/col
+         ortbl/colortbl.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/varioref.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/fixltx2e.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/enumitem.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/placeins.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/flafter.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/float.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/marginnote.sty)
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lay
+         outs/layouts.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/uni
+         ts/units.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/uni
+         ts/nicefrac.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/sav
+         esym/savesym.sty
+         
+         LaTeX Warning: You have requested package `savesym',
+                        but the package provides `savesymbol'.
+         
+         ) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/marvosym.sty)
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bbd
+         ing/bbding.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/din
+         gbat/dingbat.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/hyperref.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/hobsub-hyperref.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/hobsub-generic.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/auxhook.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/kvoptions.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/pd1enc.def)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/hyperref.cfg))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/memhfixc.sty)
+         
+         Package hyperref Message: Driver (autodetected): hpdftex.
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/hpdftex.def
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/rerunfilecheck.sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/lastpage.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/too
+         ls/afterpage.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/fontenc.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/t1enc.def))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/lucidabr.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cida/t1hls.fd))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/upquote.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/terminology.tex
+         ) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/bib.tex))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/inputenc.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/utf8.def
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/t1enc.dfu)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ot1enc.dfu)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/omsenc.dfu)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ts1enc.dfu)))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/xsphinx.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/framed.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/fancyvrb.sty
+         Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix
+         <2008/02/07> (tvz))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/threeparttable.
+         sty))
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc/texinputs/indent.sty)
+         Writing index file xmos_texfile.idx
+         
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.aux)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/ts1cmr.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/lmrhlcm.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/context/b
+         ase/supp-pdf.mkii
+         [Loading MPS to PDF converter (version 2006.09.02).]
+         )
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/epstopdf-base.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/obe
+         rdiek/grfext.sty)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/lat
+         exconfig/epstopdf-sys.cfg))
+         
+         Package layouts Warning: Layout scale set to 0.5 on input line 30.
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/hyp
+         erref/nameref.sty
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/generic/o
+         berdiek/gettitlestring.sty))
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.out)
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.out)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cida/ts1hls.fd) <xmoslogo18pt.pdf, id=92, 54.06036pt x 15.07974pt>
+         <use xmoslogo18pt.pdf> [1
+         Non-PDF special ignored!{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/
+         texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Program Files (x86)/XMOS/xSof
+         tIPTools/1.0.15/xdoc/texinputs/xmoslogo18pt.pdf>]
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.toc
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cida/t1hlh.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/omlhlcm.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/omshlcy.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-local/tex/latex/lu
+         cidabr/omxhlcv.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-cmr.cfg)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         fonts/umsa.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-msa.cfg)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/ams
+         fonts/umsb.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-msb.cfg)) <use xmoslogo18pt.pdf> [2]
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mar
+         vosym/umvs.fd)
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/mic
+         rotype/mt-mvs.cfg)
+         Underfull \hbox (badness 10000) in paragraph at lines 51--51
+         
+         <use xmoslogo18pt.pdf> [3] <use xmoslogo18pt.pdf> [4]
+         Underfull \hbox (badness 10000) in paragraph at lines 124--124
+         
+         
+         (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/tex/latex/bas
+         e/t1cmtt.fd)
+         Underfull \hbox (badness 10000) in paragraph at lines 165--166
+         []\T1/hls/m/n/9 (+20) This com-bi-na-tion demo em-ploys the []\T1/cmtt/m/n/9 mo
+         dule_lcd \T1/hls/m/n/9 (+20) along with the
+         
+         Underfull \hbox (badness 6978) in paragraph at lines 165--166
+         []\T1/cmtt/m/n/9 module_sdram\T1/hls/m/n/9 (+20) , []\T1/cmtt/m/n/9 module_touc
+         h_controller_lib\T1/hls/m/n/9 (+20) , []\T1/cmtt/m/n/9 module_i2c_master \T1/hl
+         s/m/n/9 (+20) and the
+         <use xmoslogo18pt.pdf> [5]
+         Underfull \hbox (badness 10000) in paragraph at lines 188--188
+         
+         <use xmoslogo18pt.pdf> [6] <warnmargin.pdf, id=175, 19.91692pt x 19.91692pt>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use warnmargin.pdf> <use warnmargin.pdf> <use warnmargin.pdf>
+         <use xmoslogo18pt.pdf> [7 <c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/xdoc
+         /texinputs/warnmargin.pdf>]
+         Underfull \hbox (badness 10000) in paragraph at lines 338--338
+         
+         
+         LaTeX Warning: \verb may be unreliable inside tabularx on input line 367.
+         
+         <use xmoslogo18pt.pdf> [8] <use xmoslogo18pt.pdf> [9]
+         Underfull \hbox (badness 10000) in paragraph at lines 422--422
+         
+         <use xmoslogo18pt.pdf> [10] <use xmoslogo18pt.pdf>
+         AED: lastpage setting LastPage [11]
+         (c:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_FatFs/doc/_build/xlatex/x
+         mos_texfile.aux) ) )
+         (see the transcript file for additional information){c:/Program Files (x86)/XMO
+         S/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
+         }{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/enc/dv
+         ips/base/8r.enc}<c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-lo
+         cal/fonts/type1/bh/lucida/lsd.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0
+         .15/latex/texmf-local/fonts/type1/bh/lucida/lsr.pfb><c:/Program Files (x86)/XMO
+         S/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb
+         ><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/latex/texmf-dist/fonts/type1/
+         public/cm-super/sftt0800.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.15/l
+         atex/texmf-dist/fonts/type1/public/cm-super/sftt0900.pfb>
+         Output written on xmos_texfile.pdf (11 pages, 415032 bytes).
+         Transcript written on xmos_texfile.log.
+    Build Complete

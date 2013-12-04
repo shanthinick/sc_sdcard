@@ -8,7 +8,7 @@
 
 
 
-\title{Display controller component}
+\title{SD card component}
 \date{December 04, 2013}
 \author{}
 \newcommand{\sphinxlogo}{}
@@ -42,7 +42,7 @@
 % NON-FULLWIDTH SECTION
 \clearpage
 \chapter{Overview}
-\label{overview:display-controller-component}\label{overview::doc}\label{overview:overview}%summary!
+\label{overview:overview}\label{overview:sd-card-component}\label{overview::doc}%summary!
 \begin{inthisdocument}
 \item \nameref{overview:features}
 \item \nameref{overview:memory-requirements}
@@ -52,22 +52,16 @@
 
 
 
-The display controller module is used to drive a single graphics LCD screen up to 800 * 600 pixels incorporating a managed double buffer.
+The SD card module is used to talk to the SD card through the SPI interface.
 
 
 
 % NON-FULLWIDTH SECTION
 \section{Features}
 \label{overview:features}\begin{itemize}
-\item   Non-blocking SDRAM management.
+\item   Low level functions for accessing SD card
 
-\item   Real time servicing of the LCD.
-
-\item   Touch interactive display
-
-\item   Image memory manager to simplify handling of images.
-
-\item   No real time constraints on the application.
+\item   Uses SPI interface
 
 \end{itemize}
 
@@ -81,8 +75,8 @@ The display controller module is used to drive a single graphics LCD screen up t
 \Toprule
 \textbf{Resource} & \textbf{Usage}\\
 \midrule
-Stack & 6198 bytes\\
-Program & 11306 bytes\\
+Stack & 220 bytes\\
+Program & 5 KB\\
 \bottomrule
 \end{tabular}
 
@@ -96,9 +90,7 @@ Program & 11306 bytes\\
 \Toprule
 \textbf{Resource} & \textbf{Usage}\\
 \midrule
-Channels & 3\\
-Timers & 0\\
-Clocks & 0\\
+Clocks & 1\\
 Threads & 1\\
 \bottomrule
 \end{tabular}
@@ -139,7 +131,9 @@ This module may be evaluated using the sliceKIT modular development platform, av
 \begin{itemize}
 \item   XP-SKC-L2 (sliceKIT L2 Core Board)
 
-\item   XA-SK-SCR480 plus XA-SK-XTAG2 (sliceKIT xTAG adaptor)
+\item   XA-SK-XTAG2 (sliceKIT xTAG adaptor)
+
+\item   XA-SK-FLASH 1V0 Slice Card
 
 \end{itemize}
 
@@ -154,31 +148,27 @@ This module may be evaluated using the sliceKIT modular development platform, av
 % NON-FULLWIDTH SECTION
 \subsection{Display controller application}
 \label{hw:display-controller-application}\begin{itemize}
-\item   Package: sw\_display\_controller
+\item   Package: sc\_sdcard
 
-\item   Application: app\_display\_controller
+\item   Application: app\_sdcard\_test
 
 \end{itemize}
 
 
 
-This combination demo employs the \verb`module_lcd` along with the \verb`module_sdram`, \verb`module_touch_controller_lib`, \verb`module_i2c_master` and the \verb`module_display_controller` framebuffer framework component to implement a 480x272 display controller.
+This demo uses the \verb`module_FatFs` along with the \verb`module_sdcardSPI`, \verb`module_spi_master`.
 
 
 Required board SKUs for this demo are:
 \begin{itemize}
 \item   XP-SKC-L16 (sliceKIT L16 Core Board) plus XA-SK-XTAG2 (sliceKIT xTAG adaptor)
 
-\item   XA-SK-SDRAM
-
-\item   XA-SK-SCR480 (which includes a 480x272 color touch screen)
-
 \end{itemize}
 
 
 
 
-% NON-FULLWIDTH SECTION
+% FULLWIDTH SECTION (with summary)
 \clearpage
 \chapter{API}
 \label{api::doc}\label{api:sec-sdcardspi-api}\label{api:project-structure}%summary!
@@ -187,6 +177,7 @@ Required board SKUs for this demo are:
 \item \nameref{api:api}
 \end{inthisdocument}
 
+\begin{fullwidth} % chapter!
 \begin{description}
 \item[To build a project including the \ttfamily module\_sdcardSPI the following module is required:]\begin{itemize}
 \item   module: module\_spi\_master
@@ -201,8 +192,6 @@ Required board SKUs for this demo are:
 The below section details the APIs in the SD card module. For details about the FatFS APIs please refer to the respective repositories.
 
 
-
-% NON-FULLWIDTH SECTION
 \section{Configuration defines}
 \label{api:configuration-defines}
 
@@ -216,8 +205,6 @@ This defines the SPI modifications needed for SD card usage. This needs to be se
 
 
 
-
-% NON-FULLWIDTH SECTION
 \section{API}
 \label{api:api}\begin{description}
 \item[The{}`{}`module\_sdcardSPI{}`{}` functionality is defined in]\begin{itemize}
@@ -236,31 +223,134 @@ The SD card module provides APIs to read/write data to SD card.
 
 
 The SD card APIs are as follows:
+\index{disk\_initialize (C function)}
+
+\texttt{\phantomsection\label{api:disk_initialize}DSTATUS disk\_initialize(BYTE drv)}
+
+\vspace{-2mm}
+\sloppy
+\begin{indentation*}{\blockindentlen}{0mm}
+
+Function to initialize disk.
 
 
-doxygenfunction:\attentionmargin  Cannot find function ``disk\_initialize'' in doxygen xml output
+This function has the following parameters:
+
+\begin{option}
+
+\item[drv]Physical drive nmuber (0).
+\end{option}
+\vspace{-3mm}
 
 
-doxygenfunction:\attentionmargin  Cannot find function ``disk\_status'' in doxygen xml output
+\end{indentation*}
+\fussy
+\index{disk\_status (C function)}
+
+\texttt{\phantomsection\label{api:disk_status}DSTATUS disk\_status(BYTE drv)}
+
+\vspace{-2mm}
+\sloppy
+\begin{indentation*}{\blockindentlen}{0mm}
+
+Function to open or create a file.
 
 
-doxygenfunction:\attentionmargin  Cannot find function ``disk\_read'' in doxygen xml output
+This function has the following parameters:
+
+\begin{option}
+
+\item[drv]Drive number (always 0).
+\end{option}
+\vspace{-3mm}
 
 
-doxygenfunction:\attentionmargin  Cannot find function ``disk\_write'' in doxygen xml output
+\end{indentation*}
+\fussy
+\index{disk\_read (C function)}
+
+\texttt{\phantomsection\label{api:disk_read}DRESULT disk\_read(BYTE drv, BYTE buff{[}{]}, DWORD sector, BYTE count)}
+
+\vspace{-2mm}
+\sloppy
+\begin{indentation*}{\blockindentlen}{0mm}
+
+Function to read data from a disk.
 
 
-doxygenfunction:\attentionmargin  Cannot find function ``disk\_ioctl'' in doxygen xml output
+This function has the following parameters:
+
+\begin{option}
+
+\item[drv]Physical drive nmuber (0).
+\item[buff]Pointer to the data buffer to store read data.
+\item[sector]Start sector number (LBA).
+\item[count]Sector count (1..128).
+\end{option}
+\vspace{-3mm}
+
+
+\end{indentation*}
+\fussy
+\index{disk\_write (C function)}
+
+\texttt{\phantomsection\label{api:disk_write}DRESULT disk\_write(BYTE drv, const BYTE buff{[}{]}, DWORD sector, BYTE count)}
+
+\vspace{-2mm}
+\sloppy
+\begin{indentation*}{\blockindentlen}{0mm}
+
+Function to write data to the disk.
+
+
+This function has the following parameters:
+
+\begin{option}
+
+\item[drv]Physical drive nmuber (0).
+\item[buff]Pointer to the data to be written.
+\item[sector]Start sector number (LBA).
+\item[count]Sector count (1..128).
+\end{option}
+\vspace{-3mm}
+
+
+\end{indentation*}
+\fussy
+\index{disk\_ioctl (C function)}
+
+\texttt{\phantomsection\label{api:disk_ioctl}DRESULT disk\_ioctl(BYTE drv, BYTE ctrl, BYTE buff{[}{]})}
+
+\vspace{-2mm}
+\sloppy
+\begin{indentation*}{\blockindentlen}{0mm}
+
+Function to control device specific features and miscellaneous functions.
+
+
+This function has the following parameters:
+
+\begin{option}
+
+\item[drv]Physical drive nmuber (0).
+\item[ctrl]Control code.
+\item[buff]Buffer to send/receive control data.
+\end{option}
+\vspace{-3mm}
+
+
+\end{indentation*}
+\fussy
 
 
 The SD card APIs use the module\_spi\_master APIs.
-
+\end{fullwidth}%
 
 
 % NON-FULLWIDTH SECTION
 \clearpage
 \chapter{Programming guide}
-\label{programming:programming-guide}\label{programming::doc}%summary!
+\label{programming:}\label{programming:programming-guide}\label{programming::doc}%summary!
 \begin{inthisdocument}
 \item \nameref{programming:shared-memory-interface}
 \item \nameref{programming:source-code-structure}
@@ -348,21 +438,23 @@ The module can be used in version 12.0 or any higher version of xTIMEcomposer.
 \chapter{Example applications}
 \label{examples:example-application}\label{examples::doc}%last summary
 \begin{inthisdocument}
-\item \nameref{examples:app-display-controller-demo}
+\item \nameref{examples:app-sdcard-test}
 \item \nameref{examples:application-notes}
 \end{inthisdocument}
 
 
 
-This tutorial describes a demo application that uses the display controller module. \Sec~\ref{hw:sec-hardware-platforms} describes the required hardware setup to run the demos.
+This tutorial describes a demo application that reads and writes files on SD card using the SPI interface.
 
 
 
 % NON-FULLWIDTH SECTION
-\section{app\_display\_controller\_demo}
-\label{examples:app-display-controller-demo}
+\section{app\_sdcard\_test}
+\label{examples:app-sdcard-test}\begin{itemize}
+\item   Demonstrate read and write files on SD card using the SPI interface. At the end, it prints the read/write performances of the filesystem on SD card using the SPI.
 
-This application demonstrates how the \verb`lcd_module` is used to write image data to the LCD screen whilst imposing no real time constraints on the application. The purpose of this demonstration is to show how data is passed to the \verb`display_controller`. This application also demonstrates an interactive display using \verb`touch_controller_lib` module.
+\end{itemize}
+
 
 
 
@@ -374,19 +466,53 @@ This application demonstrates how the \verb`lcd_module` is used to write image d
 % NON-FULLWIDTH SECTION
 \subsection{Getting started}
 \label{examples:getting-started}\begin{enumerate}
-\item   Plug the XA-SK-LCD Slice Card into the `TRIANGLE' slot of the sliceKIT Core Board
+\item   Connect XA-SK-FLASH 1V0 Slice Card to the XP-SKC-L16 sliceKIT Core board using the connector marked with the \verb`TRIANGLE`.
 
-\item   Plug the XA-SK-SDRAM Slice Card into the `STAR' slot of the sliceKIT Core Board
+\item   Connect the xTAG Adapter to sliceKIT Core board, and connect xTAG-2 to the adapter.
 
-\item   Open \verb`app_display_controller_demo.xc` and build the project.
+\item   Connect the xTAG-2 to host PC. Note that the USB cable is not provided with the sliceKIT starter kit.
 
-\item   Run the program ensuring that it is run from the project directory where the TGA images are.
+\item   Set the \verb`XMOS LINK` to \verb`OFF` on the xTAG Adapter(XA-SK-XTAG2).
+
+\item   Make sure the SD card slot in XA-SK-FLASH slice has a Class-4 SD card in it.
+
+\item   Switch on the power supply to the sliceKIT Core board.
 
 \end{enumerate}
 
 
 
-The output produced should look like a series of images transitioning on the LCD when the screen is touched.
+
+% NON-FULLWIDTH SECTION
+\subsection{Import and Build the Application}
+\label{examples:import-and-build-the-application}\begin{enumerate}
+\item   Open xTIMEcomposer and check that it is operating in online mode. Open the edit perspective (Window-\textgreater{}Open Perspective-\textgreater{}XMOS Edit).
+
+\item   Locate the \verb`'SD card demo'` item in the xSOFTip pane on the bottom left of the window and drag it into the Project Explorer window in the xTIMEcomposer. This will also cause the modules on which this application depends to be imported as well.
+
+\item   Click on the app\_sdcard\_test item in the Explorer pane then click on the build icon (hammer) in xTIMEcomposer. Check the console window to verify that the application has built successfully.
+
+\end{enumerate}
+
+
+
+
+% NON-FULLWIDTH SECTION
+\subsection{Run the Application}
+\label{examples:run-the-application}
+
+Now that the application has been compiled, the next step is to run it on the sliceKIT Core Board using the tools to load the application over JTAG (via the xTAG-2 and xTAG Adapter card) into the xCORE multicore microcontroller.
+\begin{enumerate}
+\item   Select the file \verb`app_sdcard_test.xe` in the \verb`app_display_controller_demo` project from the Project Explorer.
+
+\item   Click on the \verb`Run` icon (the white arrow in the green circle).
+
+\item   At the \verb`Select Device` dialog select \verb`XMOS xTAG-2 connect to L1[0..1]` and click \verb`OK`.
+
+\item   The application starts executing and reads/writes contents into SD card.
+
+\end{enumerate}
+
 
 
 

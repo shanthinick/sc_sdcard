@@ -217,7 +217,7 @@ FRESULT f_mount (BYTE vol, FATFS *fs);
  * \param path Pointer to the file name.
  * \param mode Access mode and file open mode flags.
  */
-FRESULT f_open (FIL *fp, const TCHAR*, BYTE);     
+FRESULT f_open (FIL *fp, const TCHAR* path, BYTE mode);     
 
 /**
  * \brief Function to read data from a file.
@@ -248,7 +248,7 @@ FRESULT f_close (FIL *fp);
  * \brief Function to create a directory object.
  *
  * \param dj Pointer to directory object to create.
- * \param c_lcd Pointer to the directory path.
+ * \param path Pointer to the directory path.
  */
 FRESULT f_opendir (DIR* dj, const TCHAR* path);  
 
@@ -258,7 +258,7 @@ FRESULT f_opendir (DIR* dj, const TCHAR* path);
  * \param dj Pointer to the open directory object.
  * \param fno Pointer to file information to return.
  */
-FRESULT f_readdir (DIR*, FILINFO*);   
+FRESULT f_readdir (DIR* dj, FILINFO* fno);   
   
 /**
  * \brief Function to get the file status.
@@ -357,12 +357,15 @@ FRESULT f_getcwd (TCHAR* path, UINT sz_path);
 /**
  * \brief Function to divide a physical drive into multipe partitions.
  *
- * \param c_client The channel from the display_controller to the client application.
- * \param c_lcd The channel from the display_controller to the LCd c_server.
- * \param c_sdram The channel from the display_controller to the SDRAM server.
+ * \param pdrv Physical drive number.
+ * \param szt Pointer to the size table for each partitions.
+ * \param work Pointer to the working buffer.
  */
-FRESULT  f_fdisk (BYTE, const DWORD[], void*);    
-
+FRESULT  f_fdisk (BYTE pdrv, const DWORD szt[], void* work);    
+  BYTE pdrv,      /* Physical drive number */
+  const DWORD szt[],  /* Pointer to the size table for each partitions */
+  void* work      /* Pointer to the working buffer */
+  
 /**
  * \brief Function to put a character to the file.
  *

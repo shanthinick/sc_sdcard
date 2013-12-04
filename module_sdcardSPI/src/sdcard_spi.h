@@ -16,7 +16,7 @@ DSTATUS disk_initialize (BYTE drv);
  * \param drv Physical drive nmuber (0).
  * \param buff Pointer to the data buffer to store read data.
  * \param sector Start sector number (LBA).
- * \param sector Sector count (1..128).
+ * \param count Sector count (1..128).
  */
 DRESULT disk_read (BYTE drv, BYTE buff[], DWORD sector, BYTE count);
 
@@ -26,7 +26,7 @@ DRESULT disk_read (BYTE drv, BYTE buff[], DWORD sector, BYTE count);
  * \param drv Physical drive nmuber (0).
  * \param buff Pointer to the data to be written.
  * \param sector Start sector number (LBA).
- * \param sector Sector count (1..128).
+ * \param count Sector count (1..128).
  */
 DRESULT disk_write (BYTE drv, const BYTE buff[], DWORD sector, BYTE count);
   

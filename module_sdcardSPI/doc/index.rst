@@ -1,4 +1,4 @@
-Display controller component
+SD card component
 ============================
 
 .. toctree::

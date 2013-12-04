@@ -1,0 +1,19 @@
+<?xml version="1.0" ?>
+<xpd>
+    <components></components>
+    <dependency repo = "sc_spi">
+        <githash>650275710bd2979edfbcaa2b9e6ff9fb6fe6daf0</githash>
+        <uri>https://github.com/shanthinick/sc_spi.git</uri>
+    </dependency>
+    <description>SD card</description>
+    <docdir>app_sdcard_test/doc_quickstart</docdir>
+    <docdir>module_sdcardSPI/doc</docdir>
+    <docdir>module_FatFs/doc</docdir>		
+    <location>https://github.com/shanthinick/sc_sdcard.git</location>
+    <name>sc_sdcard</name>
+    <maintainer>xxx</maintainer>
+    <vendor>XMOS</vendor>
+    <version_defines>1.0.3</version_defines>
+    <xcore_repo>git://github.com/xcore/sc_sdcard.git</xcore_repo>
+    <xpd_version>1.0</xpd_version>
+</xpd>

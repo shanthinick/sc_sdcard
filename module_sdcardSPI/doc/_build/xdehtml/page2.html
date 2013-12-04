@@ -1,0 +1,169 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Project structure &mdash; SD card component v documentation</title>
+
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/globals.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/ui.css" type="text/css" />
+    <link rel="stylesheet" href="_static/app.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/mobile.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/xde.css"
+    type="text/css" /><script type="text/javascript" src="_static/scripts.js"></script>
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="SD card component v documentation" href="index.html" />
+    <link rel="next" title="Programming guide" href="page3.html" />
+    <link rel="prev" title="Evaluation platforms" href="page1.html" /> 
+  </head>
+  <body class="xde indented-content" onload="prepareContents();">  
+          <div id="body">
+             <div id="content">
+             <h1>Project structure</h1>
+
+             <div class='columns'>
+            
+  <dl class="docutils">
+<dt>To build a project including the <tt class="docutils literal"><span class="pre">module_sdcardSPI</span></tt> the following module is required:</dt>
+<dd><ul class="first last">
+<li>module: module_spi_master</li>
+</ul>
+</dd>
+</dl>
+<p>The below section details the APIs in the SD card module. For details about the FatFS APIs please refer to the respective repositories.</p>
+<h2 class="topic" id="configuration-defines">Configuration defines</h2>
+<div><p>The <tt class="docutils literal"><span class="pre">module_sdcardSPI</span></tt> requires a configuration defined in spi_conf.h. The module requires nothing to be additionally defined.</p>
+<dl class="docutils">
+<dt><strong>SPI_MASTER_SD_CARD_COMPAT</strong></dt>
+<dd><p>This defines the SPI modifications needed for SD card usage. This needs to be set to 1 for SD cards to use SPI interface.</p>
+</dd>
+</dl>
+</div><h2 class="topic" id="api">API</h2>
+<div><dl class="docutils">
+<dt>The``module_sdcardSPI`` functionality is defined in</dt>
+<dd><ul class="first last">
+<li><tt class="docutils literal"><span class="pre">SDCardHostSPI.xc</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">spi_conf.h</span></tt></li>
+</ul>
+</dd>
+</dl>
+<p>The SD card module provides APIs to read/write data to SD card.</p>
+<p>The SD card APIs are as follows:</p>
+<ul class='lib'><li class="function">
+<h2 id="disk_initialize">
+DSTATUS <tt class="descname">disk_initialize</tt><big>(</big>BYTE<em>&nbsp;drv</em><big>)</big></h2>
+<p>Function to initialize disk.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>drv</h2>
+<p>Physical drive nmuber (0).</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="disk_status">
+DSTATUS <tt class="descname">disk_status</tt><big>(</big>BYTE<em>&nbsp;drv</em><big>)</big></h2>
+<p>Function to open or create a file.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>drv</h2>
+<p>Drive number (always 0).</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="disk_read">
+DRESULT <tt class="descname">disk_read</tt><big>(</big>BYTE<em>&nbsp;drv</em>, BYTE<em>&nbsp;buff[]</em>, DWORD<em>&nbsp;sector</em>, BYTE<em>&nbsp;count</em><big>)</big></h2>
+<p>Function to read data from a disk.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>drv</h2>
+<p>Physical drive nmuber (0).</p>
+</li>
+<li><h2>buff</h2>
+<p>Pointer to the data buffer to store read data.</p>
+</li>
+<li><h2>sector</h2>
+<p>Start sector number (LBA).</p>
+</li>
+<li><h2>count</h2>
+<p>Sector count (1..128).</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="disk_write">
+DRESULT <tt class="descname">disk_write</tt><big>(</big>BYTE<em>&nbsp;drv</em>, const BYTE<em>&nbsp;buff[]</em>, DWORD<em>&nbsp;sector</em>, BYTE<em>&nbsp;count</em><big>)</big></h2>
+<p>Function to write data to the disk.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>drv</h2>
+<p>Physical drive nmuber (0).</p>
+</li>
+<li><h2>buff</h2>
+<p>Pointer to the data to be written.</p>
+</li>
+<li><h2>sector</h2>
+<p>Start sector number (LBA).</p>
+</li>
+<li><h2>count</h2>
+<p>Sector count (1..128).</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="disk_ioctl">
+DRESULT <tt class="descname">disk_ioctl</tt><big>(</big>BYTE<em>&nbsp;drv</em>, BYTE<em>&nbsp;ctrl</em>, BYTE<em>&nbsp;buff[]</em><big>)</big></h2>
+<p>Function to control device specific features and miscellaneous functions.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>drv</h2>
+<p>Physical drive nmuber (0).</p>
+</li>
+<li><h2>ctrl</h2>
+<p>Control code.</p>
+</li>
+<li><h2>buff</h2>
+<p>Buffer to send/receive control data.</p>
+</li>
+</ul>
+</div></li>
+
+</ul><p>The SD card APIs use the module_spi_master APIs.</p>
+</div>
+
+             </div>
+             </div>
+
+
+          </div>
+
+          <div>
+             <!--seealsos-->
+          </div><div id="local_seealso">
+             <h1>See Also</h1>
+             <ul class="iconmenu">
+             <li><a href="page0.html">Overview</a></li>
+             <li><a href="page1.html">Evaluation platforms</a></li>
+             <li><a href="page3.html">Programming guide</a></li>
+             <li><a href="page4.html">Example application</a></li>
+             </ul>
+          </div>
+    <div class="footer">
+    </div>
+  </body>
+</html>

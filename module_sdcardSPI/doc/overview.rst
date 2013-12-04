@@ -1,25 +1,22 @@
 Overview
 ========
 
-The display controller module is used to drive a single graphics LCD screen up to 800 * 600 pixels incorporating a managed double buffer. 
+The SD card module is used to talk to the SD card through the SPI interface. 
 
 Features
 --------
 
-  * Non-blocking SDRAM management.
-  * Real time servicing of the LCD.
-  * Touch interactive display
-  * Image memory manager to simplify handling of images.
-  * No real time constraints on the application.
+  * Low level functions for accessing SD card
+  * Uses SPI interface
 
 Memory requirements
 -------------------
 +------------------+---------------+
 | Resource         | Usage         |
 +==================+===============+
-| Stack            | 6198 bytes    |
+| Stack            | 220 bytes     |
 +------------------+---------------+
-| Program          | 11306 bytes   |
+| Program          | 5 KB          |
 +------------------+---------------+
 
 Resource requirements
@@ -27,11 +24,7 @@ Resource requirements
 +--------------+-------+
 | Resource     | Usage |
 +==============+=======+
-| Channels     |   3   |
-+--------------+-------+
-| Timers       |   0   |
-+--------------+-------+
-| Clocks       |   0   |
+| Clocks       |   1   |
 +--------------+-------+
 | Threads      |   1   |
 +--------------+-------+

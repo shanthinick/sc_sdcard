@@ -4,21 +4,16 @@ loading pickled environment... not yet created
 building [xdehtml]: all documents
 updating environment: 6 added, 0 changed, 0 removed
 reading sources... [ 16%] api
+Rendering Doxygen function DSTATUS disk_initialize
+Rendering Doxygen function DSTATUS disk_status
+Rendering Doxygen function DRESULT disk_read
+Rendering Doxygen function DRESULT disk_write
+Rendering Doxygen function DRESULT disk_ioctl
 reading sources... [ 33%] examples
 reading sources... [ 50%] hw
 reading sources... [ 66%] index
 reading sources... [ 83%] overview
 reading sources... [100%] programming
-
-C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_sdcardSPI\doc\api.rst:35: (WARNING/2) doxygenfunction: Cannot find function "disk_initialize" in doxygen xml output
-
-C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_sdcardSPI\doc\api.rst:36: (WARNING/2) doxygenfunction: Cannot find function "disk_status" in doxygen xml output
-
-C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_sdcardSPI\doc\api.rst:37: (WARNING/2) doxygenfunction: Cannot find function "disk_read" in doxygen xml output
-
-C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_sdcardSPI\doc\api.rst:38: (WARNING/2) doxygenfunction: Cannot find function "disk_write" in doxygen xml output
-
-C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_sdcardSPI\doc\api.rst:39: (WARNING/2) doxygenfunction: Cannot find function "disk_ioctl" in doxygen xml output
 
 C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_sdcardSPI\doc\programming.rst:51: (WARNING/2) Definition list ends without a blank line; unexpected unindent.
 
@@ -43,4 +38,4 @@ Adding scope descriptions
 writing additional files...
 copying static files... done
 dumping object inventory... done
-build succeeded, 6 warnings.
+build succeeded, 1 warning.

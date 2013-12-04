@@ -14,11 +14,11 @@
 #include <platform.h>
 
 #include "ff.h"    /* file system routines */
-#include "timing.h"
 
 FATFS Fatfs;            /* File system object */
 FIL Fil;                /* File object */
 BYTE Buff[512*40];      /* File read buffer (40 SD card blocks to let multiblock operations (if file not fragmented) */
+timer t;
 
 void die(FRESULT rc ) /* Stop with dying message */
 {
@@ -33,7 +33,7 @@ int main(void)
   DIR dir;                        /* Directory object */
   FILINFO fno;                    /* File information object */
   UINT bw, br, i;
-  unsigned int T;
+  unsigned int T, T1;
 
   for( i = 0; i < sizeof(Buff); i++) Buff[i] = i + i / 512; // fill the buffer with some data
 
@@ -75,10 +75,13 @@ unsafe
   printstrln("done.\n");
 
   printstrln("Writing data to the file...");
-  T = get_time();
+  t :> T1;
   rc = f_write(&Fil, Buff, sizeof(Buff), &bw);
-  T = get_time() - T;
+  t :> T;
+  T -= T1;
   if(rc) die(rc);
+  printstr("Time taken:");
+  printintln(T);
   printint(bw);
   printstr(" bytes written. Write rate: ");
   printint((bw*100000)/T);
@@ -97,9 +100,10 @@ unsafe
   printstrln("done.");
 
   printstrln("\nReading file content...");
-  T = get_time();
+  t :> T1;
   rc = f_read(&Fil, Buff, sizeof(Buff), &br);
-  T = get_time() - T;
+  t :> T;
+  T -= T1;
   if(rc) die(rc);
   printint(br);
   printstr(" bytes read. Read rate: ");
