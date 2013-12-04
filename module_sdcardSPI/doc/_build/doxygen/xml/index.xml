@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.5.8">
+  <compound refid="sdcard__spi_8h" kind="file"><name>sdcard_spi.h</name>
+  </compound>
+  <compound refid="spi__conf_8h" kind="file"><name>spi_conf.h</name>
+  </compound>
+  <compound refid="dir_486e92b92cd2a6d29017c8bd27759b92" kind="dir"><name>_build/.doxygen/</name>
+  </compound>
+  <compound refid="dir_2f81f357fa06b256a0641d4cfc2b9e0d" kind="dir"><name>_build/</name>
+  </compound>
+  <compound refid="dir_46fefdf7bffcbf659a9b32c72c0fdbc7" kind="dir"><name>_build/.doxygen/src/</name>
+  </compound>
+</doxygenindex>

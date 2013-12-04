@@ -202,33 +202,183 @@ typedef enum {
 /*--------------------------------------------------------------*/
 /* FatFs module application interface                           */
 
-FRESULT f_mount (BYTE, FATFS*);            /* Mount/Unmount a logical drive */
-FRESULT f_open (FIL*, const TCHAR*, BYTE);      /* Open or create a file */
-FRESULT f_read (FIL*, void*, UINT, UINT*);      /* Read data from a file */
-FRESULT f_lseek (FIL*, DWORD);            /* Move file pointer of a file object */
-FRESULT f_close (FIL*);                /* Close an open file object */
-FRESULT f_opendir (DIR*, const TCHAR*);        /* Open an existing directory */
-FRESULT f_readdir (DIR*, FILINFO*);          /* Read a directory item */
-FRESULT f_stat (const TCHAR*, FILINFO*);      /* Get file status */
-FRESULT f_write (FIL*, const void*, UINT, UINT*);  /* Write data to a file */
-FRESULT f_getfree (const TCHAR*, DWORD*, FATFS**);  /* Get number of free clusters on the drive */
-FRESULT f_truncate (FIL*);              /* Truncate file */
-FRESULT f_sync (FIL*);                /* Flush cached data of a writing file */
-FRESULT f_unlink (const TCHAR*);          /* Delete an existing file or directory */
-FRESULT  f_mkdir (const TCHAR*);            /* Create a new directory */
-FRESULT f_chmod (const TCHAR*, BYTE, BYTE);      /* Change attriburte of the file/dir */
-FRESULT f_utime (const TCHAR*, const FILINFO*);    /* Change timestamp of the file/dir */
-FRESULT f_rename (const TCHAR*, const TCHAR*);    /* Rename/Move a file or directory */
-FRESULT f_chdrive (BYTE);              /* Change current drive */
-FRESULT f_chdir (const TCHAR*);            /* Change current directory */
-FRESULT f_getcwd (TCHAR*, UINT);          /* Get current directory */
-//FRESULT f_forward (FIL*, UINT(*)(const BYTE*,UINT), UINT, UINT*);  /* Forward data to the stream */
-FRESULT f_mkfs (BYTE, BYTE, UINT);          /* Create a file system on the drive */
-FRESULT  f_fdisk (BYTE, const DWORD[], void*);    /* Divide a physical drive into some partitions */
-int f_putc (TCHAR, FIL*);              /* Put a character to the file */
-int f_puts (const TCHAR*, FIL*);          /* Put a string to the file */
-int f_printf (FIL*, const TCHAR*, ...);        /* Put a formatted string to the file */
-TCHAR* f_gets (TCHAR*, int, FIL*);          /* Get a string from the file */
+/**
+ * \brief Function to mount/unmount file system object to the FatFs module.
+ *
+ * \param vol Logical drive number to be mounted/unmounted n.
+ * \param fs Pointer to new file system object (NULL for unmount)
+ */
+FRESULT f_mount (BYTE vol, FATFS *fs);            
+
+/**
+ * \brief Function to open or create a file.
+ *
+ * \param fp Pointer to the blank file object.
+ * \param path Pointer to the file name.
+ * \param mode Access mode and file open mode flags.
+ */
+FRESULT f_open (FIL *fp, const TCHAR*, BYTE);     
+
+/**
+ * \brief Function to read data from a file.
+ *
+ * \param fp Pointer to the file object.
+ * \param buff Pointer to data buffer.
+ * \param btr Number of bytes to read.
+ * \param br Pointer to number of bytes read.
+ */
+FRESULT f_read (FIL* fp, void* buff, UINT btr, UINT* br); 
+
+/**
+ * \brief Function to move file pointer of a file object.
+ *
+ * \param fp Pointer to the file object .
+ * \param ofs File pointer from top of file .
+ */
+FRESULT f_lseek (FIL* fp, DWORD ofs);    
+
+/**
+ * \brief Function to close an open file object.
+ *
+ * \param fp     Pointer to the file object to be closed */
+ */
+FRESULT f_close (FIL *fp); 
+
+/**
+ * \brief Function to create a directory object.
+ *
+ * \param dj Pointer to directory object to create.
+ * \param c_lcd Pointer to the directory path.
+ */
+FRESULT f_opendir (DIR* dj, const TCHAR* path);  
+
+/**
+ * \brief Function to read directory entry in sequence.
+ *
+ * \param dj Pointer to the open directory object.
+ * \param fno Pointer to file information to return.
+ */
+FRESULT f_readdir (DIR*, FILINFO*);   
+  
+/**
+ * \brief Function to get the file status.
+ *
+ * \param path Pointer to the file path.
+ * \param fno Pointer to file information to return .
+ */
+FRESULT f_stat (const TCHAR* path, FILINFO* fno);  
+
+/**
+ * \brief Function to write data to the file.
+ *
+ * \param fp Pointer to the file object.
+ * \param buff Pointer to the data to be written.
+ * \param btw Number of bytes to write.
+ * \param bw Pointer to number of bytes written.
+ */
+FRESULT f_write (FIL* fp, const void* buff, UINT btw, UINT* bw);  
+  
+/**
+ * \brief Function to get number of free clusters on the drive.
+ *
+ * \param path Pointer to the logical drive number (root dir).
+ * \param nclst Pointer to the variable to return number of free clusters.
+ * \param fatfs Pointer to pointer to corresponding file system object to return.
+ */
+FRESULT f_getfree (const TCHAR* path, DWORD* nclst, FATFS** fatfs);  
+
+/**
+ * \brief Function to truncate a file.
+ *
+ * \param fp Pointer to the file object to be truncated.
+ */
+FRESULT f_truncate (FIL* fp);             
+
+/**
+ * \brief Function to flush cached data of a writing file.
+ *
+ * \param fp Pointer to the file object.
+ */
+FRESULT f_sync (FIL* fp);               
+
+/**
+ * \brief Function to delete an existing file or directory.
+ *
+ * \param path Pointer to the file or directory path.
+ */
+FRESULT f_unlink (const TCHAR* path);        
+
+/**
+ * \brief Function to create a new directory.
+ *
+ * \param path Pointer to the directory path.
+ */
+FRESULT  f_mkdir (const TCHAR* path);  
+
+/**
+ * \brief Function to change attribute of a file or directory.
+ *
+ * \param path Pointer to the file path.
+ * \param value Attribute bits.
+ * \param mask Attribute mask to change.
+ */
+FRESULT f_chmod (const TCHAR* path, BYTE value, BYTE mask);      
+
+/**
+ * \brief Function to rename a file or directory.
+ *
+ * \param path_old Pointer to the old name.
+ * \param path_new Pointer to the new name.
+ */
+FRESULT f_rename (const TCHAR* path_old, const TCHAR* path_new);    
+  
+/**
+ * \brief Function to change current drive.
+ *
+ * \param drv Function to change current drive.
+ */
+FRESULT f_chdrive (BYTE drv);              
+
+/**
+ * \brief Function to change current directory.
+ *
+ * \param path Pointer to the directory path.
+ */
+FRESULT f_chdir (const TCHAR* path);            
+
+/**
+ * \brief Function to get current directory.
+ *
+ * \param path Pointer to the directory path.
+ * \param sz_path Size of path.
+ */
+FRESULT f_getcwd (TCHAR* path, UINT sz_path);
+
+/**
+ * \brief Function to divide a physical drive into multipe partitions.
+ *
+ * \param c_client The channel from the display_controller to the client application.
+ * \param c_lcd The channel from the display_controller to the LCd c_server.
+ * \param c_sdram The channel from the display_controller to the SDRAM server.
+ */
+FRESULT  f_fdisk (BYTE, const DWORD[], void*);    
+
+/**
+ * \brief Function to put a character to the file.
+ *
+ * \param c The character to be output.
+ * \param fp Pointer to the file object.
+ */
+int f_putc (TCHAR c, FIL* fp);              
+
+/**
+ * \brief Function to print a formatted string into a file.
+ *
+ * \param fil Pointer to the file object.
+ * \param str Pointer to the formatted string.
+ * \param ... Optional arguments... 
+ */
+int f_printf (FIL* fil, const TCHAR* str, ...);     
 
 #define f_eof(fp) (((fp)->fptr == (fp)->fsize) ? 1 : 0)
 #define f_error(fp) (((fp)->flag & FA__ERROR) ? 1 : 0)

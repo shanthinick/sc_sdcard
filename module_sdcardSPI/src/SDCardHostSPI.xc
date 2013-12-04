@@ -8,6 +8,7 @@
 #include <xclib.h>
 #include "spi_master.h"
 #include <xccompat.h>
+#include "sdcard_spi.h"
 #include "spi_conf.h"
 
 BYTE cardType; /* b0:MMC, b1:SDv1, b2:SDv2, b3:Block addressing */
