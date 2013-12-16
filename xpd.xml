@@ -3,7 +3,7 @@
     <components>
         <component name = "FAT Filesystem Library" type = "component" buildresults_path = "module_FatFs/.module_FatFs.buildinfo" scope = "General Use" path = "module_FatFs" metainfo_path = "module_FatFs/module_FatFs.metainfo" local = "false" id = "module_FatFs" description = "FAT filesystem library">
             <board>XK-SKC-L2</board>
-            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git">module_sdcardSPI</componentDependency>
+            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git" version = "0.0.1">module_sdcardSPI</componentDependency>
             <componentDependency repo = "git://github.com/xcore/sc_spi" version = "1.4.0">module_spi_master</componentDependency>
             <keyword>FAT filesystem</keyword>
         </component>
@@ -15,9 +15,9 @@
         </component>
         <component description = "Application demonstrating the use of FAT filesystem to read/write files on SD card using the SPI interface" type = "demoCode" scope = "General Use" path = "app_sdcard_test" local = "false" id = "app_sdcard_test" name = "SD card demo application">
             <board>XK-SKC-L2</board>
+            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git" version = "0.0.1">module_FatFs</componentDependency>
             <componentDependency repo = "git://github.com/xcore/sc_spi" version = "1.4.0">module_spi_master</componentDependency>
-            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git">module_FatFs</componentDependency>
-            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git">module_sdcardSPI</componentDependency>
+            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git" version = "0.0.1">module_sdcardSPI</componentDependency>
             <keyword>FAT Filesystem</keyword>
             <keyword>SD</keyword>
             <keyword>SPI</keyword>
@@ -37,7 +37,8 @@
     <name>sc_sdcard</name>
     <maintainer>davelxmos</maintainer>
     <partnumber>XM-004511-DH</partnumber>
-    <release parenthash = "165bb23b9126b6fcf7de99d50be81e8de43d42ea" version = "0.0.1alpha0"></release>
+    <release parenthash = "165bb23b9126b6fcf7de99d50be81e8de43d42ea" version = "0.0.1alpha0" githash = "0e080821c90959c1e641a5f452e66b1be208d8e0"></release>
+    <release parenthash = "5e3fef689df708fa90a65d0e9a5544eff96bc916" version = "0.0.1alpha1"></release>
     <subpartnumber>XM-004512-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <version_defines></version_defines>
