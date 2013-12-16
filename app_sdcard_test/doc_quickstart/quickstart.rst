@@ -35,6 +35,11 @@ To setup up the system:
 	
 .. figure:: images/setup.JPG
 
+   :width: 400px
+   :align: center
+
+   Hardware Setup for SD card Demo
+
 Import and Build the Application
 ++++++++++++++++++++++++++++++++
 
