@@ -29,7 +29,7 @@ DRESULT disk_read (BYTE drv, BYTE buff[], DWORD sector, BYTE count);
  * \param count Sector count (1..128).
  */
 DRESULT disk_write (BYTE drv, const BYTE buff[], DWORD sector, BYTE count);
-  
+
 /**
  * \brief Function to control device specific features and miscellaneous functions.
  *
@@ -38,7 +38,7 @@ DRESULT disk_write (BYTE drv, const BYTE buff[], DWORD sector, BYTE count);
  * \param buff Buffer to send/receive control data.
  */
 DRESULT disk_ioctl (BYTE drv, BYTE ctrl, BYTE buff[]);
-  
+
 /**
  * \brief Function to open or create a file.
  *
@@ -47,4 +47,4 @@ DRESULT disk_ioctl (BYTE drv, BYTE ctrl, BYTE buff[]);
 DSTATUS disk_status (BYTE drv);
 
 #endif
-  
+

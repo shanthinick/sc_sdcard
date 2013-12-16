@@ -1,13 +1,12 @@
 SD Card Libary
 ..............
 
-:Stable release: 0.0.1
+:Latest release: 0.0.1alpha0
+:Maintainer: davelxmos
+:Description: SD card
 
-:Status:  alpha
 
-:Maintainer:  interactive_matter
 
-:Description:  SD card driver library
 
 
 Key Features
@@ -34,13 +33,14 @@ Resources (ports and clock blocks) used for the interface need to be specified i
 Known Issues
 ============
 
-
-Required Repositories
-================
-
-* xcommon git\@github.com:xcore/xcommon.git
-
 Support
 =======
 
 Issues may be submitted via the Issues tab in this github repo. Response to any issues submitted are at the discretion of the maintainers of this component.
+
+Required software (dependencies)
+================================
+
+  * sc_slicekit_support (https://github.com/xcore/sc_slicekit_support.git)
+  * sc_spi (https://github.com/xcore/sc_spi.git)
+

@@ -150,10 +150,10 @@ int rcvr_datablock (BYTE drv,  /* 1:OK, 0:Failed */
 
   /* Receive the data block into buffer */
   spi_master_in_buffer(spi_if, buff, btr);
-  
+
   /* Discard CRC */
   d[0] = spi_master_in_short(spi_if);
-  
+
   return 1;            /* Return with success */
 }
 
@@ -177,14 +177,14 @@ int xmit_datablock (BYTE drv,  /* 1:OK, 0:Failed */
 
   /* Is it data token? */
   if (token != 0xFD)
-  {    
+  {
     /* Xmit the 512 byte data block to MMC/SD */
 	spi_master_out_buffer(spi_if, buff, 512);
     /* Xmit dummy CRC (0xFF,0xFF) */
 	d[0] = spi_master_in_short(spi_if);
     /* Receive data response */
     d[0] = spi_master_in_byte(spi_if);
-	
+
     if ((d[0] & 0x1F) != 0x05)  /* If not accepted, return with error */
       return 0;
   }
@@ -224,12 +224,12 @@ BYTE send_cmd (BYTE drv,    /* Returns command response (bit7==1:Send failed)*/
   if (cmd == CMD0) n = 0x95;    /* (valid CRC for CMD0(0)) */
   if (cmd == CMD8) n = 0x87;    /* (valid CRC for CMD8(0x1AA)) */
   buf[5] = n;
-  
+
   spi_master_out_buffer(spi_if, buf, 6);
 
   /* Receive command response */
   /* Skip a stuff byte when stop reading */
-  if (cmd == CMD12) 
+  if (cmd == CMD12)
      d[0] = spi_master_in_byte(spi_if);
   n = 10;                /* Wait for a valid response in timeout of 10 attempts */
   do
@@ -284,7 +284,7 @@ DSTATUS disk_initialize (
   UINT tmr;
   DSTATUS s;
   p_led <: 0x0;
- 
+
   spi_master_init(spi_if, 8);
   spi_ss <: 0xF;
   stat = STA_NOINIT;
@@ -292,7 +292,7 @@ DSTATUS disk_initialize (
   for (n = 10; n; n--) /* 80 dummy clocks */
 	  spi_master_out_byte(spi_if, buf[0]); /* Dummy writes */
 	  //buf[0] = spi_master_in_byte(spi_if); /* Some devices need dummy reads instead of writes */
-	  
+
   ty = 0;
   stat=0;
   if (send_cmd(drv, CMD0, 0) == 1) {      /* Enter Idle state */
