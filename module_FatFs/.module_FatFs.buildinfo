@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <allbuildresults>
-<buildresults component="module_FatFs" packagename="xm-local-sc_sdcard(59d2af25)" packageversion="59d2af25" toolsversion="latest">
+<buildresults component="module_FatFs" packagename="xm-local-sc_sdcard(ac48cdf5)" packageversion="ac48cdf5" toolsversion="latest">
 <buildresult>
 <configuration>
 <parameter id="FSTiny" value="1"/>

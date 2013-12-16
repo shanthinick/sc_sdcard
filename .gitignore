@@ -1,8 +1,11 @@
+_build/*
 */.build_*/*
 */_build/*
 */*/_build/*
 */bin/*
+__*/*
 *.o
+*.log
 *.xe
 *.vcd
 *.s

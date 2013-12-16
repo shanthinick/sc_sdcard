@@ -15,9 +15,9 @@
         </component>
         <component description = "Application demonstrating the use of FAT filesystem to read/write files on SD card using the SPI interface" type = "demoCode" scope = "General Use" path = "app_sdcard_test" local = "false" id = "app_sdcard_test" name = "SD card demo application">
             <board>XK-SKC-L2</board>
-            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git">module_sdcardSPI</componentDependency>
             <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git">module_FatFs</componentDependency>
             <componentDependency repo = "git://github.com/xcore/sc_spi" version = "1.4.0">module_spi_master</componentDependency>
+            <componentDependency repo = "git://github.com/shanthinick/sc_sdcard.git">module_sdcardSPI</componentDependency>
             <keyword>FAT Filesystem</keyword>
             <keyword>SD</keyword>
             <keyword>SPI</keyword>
