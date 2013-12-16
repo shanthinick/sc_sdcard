@@ -4,14 +4,14 @@
     <compoundname>sdcard_spi.h</compoundname>
     <includes local="no">stdint.h</includes>
     <incdepgraph>
-      <node id="1">
-        <label>stdint.h</label>
-      </node>
       <node id="0">
         <label>_build/.doxygen/src/sdcard_spi.h</label>
         <link refid="sdcard_spi.h"/>
         <childnode refid="1" relation="include">
         </childnode>
+      </node>
+      <node id="1">
+        <label>stdint.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="func">
@@ -38,7 +38,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="11"/>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="11"/>
       </memberdef>
       <memberdef kind="function" id="sdcard__spi_8h_1c50de927e8e3625377a1c1bec19610ff" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DRESULT</type>
@@ -97,7 +97,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="21"/>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="21"/>
       </memberdef>
       <memberdef kind="function" id="sdcard__spi_8h_18b01a20686939f8c49dd10c218c413e7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DRESULT</type>
@@ -156,7 +156,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="31"/>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="31"/>
       </memberdef>
       <memberdef kind="function" id="sdcard__spi_8h_1716ef1225ec932200200d1d352b2aeb5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DRESULT</type>
@@ -204,7 +204,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="40"/>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="40"/>
       </memberdef>
       <memberdef kind="function" id="sdcard__spi_8h_121ad8e9a107ea2000705a3edfebaaa2d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
         <type>DSTATUS</type>
@@ -229,7 +229,7 @@
 </para>        </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="47"/>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h" line="47"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -254,7 +254,8 @@
 <codeline lineno="48"><highlight class="normal"></highlight></codeline>
 <codeline lineno="49"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
 <codeline lineno="50"><highlight class="preprocessor"></highlight><highlight class="normal"><sp/><sp/></highlight></codeline>
+<codeline lineno="51"><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h"/>
+    <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/sdcard_spi.h"/>
   </compounddef>
 </doxygen>

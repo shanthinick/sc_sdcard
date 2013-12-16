@@ -1,0 +1,105 @@
+-------------------------------------------------------------------------------
+-- Descriptive metadata
+-------------------------------------------------------------------------------
+
+componentName = "FAT Filesystem Library"
+componentFullName = ""
+alternativeNames = { }
+componentDescription = "A function library for executing read/write and other operations on FAT filesystem"
+componentVersion = "1v0"
+useAutoBuildResults = true
+-------------------------------------------------------------------------------
+-- Parameter descriptions.
+-------------------------------------------------------------------------------
+
+configPoints =
+{
+  FSTiny =
+  {
+    short   = "FS mode",
+    long    = "Filesystem mode Normal or Tiny",
+    help    = "When set to 1, the filesystem uses the sector buffer in the file system object instead of the sector buffer in the individual file object for file data transfer. This reduces memory consumption 512 bytes each file object.",
+    units   = "",
+    define  = "_FS_TINY",
+    type    = "int",
+    options = {0,1}, 
+    resourceUsageFlags = {},
+    default = 0
+  },
+  FSReadOnly =
+  {
+    short   = "FS Read Only mode",
+    long    = "Filesystem Read Only mode ",
+    help    = "Setting _FS_READONLY to 1 defines read only configuration. This removes writing functions, f_write, f_sync, f_unlink, f_mkdir, f_chmod, f_rename, f_truncate and f_getfree. ",
+    units   = "",
+    define  = "_FS_READONLY",
+    type    = "int",
+    options = {0,1}, 
+    resourceUsageFlags = {},
+    default = 0
+  },
+  FSMinimize =
+  {
+    short   = "FS minimization level",
+    long    = "Filesystem minimization level - removes some functionality",
+    help    = "Setting _FS_MINIMIZE to 0 enables full function.  1: f_stat, f_getfree, f_unlink, f_mkdir, f_chmod, f_truncate and f_rename are removed.  2: f_opendir and f_readdir are removed in addition to 1. / 3: f_lseek is removed in addition to 2. ",
+    units   = "",
+    define  = "_FS_MINIMIZE",
+    type    = "int",
+    options = {0,1,2,3}, 
+    resourceUsageFlags = {},
+    default = 0
+  }  
+}
+
+derivedValues = {}
+
+ports = {}
+
+channels = {
+}        
+
+function getConfigStatus()
+  local status = "Trusted Configuration"
+  local issues = {}
+  return status, issues
+end
+            
+-------------------------------------------------------------------------------
+-- Source generation functions
+-------------------------------------------------------------------------------
+
+generatedCode = {
+  includes = { 
+    "ff.h", "ffconf.h"
+  },
+  globals = [[  ]],
+  body = [[
+  FATFS Fatfs;           
+  f_mount(0, &Fatfs); 
+  ]]
+}
+
+files = {
+     ["module_FatFs/src/ffconf.h"] = "src/ffconf.h"
+}
+api = {
+       'f_mount', 
+       'f_mount',
+       'f_open',
+       'f_read',
+       'f_lseek',
+       'f_close',
+       'f_opendir',
+       'f_readdir',
+       'f_stat',
+       'f_write',
+       'f_getfree',
+       'f_truncate',
+       'f_sync',
+       'f_unlink',
+       'f_mkdir',
+       'f_chmod',
+       'f_utime',
+       'f_rename'
+      }

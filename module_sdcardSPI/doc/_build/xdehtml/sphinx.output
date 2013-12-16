@@ -15,8 +15,6 @@ reading sources... [ 66%] index
 reading sources... [ 83%] overview
 reading sources... [100%] programming
 
-C:\Users\Shanthini\Documents\GitHub\sc_sdcard\module_sdcardSPI\doc\programming.rst:51: (WARNING/2) Definition list ends without a blank line; unexpected unindent.
-
 looking for now-outdated files... none found
 pickling environment... done
 checking consistency... done
@@ -38,4 +36,4 @@ Adding scope descriptions
 writing additional files...
 copying static files... done
 dumping object inventory... done
-build succeeded, 1 warning.
+build succeeded.

@@ -9,7 +9,7 @@ TARGET = SLICEKIT-L16
 APP_NAME = app_sdcard_test
 
 # The USED_MODULES variable lists other module used by the application.
-USED_MODULES = module_FatFs module_sdcardSPI module_spi_master
+USED_MODULES = module_FatFs
 
 # The flags passed to xcc when building the application
 # You can also set the following to override flags for a particular language:
@@ -22,5 +22,10 @@ XCC_FLAGS_Release = -O3 -g
 # The VERBOSE variable, if set to 1, enables verbose output from the make system.
 VERBOSE = 0
 
+
+#=============================================================================
+# The following part of the Makefile includes the common build infrastructure
+# for compiling XMOS applications. You should not need to edit below here.
+
 XMOS_MAKE_PATH ?= ../..
--include $(XMOS_MAKE_PATH)/xcommon/module_xcommon/build/Makefile.common
+include $(XMOS_MAKE_PATH)/xcommon/module_xcommon/build/Makefile.common

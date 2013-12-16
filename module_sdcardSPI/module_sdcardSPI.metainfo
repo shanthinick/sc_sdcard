@@ -1,0 +1,69 @@
+-------------------------------------------------------------------------------
+-- Descriptive metadata
+-------------------------------------------------------------------------------
+
+componentName = "SD card Function Library"
+componentFullName = ""
+alternativeNames = { }
+componentDescription = "A function library for implementing read/write functions on SD card through SPI interface "
+componentVersion = "1v0"
+
+-------------------------------------------------------------------------------
+-- Parameter descriptions.
+-------------------------------------------------------------------------------
+
+configPoints =
+{
+}
+
+derivedValues = {}
+
+ports = {
+  p_spi_ss = {
+    short   = "SS",
+    long    = "SPI slave select",
+    help    = "",
+    width   = 4
+  },
+  p_led = {
+    short   = "LED",
+    long    = "SD card LEDs",
+    help    = "",
+    width   = 8
+  }
+}
+
+channels = {
+}        
+
+function getConfigStatus()
+  local status = "Trusted Configuration"
+  local issues = {}
+  return status, issues
+end
+            
+-------------------------------------------------------------------------------
+-- Source generation functions
+-------------------------------------------------------------------------------
+
+generatedCode = {
+  includes = { 
+  },
+  globals = [[
+  ]],
+  body = [[
+  ]]
+}
+
+files = {
+     ["module_FatFs/src/diskio.h"] = "src/diskio.h",
+     ["module_FatFs/src/integer.h"] = "src/integer.h"
+}
+
+api = {
+       'disk_initialize',
+       'disk_read',
+       'disk_write',
+       'disk_ioctl',
+       'disk_status'
+      }

@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.8">
+  <compounddef id="dir_bd7e8d284bd18cb59f249049ad6c78a1" kind="dir">
+    <compoundname>_build/</compoundname>
+    <innerdir refid="dir_1d3c2070a51cfdf7d91e8ac9568b012f">_build/.doxygen/</innerdir>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/"/>
+  </compounddef>
+</doxygen>

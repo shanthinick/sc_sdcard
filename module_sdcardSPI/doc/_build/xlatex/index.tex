@@ -9,7 +9,7 @@
 
 
 \title{SD card component}
-\date{December 04, 2013}
+\date{December 16, 2013}
 \author{}
 \newcommand{\sphinxlogo}{}
 \newcommand{\releasename}{Release}
@@ -146,8 +146,8 @@ This module may be evaluated using the sliceKIT modular development platform, av
 
 
 % NON-FULLWIDTH SECTION
-\subsection{Display controller application}
-\label{hw:display-controller-application}\begin{itemize}
+\subsection{SD Card test application}
+\label{hw:sd-card-test-application}\begin{itemize}
 \item   Package: sc\_sdcard
 
 \item   Application: app\_sdcard\_test
@@ -352,7 +352,6 @@ The SD card APIs use the module\_spi\_master APIs.
 \chapter{Programming guide}
 \label{programming:}\label{programming:programming-guide}\label{programming::doc}%summary!
 \begin{inthisdocument}
-\item \nameref{programming:shared-memory-interface}
 \item \nameref{programming:source-code-structure}
 \item \nameref{programming:executing-the-project}
 \item \nameref{programming:software-requirements}
@@ -362,74 +361,21 @@ The SD card APIs use the module\_spi\_master APIs.
 
 
 % NON-FULLWIDTH SECTION
-\section{Shared memory interface}
-\label{programming:shared-memory-interface}
-
-The display controller uses a shared memory interface to move the large amount of data around from tile to tile efficiently. This means that the \verb`display_controller`, \verb`sdram_server` and \verb`lcd_server` must be one the same tile.
-
-
-
-% NON-FULLWIDTH SECTION
 \section{Source code structure}
 \label{programming:source-code-structure}
-\begin{figure}[h]\begin{sidecaption}{Project structure}
-\small
-\begin{tabularx}{\linewidth}{llY}
-\Toprule
-\textbf{Project} & \textbf{File} & \textbf{Description}\\
-\midrule
-module\_display\_controller & \verb`display_controller.h` & Header file containing the APIs for the display controller component.\\
- & \verb`display_controller.xc` & File containing the implementation of the display controller component.\\
- & \verb`display_controller_client.xc` & File containing the implementation of the display controller client functions.\\
- & \verb`display_controller_internal.h` & Header file containing the user configurable defines for the display controller component.\\
- & \verb`transitions.h` & Header file containing the APIs for the display controller transitions.\\
- & \verb`transitions.xc` & File containing the implementation of the display controller transitions.\\
-\bottomrule
-\end{tabularx}
-
-\end{sidecaption}
-\end{figure} \DocumentFooterFix
-
 
 
 % NON-FULLWIDTH SECTION
 \section{Executing the project}
 \label{programming:executing-the-project}
 
-The module by itself cannot be built or executed separately - it must be linked in to an application. Once the module is linked to the application, the application can be built and tested for driving a LCD screen.
-\begin{description}
-\item[The following modules should be added to the list of MODULES in order to link the component to the application project]\begin{enumerate}
-\item   \verb`module_display_controller`
-
-\item   \verb`module_lcd`
-
-\item   \verb`module_sdram`
-
-\end{enumerate}
-
-
-\item[Now the module is linked to the application and can be used directly. Additionally, if the use of the touch controller is nessessary then]\begin{enumerate}
-\item   \verb`module_touch_controller_lib` or \verb`module_touch_controller_server`
-
-\item   \verb`module_i2c_master`
-
-\end{enumerate}
-
-
-\end{description}
-
-
-
-should be added to the list of MODULES.
-
-
 
 % NON-FULLWIDTH SECTION
 \section{Software requirements}
 \label{programming:software-requirements}
 
-The module is built on xTIMEcomposer version 12.0
-The module can be used in version 12.0 or any higher version of xTIMEcomposer.
+The module is built on xTIMEcomposer version 13.0
+The module can be used in version 13.0 or any higher version of xTIMEcomposer.
 
 
 
@@ -503,7 +449,7 @@ This tutorial describes a demo application that reads and writes files on SD car
 
 Now that the application has been compiled, the next step is to run it on the sliceKIT Core Board using the tools to load the application over JTAG (via the xTAG-2 and xTAG Adapter card) into the xCORE multicore microcontroller.
 \begin{enumerate}
-\item   Select the file \verb`app_sdcard_test.xe` in the \verb`app_display_controller_demo` project from the Project Explorer.
+\item   Select the file \verb`app_sdcard_test.xe` in the \verb`app_sdcard_test` project from the Project Explorer.
 
 \item   Click on the \verb`Run` icon (the white arrow in the green circle).
 

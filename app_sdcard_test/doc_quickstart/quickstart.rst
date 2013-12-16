@@ -15,7 +15,7 @@ In this demonstration we use the following hardware and software:
   * module_spi_master,
 
 together to read/write files on SD card through SPI interface. This application showcases some of the key software 
-features of SD card module and Fat filesystem module. At the end it prints read/write performances of Fat Filesystem on SD card using SPI interface
+features of SD card module and FAT filesystem module. At the end it prints read/write performances of FAT Filesystem on SD card using SPI interface
 
 Hardware Setup
 ++++++++++++++
@@ -44,7 +44,7 @@ Run the Application
 
 Now that the application has been compiled, the next step is to run it on the sliceKIT Core Board using the tools to load the application over JTAG (via the xTAG-2 and xTAG Adapter card) into the xCORE multicore microcontroller.
 
-   #. Select the file ``app_sdcard_test.xe`` in the ``app_display_controller_demo`` project from the Project Explorer.
+   #. Select the file ``app_sdcard_test.xe`` in the ``app_sdcard_test`` project from the Project Explorer.
    #. Click on the ``Run`` icon (the white arrow in the green circle). 
    #. At the ``Select Device`` dialog select ``XMOS xTAG-2 connect to L1[0..1]`` and click ``OK``.
    #. The application starts executing and reads/writes contents into SD card.

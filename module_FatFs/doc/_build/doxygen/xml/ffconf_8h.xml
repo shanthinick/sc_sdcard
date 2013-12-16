@@ -1,0 +1,448 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.8">
+  <compounddef id="ffconf_8h" kind="file">
+    <compoundname>ffconf.h</compoundname>
+      <sectiondef kind="define">
+      <memberdef kind="define" id="ffconf_8h_145082af332369ed49492446a2d4d4c5a" prot="public" static="no">
+        <name>_FFCONF</name>
+        <initializer>6502</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="10" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="10" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1a21b30e70610594d3af3a28832b584f6" prot="public" static="no">
+        <name>_FS_TINY</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="17" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1fb8d35370cfe0c23832ac2d82e854ec6" prot="public" static="no">
+        <name>_FS_READONLY</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="23" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1befed32e4f049538ff7d7101cd8e3643" prot="public" static="no">
+        <name>_FS_MINIMIZE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="29" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1aab0313f867bb008b64236239f5c2660" prot="public" static="no">
+        <name>_USE_STRFUNC</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="39" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_162cdce547af40f0c1599698ee151bbd7" prot="public" static="no">
+        <name>_USE_MKFS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="43" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1e49b948c9a92ff7082b88bd36f63d988" prot="public" static="no">
+        <name>_USE_FORWARD</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="47" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="47" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_185f4bdb33729ebdaaf9edeec948ac0e7" prot="public" static="no">
+        <name>_USE_FASTSEEK</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="51" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="51" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1af9b5cee569d93f1ebe43ea70916569f" prot="public" static="no">
+        <name>_CODE_PAGE</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="60" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1e471cce284bf1888f9e991f5a811fc11" prot="public" static="no">
+        <name>_USE_LFN</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="93" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_114e73a5c703a586c614b3e40b849f82c" prot="public" static="no">
+        <name>_MAX_LFN</name>
+        <initializer>255</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="94" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="94" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_18dd7e7f166bb146970b394d53cf01d80" prot="public" static="no">
+        <name>_LFN_UNICODE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="108" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_152faf11025401372f71e9d81905b7af4" prot="public" static="no">
+        <name>_FS_RPATH</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="113" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="113" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1366da9a40c8ceb3103a6b72ca02b9969" prot="public" static="no">
+        <name>_VOLUMES</name>
+        <initializer>1</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="128" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="128" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1c271b697378912f17132cb9c7d0de024" prot="public" static="no">
+        <name>_MAX_SS</name>
+        <initializer>512</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="132" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1dc02609ba893fe8706a2f8af0e3a3bb5" prot="public" static="no">
+        <name>_MULTI_PARTITION</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="140" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_10e697dc4206d98eac355ae878dcc286e" prot="public" static="no">
+        <name>_USE_ERASE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="146" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1943a47fa5ed8073725b45e49e5634dea" prot="public" static="no">
+        <name>_WORD_ACCESS</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="156" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="156" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_14e07d7fcae4241b73eb5b70fab5f676d" prot="public" static="no">
+        <name>_FS_REENTRANT</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="173" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="173" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_1526e3cac667f53cc9a48507873348e60" prot="public" static="no">
+        <name>_FS_TIMEOUT</name>
+        <initializer>1000</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="174" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="174" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_19a3f0670343e51652dd12b18fa90a9eb" prot="public" static="no">
+        <name>_SYNC_t</name>
+        <initializer>HANDLE</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="175" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="175" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="define" id="ffconf_8h_10da82d0e7896638fb856094b393c0b03" prot="public" static="no">
+        <name>_FS_SHARE</name>
+        <initializer>0</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" line="185" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h" bodystart="185" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">/*---------------------------------------------------------------------------/</highlight></codeline>
+<codeline lineno="2"><highlight class="comment">/<sp/><sp/>FatFs<sp/>-<sp/>FAT<sp/>file<sp/>system<sp/>module<sp/>configuration<sp/>file<sp/><sp/>R0.09<sp/><sp/>(C)ChaN,<sp/>2011</highlight></codeline>
+<codeline lineno="3"><highlight class="comment">/----------------------------------------------------------------------------/</highlight></codeline>
+<codeline lineno="4"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="5"><highlight class="comment">/<sp/>CAUTION!<sp/>Do<sp/>not<sp/>forget<sp/>to<sp/>make<sp/>clean<sp/>the<sp/>project<sp/>after<sp/>any<sp/>changes<sp/>to</highlight></codeline>
+<codeline lineno="6"><highlight class="comment">/<sp/>the<sp/>configuration<sp/>options.</highlight></codeline>
+<codeline lineno="7"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="8"><highlight class="comment">/----------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="preprocessor">#ifndef<sp/>_FFCONF</highlight></codeline>
+<codeline lineno="10" refid="ffconf_8h_145082af332369ed49492446a2d4d4c5a" refkind="member"><highlight class="preprocessor"></highlight><highlight class="preprocessor">#define<sp/>_FFCONF<sp/>6502<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Revision<sp/>ID<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------/</highlight></codeline>
+<codeline lineno="14"><highlight class="comment">/<sp/>Functions<sp/>and<sp/>Buffer<sp/>Configurations</highlight></codeline>
+<codeline lineno="15"><highlight class="comment">/----------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight></codeline>
+<codeline lineno="17" refid="ffconf_8h_1a21b30e70610594d3af3a28832b584f6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FS_TINY<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Normal<sp/>or<sp/>1:Tiny<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>When<sp/>_FS_TINY<sp/>is<sp/>set<sp/>to<sp/>1,<sp/>FatFs<sp/>uses<sp/>the<sp/>sector<sp/>buffer<sp/>in<sp/>the<sp/>file<sp/>system</highlight></codeline>
+<codeline lineno="19"><highlight class="comment">/<sp/><sp/>object<sp/>instead<sp/>of<sp/>the<sp/>sector<sp/>buffer<sp/>in<sp/>the<sp/>individual<sp/>file<sp/>object<sp/>for<sp/>file</highlight></codeline>
+<codeline lineno="20"><highlight class="comment">/<sp/><sp/>data<sp/>transfer.<sp/>This<sp/>reduces<sp/>memory<sp/>consumption<sp/>512<sp/>bytes<sp/>each<sp/>file<sp/>object.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight></codeline>
+<codeline lineno="23" refid="ffconf_8h_1fb8d35370cfe0c23832ac2d82e854ec6" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FS_READONLY<sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Read/Write<sp/>or<sp/>1:Read<sp/>only<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Setting<sp/>_FS_READONLY<sp/>to<sp/>1<sp/>defines<sp/>read<sp/>only<sp/>configuration.<sp/>This<sp/>removes</highlight></codeline>
+<codeline lineno="25"><highlight class="comment">/<sp/><sp/>writing<sp/>functions,<sp/>f_write,<sp/>f_sync,<sp/>f_unlink,<sp/>f_mkdir,<sp/>f_chmod,<sp/>f_rename,</highlight></codeline>
+<codeline lineno="26"><highlight class="comment">/<sp/><sp/>f_truncate<sp/>and<sp/>useless<sp/>f_getfree.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight></codeline>
+<codeline lineno="29" refid="ffconf_8h_1befed32e4f049538ff7d7101cd8e3643" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FS_MINIMIZE<sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0<sp/>to<sp/>3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>_FS_MINIMIZE<sp/>option<sp/>defines<sp/>minimization<sp/>level<sp/>to<sp/>remove<sp/>some<sp/>functions.</highlight></codeline>
+<codeline lineno="31"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="32"><highlight class="comment">/<sp/><sp/><sp/>0:<sp/>Full<sp/>function.</highlight></codeline>
+<codeline lineno="33"><highlight class="comment">/<sp/><sp/><sp/>1:<sp/>f_stat,<sp/>f_getfree,<sp/>f_unlink,<sp/>f_mkdir,<sp/>f_chmod,<sp/>f_truncate<sp/>and<sp/>f_rename</highlight></codeline>
+<codeline lineno="34"><highlight class="comment">/<sp/><sp/><sp/><sp/><sp/><sp/>are<sp/>removed.</highlight></codeline>
+<codeline lineno="35"><highlight class="comment">/<sp/><sp/><sp/>2:<sp/>f_opendir<sp/>and<sp/>f_readdir<sp/>are<sp/>removed<sp/>in<sp/>addition<sp/>to<sp/>1.</highlight></codeline>
+<codeline lineno="36"><highlight class="comment">/<sp/><sp/><sp/>3:<sp/>f_lseek<sp/>is<sp/>removed<sp/>in<sp/>addition<sp/>to<sp/>2.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="37"><highlight class="normal"></highlight></codeline>
+<codeline lineno="38"><highlight class="normal"></highlight></codeline>
+<codeline lineno="39" refid="ffconf_8h_1aab0313f867bb008b64236239f5c2660" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_STRFUNC<sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Disable<sp/>or<sp/>1-2:Enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="40"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>To<sp/>enable<sp/>string<sp/>functions,<sp/>set<sp/>_USE_STRFUNC<sp/>to<sp/>1<sp/>or<sp/>2.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="41"><highlight class="normal"></highlight></codeline>
+<codeline lineno="42"><highlight class="normal"></highlight></codeline>
+<codeline lineno="43" refid="ffconf_8h_162cdce547af40f0c1599698ee151bbd7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_MKFS<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Disable<sp/>or<sp/>1:Enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="44"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>To<sp/>enable<sp/>f_mkfs<sp/>function,<sp/>set<sp/>_USE_MKFS<sp/>to<sp/>1<sp/>and<sp/>set<sp/>_FS_READONLY<sp/>to<sp/>0<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="45"><highlight class="normal"></highlight></codeline>
+<codeline lineno="46"><highlight class="normal"></highlight></codeline>
+<codeline lineno="47" refid="ffconf_8h_1e49b948c9a92ff7082b88bd36f63d988" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_FORWARD<sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Disable<sp/>or<sp/>1:Enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="48"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>To<sp/>enable<sp/>f_forward<sp/>function,<sp/>set<sp/>_USE_FORWARD<sp/>to<sp/>1<sp/>and<sp/>set<sp/>_FS_TINY<sp/>to<sp/>1.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="49"><highlight class="normal"></highlight></codeline>
+<codeline lineno="50"><highlight class="normal"></highlight></codeline>
+<codeline lineno="51" refid="ffconf_8h_185f4bdb33729ebdaaf9edeec948ac0e7" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_FASTSEEK<sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Disable<sp/>or<sp/>1:Enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="52"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>To<sp/>enable<sp/>fast<sp/>seek<sp/>feature,<sp/>set<sp/>_USE_FASTSEEK<sp/>to<sp/>1.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="53"><highlight class="normal"></highlight></codeline>
+<codeline lineno="54"><highlight class="normal"></highlight></codeline>
+<codeline lineno="55"><highlight class="normal"></highlight></codeline>
+<codeline lineno="56"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------/</highlight></codeline>
+<codeline lineno="57"><highlight class="comment">/<sp/>Locale<sp/>and<sp/>Namespace<sp/>Configurations</highlight></codeline>
+<codeline lineno="58"><highlight class="comment">/----------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="59"><highlight class="normal"></highlight></codeline>
+<codeline lineno="60" refid="ffconf_8h_1af9b5cee569d93f1ebe43ea70916569f" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_CODE_PAGE<sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="61"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>The<sp/>_CODE_PAGE<sp/>specifies<sp/>the<sp/>OEM<sp/>code<sp/>page<sp/>to<sp/>be<sp/>used<sp/>on<sp/>the<sp/>target<sp/>system.</highlight></codeline>
+<codeline lineno="62"><highlight class="comment">/<sp/><sp/>Incorrect<sp/>setting<sp/>of<sp/>the<sp/>code<sp/>page<sp/>can<sp/>cause<sp/>a<sp/>file<sp/>open<sp/>failure.</highlight></codeline>
+<codeline lineno="63"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="64"><highlight class="comment">/<sp/><sp/><sp/>932<sp/><sp/>-<sp/>Japanese<sp/>Shift-JIS<sp/>(DBCS,<sp/>OEM,<sp/>Windows)</highlight></codeline>
+<codeline lineno="65"><highlight class="comment">/<sp/><sp/><sp/>936<sp/><sp/>-<sp/>Simplified<sp/>Chinese<sp/>GBK<sp/>(DBCS,<sp/>OEM,<sp/>Windows)</highlight></codeline>
+<codeline lineno="66"><highlight class="comment">/<sp/><sp/><sp/>949<sp/><sp/>-<sp/>Korean<sp/>(DBCS,<sp/>OEM,<sp/>Windows)</highlight></codeline>
+<codeline lineno="67"><highlight class="comment">/<sp/><sp/><sp/>950<sp/><sp/>-<sp/>Traditional<sp/>Chinese<sp/>Big5<sp/>(DBCS,<sp/>OEM,<sp/>Windows)</highlight></codeline>
+<codeline lineno="68"><highlight class="comment">/<sp/><sp/><sp/>1250<sp/>-<sp/>Central<sp/>Europe<sp/>(Windows)</highlight></codeline>
+<codeline lineno="69"><highlight class="comment">/<sp/><sp/><sp/>1251<sp/>-<sp/>Cyrillic<sp/>(Windows)</highlight></codeline>
+<codeline lineno="70"><highlight class="comment">/<sp/><sp/><sp/>1252<sp/>-<sp/>Latin<sp/>1<sp/>(Windows)</highlight></codeline>
+<codeline lineno="71"><highlight class="comment">/<sp/><sp/><sp/>1253<sp/>-<sp/>Greek<sp/>(Windows)</highlight></codeline>
+<codeline lineno="72"><highlight class="comment">/<sp/><sp/><sp/>1254<sp/>-<sp/>Turkish<sp/>(Windows)</highlight></codeline>
+<codeline lineno="73"><highlight class="comment">/<sp/><sp/><sp/>1255<sp/>-<sp/>Hebrew<sp/>(Windows)</highlight></codeline>
+<codeline lineno="74"><highlight class="comment">/<sp/><sp/><sp/>1256<sp/>-<sp/>Arabic<sp/>(Windows)</highlight></codeline>
+<codeline lineno="75"><highlight class="comment">/<sp/><sp/><sp/>1257<sp/>-<sp/>Baltic<sp/>(Windows)</highlight></codeline>
+<codeline lineno="76"><highlight class="comment">/<sp/><sp/><sp/>1258<sp/>-<sp/>Vietnam<sp/>(OEM,<sp/>Windows)</highlight></codeline>
+<codeline lineno="77"><highlight class="comment">/<sp/><sp/><sp/>437<sp/><sp/>-<sp/>U.S.<sp/>(OEM)</highlight></codeline>
+<codeline lineno="78"><highlight class="comment">/<sp/><sp/><sp/>720<sp/><sp/>-<sp/>Arabic<sp/>(OEM)</highlight></codeline>
+<codeline lineno="79"><highlight class="comment">/<sp/><sp/><sp/>737<sp/><sp/>-<sp/>Greek<sp/>(OEM)</highlight></codeline>
+<codeline lineno="80"><highlight class="comment">/<sp/><sp/><sp/>775<sp/><sp/>-<sp/>Baltic<sp/>(OEM)</highlight></codeline>
+<codeline lineno="81"><highlight class="comment">/<sp/><sp/><sp/>850<sp/><sp/>-<sp/>Multilingual<sp/>Latin<sp/>1<sp/>(OEM)</highlight></codeline>
+<codeline lineno="82"><highlight class="comment">/<sp/><sp/><sp/>858<sp/><sp/>-<sp/>Multilingual<sp/>Latin<sp/>1<sp/>+<sp/>Euro<sp/>(OEM)</highlight></codeline>
+<codeline lineno="83"><highlight class="comment">/<sp/><sp/><sp/>852<sp/><sp/>-<sp/>Latin<sp/>2<sp/>(OEM)</highlight></codeline>
+<codeline lineno="84"><highlight class="comment">/<sp/><sp/><sp/>855<sp/><sp/>-<sp/>Cyrillic<sp/>(OEM)</highlight></codeline>
+<codeline lineno="85"><highlight class="comment">/<sp/><sp/><sp/>866<sp/><sp/>-<sp/>Russian<sp/>(OEM)</highlight></codeline>
+<codeline lineno="86"><highlight class="comment">/<sp/><sp/><sp/>857<sp/><sp/>-<sp/>Turkish<sp/>(OEM)</highlight></codeline>
+<codeline lineno="87"><highlight class="comment">/<sp/><sp/><sp/>862<sp/><sp/>-<sp/>Hebrew<sp/>(OEM)</highlight></codeline>
+<codeline lineno="88"><highlight class="comment">/<sp/><sp/><sp/>874<sp/><sp/>-<sp/>Thai<sp/>(OEM,<sp/>Windows)</highlight></codeline>
+<codeline lineno="89"><highlight class="comment">/<sp/><sp/><sp/><sp/><sp/><sp/><sp/>1<sp/><sp/><sp/><sp/>-<sp/>ASCII<sp/>only<sp/>(Valid<sp/>for<sp/>non<sp/>LFN<sp/>cfg.)</highlight></codeline>
+<codeline lineno="90"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="91"><highlight class="normal"></highlight></codeline>
+<codeline lineno="92"><highlight class="normal"></highlight></codeline>
+<codeline lineno="93" refid="ffconf_8h_1e471cce284bf1888f9e991f5a811fc11" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_LFN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0<sp/>to<sp/>3<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="94" refid="ffconf_8h_114e73a5c703a586c614b3e40b849f82c" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_MAX_LFN<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>255<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Maximum<sp/>LFN<sp/>length<sp/>to<sp/>handle<sp/>(12<sp/>to<sp/>255)<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="95"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>_USE_LFN<sp/>option<sp/>switches<sp/>the<sp/>LFN<sp/>support.</highlight></codeline>
+<codeline lineno="96"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="97"><highlight class="comment">/<sp/><sp/><sp/>0:<sp/>Disable<sp/>LFN<sp/>feature.<sp/>_MAX_LFN<sp/>and<sp/>_LFN_UNICODE<sp/>have<sp/>no<sp/>effect.</highlight></codeline>
+<codeline lineno="98"><highlight class="comment">/<sp/><sp/><sp/>1:<sp/>Enable<sp/>LFN<sp/>with<sp/>static<sp/>working<sp/>buffer<sp/>on<sp/>the<sp/>BSS.<sp/>Always<sp/>NOT<sp/>reentrant.</highlight></codeline>
+<codeline lineno="99"><highlight class="comment">/<sp/><sp/><sp/>2:<sp/>Enable<sp/>LFN<sp/>with<sp/>dynamic<sp/>working<sp/>buffer<sp/>on<sp/>the<sp/>STACK.</highlight></codeline>
+<codeline lineno="100"><highlight class="comment">/<sp/><sp/><sp/>3:<sp/>Enable<sp/>LFN<sp/>with<sp/>dynamic<sp/>working<sp/>buffer<sp/>on<sp/>the<sp/>HEAP.</highlight></codeline>
+<codeline lineno="101"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="102"><highlight class="comment">/<sp/><sp/>The<sp/>LFN<sp/>working<sp/>buffer<sp/>occupies<sp/>(_MAX_LFN<sp/>+<sp/>1)<sp/>*<sp/>2<sp/>bytes.<sp/>To<sp/>enable<sp/>LFN,</highlight></codeline>
+<codeline lineno="103"><highlight class="comment">/<sp/><sp/>Unicode<sp/>handling<sp/>functions<sp/>ff_convert()<sp/>and<sp/>ff_wtoupper()<sp/>must<sp/>be<sp/>added</highlight></codeline>
+<codeline lineno="104"><highlight class="comment">/<sp/><sp/>to<sp/>the<sp/>project.<sp/>When<sp/>enable<sp/>to<sp/>use<sp/>heap,<sp/>memory<sp/>control<sp/>functions</highlight></codeline>
+<codeline lineno="105"><highlight class="comment">/<sp/><sp/>ff_memalloc()<sp/>and<sp/>ff_memfree()<sp/>must<sp/>be<sp/>added<sp/>to<sp/>the<sp/>project.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="106"><highlight class="normal"></highlight></codeline>
+<codeline lineno="107"><highlight class="normal"></highlight></codeline>
+<codeline lineno="108" refid="ffconf_8h_18dd7e7f166bb146970b394d53cf01d80" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_LFN_UNICODE<sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:ANSI/OEM<sp/>or<sp/>1:Unicode<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="109"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>To<sp/>switch<sp/>the<sp/>character<sp/>code<sp/>set<sp/>on<sp/>FatFs<sp/>API<sp/>to<sp/>Unicode,</highlight></codeline>
+<codeline lineno="110"><highlight class="comment">/<sp/><sp/>enable<sp/>LFN<sp/>feature<sp/>and<sp/>set<sp/>_LFN_UNICODE<sp/>to<sp/>1.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="111"><highlight class="normal"></highlight></codeline>
+<codeline lineno="112"><highlight class="normal"></highlight></codeline>
+<codeline lineno="113" refid="ffconf_8h_152faf11025401372f71e9d81905b7af4" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FS_RPATH<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0<sp/>to<sp/>2<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="114"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>_FS_RPATH<sp/>option<sp/>configures<sp/>relative<sp/>path<sp/>feature.</highlight></codeline>
+<codeline lineno="115"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="116"><highlight class="comment">/<sp/><sp/><sp/>0:<sp/>Disable<sp/>relative<sp/>path<sp/>feature<sp/>and<sp/>remove<sp/>related<sp/>functions.</highlight></codeline>
+<codeline lineno="117"><highlight class="comment">/<sp/><sp/><sp/>1:<sp/>Enable<sp/>relative<sp/>path.<sp/>f_chdrive()<sp/>and<sp/>f_chdir()<sp/>are<sp/>available.</highlight></codeline>
+<codeline lineno="118"><highlight class="comment">/<sp/><sp/><sp/>2:<sp/>f_getcwd()<sp/>is<sp/>available<sp/>in<sp/>addition<sp/>to<sp/>1.</highlight></codeline>
+<codeline lineno="119"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="120"><highlight class="comment">/<sp/><sp/>Note<sp/>that<sp/>output<sp/>of<sp/>the<sp/>f_readdir<sp/>fnction<sp/>is<sp/>affected<sp/>by<sp/>this<sp/>option.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="121"><highlight class="normal"></highlight></codeline>
+<codeline lineno="122"><highlight class="normal"></highlight></codeline>
+<codeline lineno="123"><highlight class="normal"></highlight></codeline>
+<codeline lineno="124"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------/</highlight></codeline>
+<codeline lineno="125"><highlight class="comment">/<sp/>Physical<sp/>Drive<sp/>Configurations</highlight></codeline>
+<codeline lineno="126"><highlight class="comment">/----------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="127"><highlight class="normal"></highlight></codeline>
+<codeline lineno="128" refid="ffconf_8h_1366da9a40c8ceb3103a6b72ca02b9969" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_VOLUMES<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1</highlight></codeline>
+<codeline lineno="129"><highlight class="preprocessor"></highlight><highlight class="comment">/*<sp/>Number<sp/>of<sp/>volumes<sp/>(logical<sp/>drives)<sp/>to<sp/>be<sp/>used.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="130"><highlight class="normal"></highlight></codeline>
+<codeline lineno="131"><highlight class="normal"></highlight></codeline>
+<codeline lineno="132" refid="ffconf_8h_1c271b697378912f17132cb9c7d0de024" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_MAX_SS<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>512<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>512,<sp/>1024,<sp/>2048<sp/>or<sp/>4096<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="133"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Maximum<sp/>sector<sp/>size<sp/>to<sp/>be<sp/>handled.</highlight></codeline>
+<codeline lineno="134"><highlight class="comment">/<sp/><sp/>Always<sp/>set<sp/>512<sp/>for<sp/>memory<sp/>card<sp/>and<sp/>hard<sp/>disk<sp/>but<sp/>a<sp/>larger<sp/>value<sp/>may<sp/>be</highlight></codeline>
+<codeline lineno="135"><highlight class="comment">/<sp/><sp/>required<sp/>for<sp/>on-board<sp/>flash<sp/>memory,<sp/>floppy<sp/>disk<sp/>and<sp/>optical<sp/>disk.</highlight></codeline>
+<codeline lineno="136"><highlight class="comment">/<sp/><sp/>When<sp/>_MAX_SS<sp/>is<sp/>larger<sp/>than<sp/>512,<sp/>it<sp/>configures<sp/>FatFs<sp/>to<sp/>variable<sp/>sector<sp/>size</highlight></codeline>
+<codeline lineno="137"><highlight class="comment">/<sp/><sp/>and<sp/>GET_SECTOR_SIZE<sp/>command<sp/>must<sp/>be<sp/>implememted<sp/>to<sp/>the<sp/>disk_ioctl<sp/>function.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="138"><highlight class="normal"></highlight></codeline>
+<codeline lineno="139"><highlight class="normal"></highlight></codeline>
+<codeline lineno="140" refid="ffconf_8h_1dc02609ba893fe8706a2f8af0e3a3bb5" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_MULTI_PARTITION<sp/>0<sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Single<sp/>partition,<sp/>1/2:Enable<sp/>multiple<sp/>partition<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="141"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>When<sp/>set<sp/>to<sp/>0,<sp/>each<sp/>volume<sp/>is<sp/>bound<sp/>to<sp/>the<sp/>same<sp/>physical<sp/>drive<sp/>number<sp/>and</highlight></codeline>
+<codeline lineno="142"><highlight class="comment">/<sp/>it<sp/>can<sp/>mount<sp/>only<sp/>first<sp/>primaly<sp/>partition.<sp/>When<sp/>it<sp/>is<sp/>set<sp/>to<sp/>1,<sp/>each<sp/>volume</highlight></codeline>
+<codeline lineno="143"><highlight class="comment">/<sp/>is<sp/>tied<sp/>to<sp/>the<sp/>partitions<sp/>listed<sp/>in<sp/>VolToPart[].<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="144"><highlight class="normal"></highlight></codeline>
+<codeline lineno="145"><highlight class="normal"></highlight></codeline>
+<codeline lineno="146" refid="ffconf_8h_10e697dc4206d98eac355ae878dcc286e" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_USE_ERASE<sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Disable<sp/>or<sp/>1:Enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="147"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>To<sp/>enable<sp/>sector<sp/>erase<sp/>feature,<sp/>set<sp/>_USE_ERASE<sp/>to<sp/>1.<sp/>CTRL_ERASE_SECTOR<sp/>command</highlight></codeline>
+<codeline lineno="148"><highlight class="comment">/<sp/><sp/>should<sp/>be<sp/>added<sp/>to<sp/>the<sp/>disk_ioctl<sp/>functio.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="149"><highlight class="normal"></highlight></codeline>
+<codeline lineno="150"><highlight class="normal"></highlight></codeline>
+<codeline lineno="151"><highlight class="normal"></highlight></codeline>
+<codeline lineno="152"><highlight class="normal"></highlight><highlight class="comment">/*---------------------------------------------------------------------------/</highlight></codeline>
+<codeline lineno="153"><highlight class="comment">/<sp/>System<sp/>Configurations</highlight></codeline>
+<codeline lineno="154"><highlight class="comment">/----------------------------------------------------------------------------*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="155"><highlight class="normal"></highlight></codeline>
+<codeline lineno="156" refid="ffconf_8h_1943a47fa5ed8073725b45e49e5634dea" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_WORD_ACCESS<sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0<sp/>or<sp/>1<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="157"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>Set<sp/>0<sp/>first<sp/>and<sp/>it<sp/>is<sp/>always<sp/>compatible<sp/>with<sp/>all<sp/>platforms.<sp/>The<sp/>_WORD_ACCESS</highlight></codeline>
+<codeline lineno="158"><highlight class="comment">/<sp/><sp/>option<sp/>defines<sp/>which<sp/>access<sp/>method<sp/>is<sp/>used<sp/>to<sp/>the<sp/>word<sp/>data<sp/>on<sp/>the<sp/>FAT<sp/>volume.</highlight></codeline>
+<codeline lineno="159"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="160"><highlight class="comment">/<sp/><sp/><sp/>0:<sp/>Byte-by-byte<sp/>access.</highlight></codeline>
+<codeline lineno="161"><highlight class="comment">/<sp/><sp/><sp/>1:<sp/>Word<sp/>access.<sp/>Do<sp/>not<sp/>choose<sp/>this<sp/>unless<sp/>following<sp/>condition<sp/>is<sp/>met.</highlight></codeline>
+<codeline lineno="162"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="163"><highlight class="comment">/<sp/><sp/>When<sp/>the<sp/>byte<sp/>order<sp/>on<sp/>the<sp/>memory<sp/>is<sp/>big-endian<sp/>or<sp/>address<sp/>miss-aligned<sp/>word</highlight></codeline>
+<codeline lineno="164"><highlight class="comment">/<sp/><sp/>access<sp/>results<sp/>incorrect<sp/>behavior,<sp/>the<sp/>_WORD_ACCESS<sp/>must<sp/>be<sp/>set<sp/>to<sp/>0.</highlight></codeline>
+<codeline lineno="165"><highlight class="comment">/<sp/><sp/>If<sp/>it<sp/>is<sp/>not<sp/>the<sp/>case,<sp/>the<sp/>value<sp/>can<sp/>also<sp/>be<sp/>set<sp/>to<sp/>1<sp/>to<sp/>improve<sp/>the</highlight></codeline>
+<codeline lineno="166"><highlight class="comment">/<sp/><sp/>performance<sp/>and<sp/>code<sp/>size.</highlight></codeline>
+<codeline lineno="167"><highlight class="comment">*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="168"><highlight class="normal"></highlight></codeline>
+<codeline lineno="169"><highlight class="normal"></highlight></codeline>
+<codeline lineno="170"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>A<sp/>header<sp/>file<sp/>that<sp/>defines<sp/>sync<sp/>object<sp/>types<sp/>on<sp/>the<sp/>O/S,<sp/>such<sp/>as</highlight></codeline>
+<codeline lineno="171"><highlight class="comment">/<sp/><sp/>windows.h,<sp/>ucos_ii.h<sp/>and<sp/>semphr.h,<sp/>must<sp/>be<sp/>included<sp/>prior<sp/>to<sp/>ff.h.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="172"><highlight class="normal"></highlight></codeline>
+<codeline lineno="173" refid="ffconf_8h_14e07d7fcae4241b73eb5b70fab5f676d" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FS_REENTRANT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Disable<sp/>or<sp/>1:Enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="174" refid="ffconf_8h_1526e3cac667f53cc9a48507873348e60" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FS_TIMEOUT<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>1000<sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>Timeout<sp/>period<sp/>in<sp/>unit<sp/>of<sp/>time<sp/>ticks<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="175" refid="ffconf_8h_19a3f0670343e51652dd12b18fa90a9eb" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_SYNC_t<sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>HANDLE<sp/><sp/></highlight><highlight class="comment">/*<sp/>O/S<sp/>dependent<sp/>type<sp/>of<sp/>sync<sp/>object.<sp/>e.g.<sp/>HANDLE,<sp/>OS_EVENT*,<sp/>ID<sp/>and<sp/>etc..<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="176"><highlight class="normal"></highlight></codeline>
+<codeline lineno="177"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>The<sp/>_FS_REENTRANT<sp/>option<sp/>switches<sp/>the<sp/>reentrancy<sp/>(thread<sp/>safe)<sp/>of<sp/>the<sp/>FatFs<sp/>module.</highlight></codeline>
+<codeline lineno="178"><highlight class="comment">/</highlight></codeline>
+<codeline lineno="179"><highlight class="comment">/<sp/><sp/><sp/>0:<sp/>Disable<sp/>reentrancy.<sp/>_SYNC_t<sp/>and<sp/>_FS_TIMEOUT<sp/>have<sp/>no<sp/>effect.</highlight></codeline>
+<codeline lineno="180"><highlight class="comment">/<sp/><sp/><sp/>1:<sp/>Enable<sp/>reentrancy.<sp/>Also<sp/>user<sp/>provided<sp/>synchronization<sp/>handlers,</highlight></codeline>
+<codeline lineno="181"><highlight class="comment">/<sp/><sp/><sp/><sp/><sp/><sp/>ff_req_grant,<sp/>ff_rel_grant,<sp/>ff_del_syncobj<sp/>and<sp/>ff_cre_syncobj</highlight></codeline>
+<codeline lineno="182"><highlight class="comment">/<sp/><sp/><sp/><sp/><sp/><sp/>function<sp/>must<sp/>be<sp/>added<sp/>to<sp/>the<sp/>project.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="183"><highlight class="normal"></highlight></codeline>
+<codeline lineno="184"><highlight class="normal"></highlight></codeline>
+<codeline lineno="185" refid="ffconf_8h_10da82d0e7896638fb856094b393c0b03" refkind="member"><highlight class="normal"></highlight><highlight class="preprocessor">#define<sp/>_FS_SHARE<sp/><sp/><sp/><sp/><sp/><sp/><sp/>0<sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="comment">/*<sp/>0:Disable<sp/>or<sp/>&gt;=1:Enable<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="186"><highlight class="normal"></highlight><highlight class="comment">/*<sp/>To<sp/>enable<sp/>file<sp/>shareing<sp/>feature,<sp/>set<sp/>_FS_SHARE<sp/>to<sp/>1<sp/>or<sp/>greater.<sp/>The<sp/>value</highlight></codeline>
+<codeline lineno="187"><highlight class="comment"><sp/><sp/><sp/>defines<sp/>how<sp/>many<sp/>files<sp/>can<sp/>be<sp/>opened<sp/>simultaneously.<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="188"><highlight class="normal"></highlight></codeline>
+<codeline lineno="189"><highlight class="normal"></highlight></codeline>
+<codeline lineno="190"><highlight class="normal"></highlight><highlight class="preprocessor">#endif<sp/></highlight><highlight class="comment">/*<sp/>_FFCONFIG<sp/>*/</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="191"><highlight class="normal"></highlight></codeline>
+    </programlisting>
+    <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ffconf.h"/>
+  </compounddef>
+</doxygen>

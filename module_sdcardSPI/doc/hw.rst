@@ -19,7 +19,7 @@ This module may be evaluated using the sliceKIT modular development platform, av
 Demonstration applications
 --------------------------
 
-Display controller application
+SD Card test application
 ++++++++++++++++++++++++++++++
 
    * Package: sc_sdcard

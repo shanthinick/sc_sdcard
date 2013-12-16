@@ -32,7 +32,7 @@ Run the Application
 
 Now that the application has been compiled, the next step is to run it on the sliceKIT Core Board using the tools to load the application over JTAG (via the xTAG-2 and xTAG Adapter card) into the xCORE multicore microcontroller.
 
-   #. Select the file ``app_sdcard_test.xe`` in the ``app_display_controller_demo`` project from the Project Explorer.
+   #. Select the file ``app_sdcard_test.xe`` in the ``app_sdcard_test`` project from the Project Explorer.
    #. Click on the ``Run`` icon (the white arrow in the green circle). 
    #. At the ``Select Device`` dialog select ``XMOS xTAG-2 connect to L1[0..1]`` and click ``OK``.
    #. The application starts executing and reads/writes contents into SD card.

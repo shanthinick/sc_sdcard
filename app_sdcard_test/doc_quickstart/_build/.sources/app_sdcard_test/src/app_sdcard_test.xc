@@ -5,7 +5,7 @@
 
 /*
  ============================================================================
- Name        : app_sdcard_test
+ Name        : sdcard_test
  Description : SD card host driver test
  ============================================================================
  */
@@ -14,11 +14,11 @@
 #include <platform.h>
 
 #include "ff.h"    /* file system routines */
-#include "timing.h"
 
 FATFS Fatfs;            /* File system object */
 FIL Fil;                /* File object */
 BYTE Buff[512*40];      /* File read buffer (40 SD card blocks to let multiblock operations (if file not fragmented) */
+timer t;
 
 void die(FRESULT rc ) /* Stop with dying message */
 {
@@ -33,7 +33,7 @@ int main(void)
   DIR dir;                        /* Directory object */
   FILINFO fno;                    /* File information object */
   UINT bw, br, i;
-  unsigned int T;
+  unsigned int T, T1;
 
   for( i = 0; i < sizeof(Buff); i++) Buff[i] = i + i / 512; // fill the buffer with some data
 
@@ -42,8 +42,8 @@ int main(void)
     FATFS* unsafe fs;
     DWORD fre_clust, fre_sect, tot_sect;
 
-unsafe
-    {
+#if !_FS_READONLY && !_FS_MINIMIZE
+unsafe {
     /* Get volume information and free clusters of drive 0 */
     rc = f_getfree("0:", &fre_clust, &fs);
     if(rc) die(rc);
@@ -58,10 +58,11 @@ unsafe
     printstrln("KB total drive space.");
     printint(tot_sect / 2);
     printstrln(" KB available");
+#endif
   }
 
   /****************************/
-
+#if !_FS_READONLY && _FS_MINIMIZE
   printstr("\nDeleting file Data.bin if existing...");
   rc = f_unlink ("Data.bin");    /* delete file if exist */
   if( FR_OK == rc) printstrln("deleted.");
@@ -75,10 +76,13 @@ unsafe
   printstrln("done.\n");
 
   printstrln("Writing data to the file...");
-  T = get_time();
+  t :> T1;
   rc = f_write(&Fil, Buff, sizeof(Buff), &bw);
-  T = get_time() - T;
+  t :> T;
+  T -= T1;
   if(rc) die(rc);
+  printstr("Time taken:");
+  printintln(T);
   printint(bw);
   printstr(" bytes written. Write rate: ");
   printint((bw*100000)/T);
@@ -88,7 +92,7 @@ unsafe
   rc = f_close(&Fil);
   if(rc) die(rc);
   printstrln("done.");
-
+#endif
   /****************************/
 
   printstr("\nOpening an existing file: Data.bin...");
@@ -97,9 +101,10 @@ unsafe
   printstrln("done.");
 
   printstrln("\nReading file content...");
-  T = get_time();
+  t :> T1;
   rc = f_read(&Fil, Buff, sizeof(Buff), &br);
-  T = get_time() - T;
+  t :> T;
+  T -= T1;
   if(rc) die(rc);
   printint(br);
   printstr(" bytes read. Read rate: ");
@@ -112,7 +117,7 @@ unsafe
   printstrln("done.");
 
   /****************************/
-
+#if _FS_MINIMIZE < 2
   printstrln("\nOpen root directory.");
   rc = f_opendir(&dir, "");
   if(rc) die(rc);
@@ -134,7 +139,7 @@ unsafe
     }
   }
   if(rc) die(rc);
-
+#endif
   /****************************/
 
   printstrln("\nTest completed.");

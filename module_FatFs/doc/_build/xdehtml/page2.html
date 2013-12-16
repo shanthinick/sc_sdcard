@@ -1,0 +1,406 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>Project structure &mdash; FAT Filesystem component v documentation</title>
+
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/globals.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/ui.css" type="text/css" />
+    <link rel="stylesheet" href="_static/app.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/mobile.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/xde.css"
+    type="text/css" /><script type="text/javascript" src="_static/scripts.js"></script>
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="FAT Filesystem component v documentation" href="index.html" />
+    <link rel="next" title="Programming guide" href="page3.html" />
+    <link rel="prev" title="Evaluation platforms" href="page1.html" /> 
+  </head>
+  <body class="xde indented-content" onload="prepareContents();">  
+          <div id="body">
+             <div id="content">
+             <h1>Project structure</h1>
+
+             <div class='columns'>
+            
+  <dl class="docutils">
+<dt>To build a project including the <tt class="docutils literal"><span class="pre">module_FatFs</span></tt> the following modules are required:</dt>
+<dd><ul class="first last">
+<li>module: module_sdcardSPI module_spi_master</li>
+</ul>
+</dd>
+</dl>
+<p>The below section details the APIs in the application. For details about the FatFS APIs please refer to the respective repositories.</p>
+<h2 class="topic" id="configuration-defines">Configuration defines</h2>
+<div><p>The <tt class="docutils literal"><span class="pre">module_FatFs</span></tt> requires configurations defined in ffconf.h. The module requires nothing to be additionally defined.
+However defines can be tuned in ffconf.h. Some of the defines are:</p>
+<dl class="docutils">
+<dt><strong>_FS_TINY</strong></dt>
+<dd><p>This defines if the sector buffer in the file system object or the individual file object should be used. When _FS_TINY is set to 1, FatFs uses the sector buffer in the file system object.</p>
+</dd>
+<dt><strong>_FS_READONLY</strong></dt>
+<dd><p>Setting _FS_READONLY to 1 defines read only configuration. By default this is set to 0.</p>
+</dd>
+<dt><strong>_FS_MINIMIZE</strong></dt>
+<dd><p>This define sets minimization level to remove some functions. By default this is set to 0 to include full set of functions.</p>
+</dd>
+<dt><strong>_FS_READONLY</strong></dt>
+<dd><p>Setting _FS_READONLY to 1 defines read only configuration. By default this is set to 0.</p>
+</dd>
+</dl>
+</div><h2 class="topic" id="api">API</h2>
+<div><dl class="docutils">
+<dt>The``module_FatFs`` functionality is defined in</dt>
+<dd><ul class="first last">
+<li><tt class="docutils literal"><span class="pre">ff.c</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">ccsbcs.c_</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">ff.h</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">ffconf.h</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">integer.h</span></tt></li>
+<li><tt class="docutils literal"><span class="pre">diskio.h</span></tt></li>
+</ul>
+</dd>
+</dl>
+<p>The FatFs module provides APIs to read/write files to SD card.</p>
+<p>The FatFs APIs are as follows:</p>
+<ul class='lib'><li class="function">
+<h2 id="f_mount">
+FRESULT <tt class="descname">f_mount</tt><big>(</big>BYTE<em>&nbsp;vol</em>, FATFS<em>&nbsp;*fs</em><big>)</big></h2>
+<p>Function to mount/unmount file system object to the FatFs module.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>vol</h2>
+<p>Logical drive number to be mounted/unmounted n.</p>
+</li>
+<li><h2>fs</h2>
+<p>Pointer to new file system object (NULL for unmount)</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_open">
+FRESULT <tt class="descname">f_open</tt><big>(</big>FIL<em>&nbsp;*fp</em>, const TCHAR<em>&nbsp;*path</em>, BYTE<em>&nbsp;mode</em><big>)</big></h2>
+<p>Function to open or create a file.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>fp</h2>
+<p>Pointer to the blank file object.</p>
+</li>
+<li><h2>path</h2>
+<p>Pointer to the file name.</p>
+</li>
+<li><h2>mode</h2>
+<p>Access mode and file open mode flags.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_read">
+FRESULT <tt class="descname">f_read</tt><big>(</big>FIL<em>&nbsp;*fp</em>, void<em>&nbsp;*buff</em>, UINT<em>&nbsp;btr</em>, UINT<em>&nbsp;*br</em><big>)</big></h2>
+<p>Function to read data from a file.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>fp</h2>
+<p>Pointer to the file object.</p>
+</li>
+<li><h2>buff</h2>
+<p>Pointer to data buffer.</p>
+</li>
+<li><h2>btr</h2>
+<p>Number of bytes to read.</p>
+</li>
+<li><h2>br</h2>
+<p>Pointer to number of bytes read.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_lseek">
+FRESULT <tt class="descname">f_lseek</tt><big>(</big>FIL<em>&nbsp;*fp</em>, DWORD<em>&nbsp;ofs</em><big>)</big></h2>
+<p>Function to move file pointer of a file object.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>fp</h2>
+<p>Pointer to the file object .</p>
+</li>
+<li><h2>ofs</h2>
+<p>File pointer from top of file .</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_close">
+FRESULT <tt class="descname">f_close</tt><big>(</big>FIL<em>&nbsp;*fp</em><big>)</big></h2>
+<p>Function to close an open file object.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>fp</h2>
+<p>Pointer to the file object to be closed</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_opendir">
+FRESULT <tt class="descname">f_opendir</tt><big>(</big>DIR<em>&nbsp;*dj</em>, const TCHAR<em>&nbsp;*path</em><big>)</big></h2>
+<p>Function to create a directory object.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>dj</h2>
+<p>Pointer to directory object to create.</p>
+</li>
+<li><h2>path</h2>
+<p>Pointer to the directory path.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_readdir">
+FRESULT <tt class="descname">f_readdir</tt><big>(</big>DIR<em>&nbsp;*dj</em>, FILINFO<em>&nbsp;*fno</em><big>)</big></h2>
+<p>Function to read directory entry in sequence.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>dj</h2>
+<p>Pointer to the open directory object.</p>
+</li>
+<li><h2>fno</h2>
+<p>Pointer to file information to return.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_stat">
+FRESULT <tt class="descname">f_stat</tt><big>(</big>const TCHAR<em>&nbsp;*path</em>, FILINFO<em>&nbsp;*fno</em><big>)</big></h2>
+<p>Function to get the file status.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path</h2>
+<p>Pointer to the file path.</p>
+</li>
+<li><h2>fno</h2>
+<p>Pointer to file information to return .</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_write">
+FRESULT <tt class="descname">f_write</tt><big>(</big>FIL<em>&nbsp;*fp</em>, const void<em>&nbsp;*buff</em>, UINT<em>&nbsp;btw</em>, UINT<em>&nbsp;*bw</em><big>)</big></h2>
+<p>Function to write data to the file.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>fp</h2>
+<p>Pointer to the file object.</p>
+</li>
+<li><h2>buff</h2>
+<p>Pointer to the data to be written.</p>
+</li>
+<li><h2>btw</h2>
+<p>Number of bytes to write.</p>
+</li>
+<li><h2>bw</h2>
+<p>Pointer to number of bytes written.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_getfree">
+FRESULT <tt class="descname">f_getfree</tt><big>(</big>const TCHAR<em>&nbsp;*path</em>, DWORD<em>&nbsp;*nclst</em>, FATFS<em>&nbsp;**fatfs</em><big>)</big></h2>
+<p>Function to get number of free clusters on the drive.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path</h2>
+<p>Pointer to the logical drive number (root dir).</p>
+</li>
+<li><h2>nclst</h2>
+<p>Pointer to the variable to return number of free clusters.</p>
+</li>
+<li><h2>fatfs</h2>
+<p>Pointer to pointer to corresponding file system object to return.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_truncate">
+FRESULT <tt class="descname">f_truncate</tt><big>(</big>FIL<em>&nbsp;*fp</em><big>)</big></h2>
+<p>Function to truncate a file.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>fp</h2>
+<p>Pointer to the file object to be truncated.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_unlink">
+FRESULT <tt class="descname">f_unlink</tt><big>(</big>const TCHAR<em>&nbsp;*path</em><big>)</big></h2>
+<p>Function to delete an existing file or directory.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path</h2>
+<p>Pointer to the file or directory path.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_mkdir">
+FRESULT <tt class="descname">f_mkdir</tt><big>(</big>const TCHAR<em>&nbsp;*path</em><big>)</big></h2>
+<p>Function to create a new directory.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path</h2>
+<p>Pointer to the directory path.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_chmod">
+FRESULT <tt class="descname">f_chmod</tt><big>(</big>const TCHAR<em>&nbsp;*path</em>, BYTE<em>&nbsp;value</em>, BYTE<em>&nbsp;mask</em><big>)</big></h2>
+<p>Function to change attribute of a file or directory.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path</h2>
+<p>Pointer to the file path.</p>
+</li>
+<li><h2>value</h2>
+<p>Attribute bits.</p>
+</li>
+<li><h2>mask</h2>
+<p>Attribute mask to change.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_rename">
+FRESULT <tt class="descname">f_rename</tt><big>(</big>const TCHAR<em>&nbsp;*path_old</em>, const TCHAR<em>&nbsp;*path_new</em><big>)</big></h2>
+<p>Function to rename a file or directory.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path_old</h2>
+<p>Pointer to the old name.</p>
+</li>
+<li><h2>path_new</h2>
+<p>Pointer to the new name.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_chdrive">
+FRESULT <tt class="descname">f_chdrive</tt><big>(</big>BYTE<em>&nbsp;drv</em><big>)</big></h2>
+<p>Function to change current drive.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>drv</h2>
+<p>Function to change current drive.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_chdir">
+FRESULT <tt class="descname">f_chdir</tt><big>(</big>const TCHAR<em>&nbsp;*path</em><big>)</big></h2>
+<p>Function to change current directory.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path</h2>
+<p>Pointer to the directory path.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_getcwd">
+FRESULT <tt class="descname">f_getcwd</tt><big>(</big>TCHAR<em>&nbsp;*path</em>, UINT<em>&nbsp;sz_path</em><big>)</big></h2>
+<p>Function to get current directory.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>path</h2>
+<p>Pointer to the directory path.</p>
+</li>
+<li><h2>sz_path</h2>
+<p>Size of path.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_fdisk">
+FRESULT <tt class="descname">f_fdisk</tt><big>(</big>BYTE<em>&nbsp;pdrv</em>, const DWORD<em>&nbsp;szt[]</em>, void<em>&nbsp;*work</em><big>)</big></h2>
+<p>Function to divide a physical drive into multipe partitions.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>pdrv</h2>
+<p>Physical drive number.</p>
+</li>
+<li><h2>szt</h2>
+<p>Pointer to the size table for each partitions.</p>
+</li>
+<li><h2>work</h2>
+<p>Pointer to the working buffer.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_putc">
+int <tt class="descname">f_putc</tt><big>(</big>TCHAR<em>&nbsp;c</em>, FIL<em>&nbsp;*fp</em><big>)</big></h2>
+<p>Function to put a character to the file.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>c</h2>
+<p>The character to be output.</p>
+</li>
+<li><h2>fp</h2>
+<p>Pointer to the file object.</p>
+</li>
+</ul>
+</div></li>
+
+<li class="function">
+<h2 id="f_printf">
+int <tt class="descname">f_printf</tt><big>(</big>FIL<em>&nbsp;*fil</em>, const TCHAR<em>&nbsp;*str</em>, ...<big>)</big></h2>
+<p>Function to print a formatted string into a file.</p>
+<h3 class="nosecnum compact" id="">Parameters</h3>
+<div><ul class="field_list" class="latex_compact"><li><h2>fil</h2>
+<p>Pointer to the file object.</p>
+</li>
+<li><h2>str</h2>
+<p>Pointer to the formatted string.</p>
+</li>
+<li><h2>...</h2>
+<p>Optional arguments...</p>
+</li>
+</ul>
+</div></li>
+
+</ul><p>The FatFs APIs use the module_sdcardSPI APIs.</p>
+</div>
+
+             </div>
+             </div>
+
+
+          </div>
+
+          <div>
+             <!--seealsos-->
+          </div><div id="local_seealso">
+             <h1>See Also</h1>
+             <ul class="iconmenu">
+             <li><a href="page0.html">Overview</a></li>
+             <li><a href="page1.html">Evaluation platforms</a></li>
+             <li><a href="page3.html">Programming guide</a></li>
+             </ul>
+          </div>
+    <div class="footer">
+    </div>
+  </body>
+</html>

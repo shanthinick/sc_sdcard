@@ -1,6 +1,6 @@
 Running Sphinx v1.0.7
 !!!!!!!
-C:\Program Files (x86)\XMOS\xSoftIPTools\1.0.17\xpd\docutils\writers\html4css1\html4css1.css
+/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/docutils/writers/html4css1/html4css1.css
 Running XMOS Documentation setup:xdehtml
 loading pickled environment... not yet created
 building [xdehtml]: all documents
@@ -16,8 +16,6 @@ writing output... [100%] quickstart
 Adding scope descriptions
 
 writing additional files...
-copying images... [100%] images\hardware_setup.jpg
-
 copying static files... done
 dumping object inventory... done
 build succeeded.

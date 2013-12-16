@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.5.8">
+  <compounddef id="structFIL" kind="struct" prot="public">
+    <compoundname>FIL</compoundname>
+    <includes refid="ff_8h" local="no">ff.h</includes>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="structFIL_142376a6797a06228911c8b836c1e9030" prot="public" static="no" mutable="no">
+        <type><ref refid="structFATFS" kindref="compound">FATFS</ref> *</type>
+        <definition>FATFS* FIL::fs</definition>
+        <argsstring></argsstring>
+        <name>fs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="131" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="131" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_1f7cae0063b0045fb7078b560101ba8f2" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_1197942eefa7db30960ae396d68339b97" kindref="member">WORD</ref></type>
+        <definition>WORD FIL::id</definition>
+        <argsstring></argsstring>
+        <name>id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="132" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="132" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_1c409508881f5a16f2998ae675072b376" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_14ae1dab0fb4b072a66584546209e7d58" kindref="member">BYTE</ref></type>
+        <definition>BYTE FIL::flag</definition>
+        <argsstring></argsstring>
+        <name>flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="133" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="133" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_117f891ef69059bd879f6492473cfceae" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_14ae1dab0fb4b072a66584546209e7d58" kindref="member">BYTE</ref></type>
+        <definition>BYTE FIL::pad1</definition>
+        <argsstring></argsstring>
+        <name>pad1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="134" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="134" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_175d29cf9257c827d117887b9f924c4a9" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_1d342ac907eb044443153a22f964bf0af" kindref="member">DWORD</ref></type>
+        <definition>DWORD FIL::fptr</definition>
+        <argsstring></argsstring>
+        <name>fptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="135" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_1a00790d40d7b0081c345fd4f76e22b70" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_1d342ac907eb044443153a22f964bf0af" kindref="member">DWORD</ref></type>
+        <definition>DWORD FIL::fsize</definition>
+        <argsstring></argsstring>
+        <name>fsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="136" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_1d308b74c8d6975c6a9c30d90b4124c40" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_1d342ac907eb044443153a22f964bf0af" kindref="member">DWORD</ref></type>
+        <definition>DWORD FIL::sclust</definition>
+        <argsstring></argsstring>
+        <name>sclust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="137" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_1a41312aba551b9a6d1c9d3c8c7d2734b" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_1d342ac907eb044443153a22f964bf0af" kindref="member">DWORD</ref></type>
+        <definition>DWORD FIL::clust</definition>
+        <argsstring></argsstring>
+        <name>clust</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="138" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_1b3d4165d6fd32ac71a130d835fbf0b4d" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_1d342ac907eb044443153a22f964bf0af" kindref="member">DWORD</ref></type>
+        <definition>DWORD FIL::dsect</definition>
+        <argsstring></argsstring>
+        <name>dsect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="139" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_1b203794f939ad4480e81dfa488770783" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_1d342ac907eb044443153a22f964bf0af" kindref="member">DWORD</ref></type>
+        <definition>DWORD FIL::dir_sect</definition>
+        <argsstring></argsstring>
+        <name>dir_sect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="141" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="141" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_15af9e9fb312b629220eaf684dd28c4a9" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_14ae1dab0fb4b072a66584546209e7d58" kindref="member">BYTE</ref> *</type>
+        <definition>BYTE* FIL::dir_ptr</definition>
+        <argsstring></argsstring>
+        <name>dir_ptr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="142" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="structFIL_17a95fb86588663e48309b5cded7e207b" prot="public" static="no" mutable="no">
+        <type><ref refid="integer_8h_14ae1dab0fb4b072a66584546209e7d58" kindref="member">BYTE</ref></type>
+        <definition>BYTE FIL::buf[_MAX_SS]</definition>
+        <argsstring>[_MAX_SS]</argsstring>
+        <name>buf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="151" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="151" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="7">
+        <label>FATFS</label>
+        <link refid="structFATFS"/>
+      </node>
+      <node id="6">
+        <label>FIL</label>
+        <link refid="structFIL"/>
+        <childnode refid="7" relation="usage">
+          <edgelabel>fs</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" line="130" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_FatFs/doc/_build/.doxygen/src/ff.h" bodystart="130" bodyend="153"/>
+    <listofallmembers>
+      <member refid="structFIL_17a95fb86588663e48309b5cded7e207b" prot="public" virt="non-virtual"><scope>FIL</scope><name>buf</name></member>
+      <member refid="structFIL_1a41312aba551b9a6d1c9d3c8c7d2734b" prot="public" virt="non-virtual"><scope>FIL</scope><name>clust</name></member>
+      <member refid="structFIL_15af9e9fb312b629220eaf684dd28c4a9" prot="public" virt="non-virtual"><scope>FIL</scope><name>dir_ptr</name></member>
+      <member refid="structFIL_1b203794f939ad4480e81dfa488770783" prot="public" virt="non-virtual"><scope>FIL</scope><name>dir_sect</name></member>
+      <member refid="structFIL_1b3d4165d6fd32ac71a130d835fbf0b4d" prot="public" virt="non-virtual"><scope>FIL</scope><name>dsect</name></member>
+      <member refid="structFIL_1c409508881f5a16f2998ae675072b376" prot="public" virt="non-virtual"><scope>FIL</scope><name>flag</name></member>
+      <member refid="structFIL_175d29cf9257c827d117887b9f924c4a9" prot="public" virt="non-virtual"><scope>FIL</scope><name>fptr</name></member>
+      <member refid="structFIL_142376a6797a06228911c8b836c1e9030" prot="public" virt="non-virtual"><scope>FIL</scope><name>fs</name></member>
+      <member refid="structFIL_1a00790d40d7b0081c345fd4f76e22b70" prot="public" virt="non-virtual"><scope>FIL</scope><name>fsize</name></member>
+      <member refid="structFIL_1f7cae0063b0045fb7078b560101ba8f2" prot="public" virt="non-virtual"><scope>FIL</scope><name>id</name></member>
+      <member refid="structFIL_117f891ef69059bd879f6492473cfceae" prot="public" virt="non-virtual"><scope>FIL</scope><name>pad1</name></member>
+      <member refid="structFIL_1d308b74c8d6975c6a9c30d90b4124c40" prot="public" virt="non-virtual"><scope>FIL</scope><name>sclust</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

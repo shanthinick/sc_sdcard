@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<allbuildresults>
+<buildresults component="module_FatFs" packagename="xm-local-sc_sdcard(59d2af25)" packageversion="59d2af25" toolsversion="latest">
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="3"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="2"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="1"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="0"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="3"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="2"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="1"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="1"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="0"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="3"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="2"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="1"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="1"/>
+<parameter id="FSMinimize" value="0"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="3"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="2"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="1"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+<buildresult>
+<configuration>
+<parameter id="FSTiny" value="0"/>
+<parameter id="FSReadOnly" value="0"/>
+<parameter id="FSMinimize" value="0"/>
+</configuration>
+<resourceusage>
+<resourceusageitem id="cores" value="1"/>
+<resourceusageitem id="memory" value="0"/>
+<resourceusageitem id="codememory" value="11856"/>
+<resourceusageitem id="datamemory" value="608"/>
+<resourceusageitem id="ports1bit" value="0"/>
+<resourceusageitem id="ports4bit" value="0"/>
+<resourceusageitem id="ports8bit" value="0"/>
+<resourceusageitem id="ports16bit" value="0"/>
+<resourceusageitem id="ports32bit" value="0"/>
+<resourceusageitem id="clocks" value="0"/>
+<resourceusageitem id="chanends" value="0"/>
+<resourceusageitem id="timers" value="0"/>
+<resourceusageitem id="hwtimers" value="0"/>
+<resourceusageitem id="distributed_tasks" value="0"/>
+<resourceusageitem id="combined_tasks" value="0"/>
+</resourceusage>
+</buildresult>
+</buildresults>
+</allbuildresults>

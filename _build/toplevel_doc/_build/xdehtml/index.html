@@ -1,0 +1,125 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    
+    <title>SD Card Libary &mdash; SD Card Libary v documentation</title>
+
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/globals.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/ui.css" type="text/css" />
+    <link rel="stylesheet" href="_static/app.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/mobile.css"  type="text/css" />
+    <link rel="stylesheet" href="_static/xde.css"
+    type="text/css" /><script type="text/javascript" src="_static/scripts.js"></script>
+    <script type="text/javascript">
+      var DOCUMENTATION_OPTIONS = {
+        URL_ROOT:    '',
+        VERSION:     '',
+        COLLAPSE_INDEX: false,
+        FILE_SUFFIX: '.html',
+        HAS_SOURCE:  true
+      };
+    </script>
+    <script type="text/javascript" src="_static/jquery.js"></script>
+    <script type="text/javascript" src="_static/underscore.js"></script>
+    <script type="text/javascript" src="_static/doctools.js"></script>
+    <link rel="top" title="SD Card Libary v documentation" href="#" />
+    <link rel="next" title="sc_sdcard Change Log" href="changelog.html" /> 
+  </head>
+  <body class="xde indented-content" onload="prepareContents();">  
+          <div id="body">
+             <div id="content">
+             <h1>SD Card Libary</h1>
+
+             <div class='columns'>
+            
+  <ul class="field_list"><li><h2>Version</h2>
+<p><p>59d2af25f8382b335bdfff02a9e68272537acfed</p>
+</p>
+</li>
+<li><h2>Vendor</h2>
+<p><p>XMOS</p>
+</p>
+</li>
+<li><h2>Description</h2>
+<p><p>SD card</p>
+</p>
+</li>
+</ul>
+<h2 class="topic" id="software-blocks">Software Blocks</h2>
+<div><dl class="docutils">
+<dt>SD card demo application (app_sdcard_test)</dt>
+<dd><p>Application demonstrating the use of FAT filesystem to read/write files on SD card using the SPI interface</p>
+</dd>
+<dt>FAT Filesystem Library (module_FatFs)</dt>
+<dd><p>FAT filesystem library</p>
+</dd>
+<dt>SD Card Library (module_sdcardSPI)</dt>
+<dd><p>SD card library using the SPI interface</p>
+</dd>
+</dl>
+</div><h2 class="topic" id="documentation">Documentation</h2>
+<div><blockquote>
+<div><ul>
+<li><a class="reference" href="././app_sdcard_test/doc_quickstart/index.html"><span>SD card Demo Quickstart Guide</span></a> <a class="reference" href="././app_sdcard_test/doc_quickstart.pdf"><span>PDF</span></a></li>
+<li><a class="reference" href="././module_sdcardSPI/doc/index.html"><span>SD card component</span></a> <a class="reference" href="././module_sdcardSPI/doc.pdf"><span>PDF</span></a></li>
+<li><a class="reference" href="././module_FatFs/doc/index.html"><span>FAT Filesystem component</span></a> <a class="reference" href="././module_FatFs/doc.pdf"><span>PDF</span></a></li>
+<li><a class="reference" href="././changelog.html"><span>Release Notes</span></a></li>
+</ul>
+</div></blockquote>
+</div><h2 class="topic" id="key-features">Key Features</h2>
+<div><ul>
+<li>Read and write data operations on SD cards using either the SPI interface or native 4bit interface</li>
+<li>Port of FatFS - FAT file system module R0.09 (C)ChaN, 2011 (<a class="reference" href="http://elm-chan.org/fsw/ff/00index_e.html"><span>http://elm-chan.org/fsw/ff/00index_e.html</span></a>).</li>
+<li><strong>Beware: FAT with long file names may be covered by various patents (in particular those held by Microsoft). Use of this code may require licensing from the patent holders</strong></li>
+<li><strong>Beware: 4bit SD protocol is subject to petents of the SD Association. When enabled on commercial products a license may be required. (see: https://www.sdcard.org/developers/howto/ )</strong></li>
+<li>Benchmark with 4bit interface multiblock read speed is about 4MBytes/sec. 1.2MBytes/sec with SPI.</li>
+<li>This application was tested with Class 4, 8GB microSD cards from 3 popular vendors.
+The vendors include:</li>
+</ul>
+<blockquote>
+<div><ul>
+<li>SanDisk</li>
+<li>Transcend</li>
+<li>Kingston</li>
+</ul>
+</div></blockquote>
+</div><h2 class="topic" id="firmware-overview">Firmware Overview</h2>
+<div><p>This module provides functions to initialize SD cards, read and write data.
+Resources (ports and clock blocks) used for the interface need to be specified in either &#8220;module_sdcardSPI/SDCardHostSPI.xc&#8221; or &#8220;module_sdcard4bit/SDCardHost4bit.xc&#8221; in the initialization of the SDif structure.
+If you run it in a core other than XS1_G you need pull-up resistor for miso line (if in spi mode) or Cmd line and D0(=Dat port bit 3) line (if in 4bit bus mode)</p>
+</div><h2 class="topic" id="known-issues">Known Issues</h2>
+<div></div><h2 class="topic" id="required-software-dependencies">Required software (dependencies)</h2>
+<div><blockquote>
+<div><ul>
+<li>sc_slicekit_support</li>
+<li>sc_spi</li>
+</ul>
+</div></blockquote>
+</div><h2 class="topic" id="support">Support</h2>
+<div><blockquote>
+<div><p>This package is support by XMOS Ltd. Issues can be raised against the software
+at:</p>
+<blockquote>
+<div><p><a class="reference" href="http://www.xmos.com/support"><span>http://www.xmos.com/support</span></a></p>
+</div></blockquote>
+</div></blockquote>
+</div>
+
+             </div>
+             </div>
+
+
+          </div>
+
+          <div>
+             <!--seealsos-->
+          </div>
+    <div class="footer">
+    </div>
+  </body>
+</html>

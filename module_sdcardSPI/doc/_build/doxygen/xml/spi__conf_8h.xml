@@ -4,14 +4,14 @@
     <compoundname>spi_conf.h</compoundname>
     <includes local="no">xs1.h</includes>
     <incdepgraph>
-      <node id="4">
-        <label>xs1.h</label>
-      </node>
       <node id="3">
         <label>_build/.doxygen/src/spi_conf.h</label>
         <link refid="spi_conf.h"/>
         <childnode refid="4" relation="include">
         </childnode>
+      </node>
+      <node id="4">
+        <label>xs1.h</label>
       </node>
     </incdepgraph>
       <sectiondef kind="define">
@@ -24,7 +24,7 @@
         </detaileddescription>
         <inbodydescription>
         </inbodydescription>
-        <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/spi_conf.h" line="13" bodyfile="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/spi_conf.h" bodystart="13" bodyend="-1"/>
+        <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/spi_conf.h" line="13" bodyfile="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/spi_conf.h" bodystart="13" bodyend="-1"/>
       </memberdef>
       </sectiondef>
     <briefdescription>
@@ -49,6 +49,6 @@
 <codeline lineno="15"><highlight class="normal"></highlight><highlight class="preprocessor">#endif</highlight></codeline>
 <codeline lineno="16"><highlight class="preprocessor"></highlight><highlight class="normal"></highlight></codeline>
     </programlisting>
-    <location file="C:/Users/Shanthini/Documents/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/spi_conf.h"/>
+    <location file="/home/shanthini/GitHub/sc_sdcard/module_sdcardSPI/doc/_build/.doxygen/src/spi_conf.h"/>
   </compounddef>
 </doxygen>

@@ -23,9 +23,6 @@ However defines can be tuned in ffconf.h. Some of the defines are:
 **_FS_MINIMIZE**
     This define sets minimization level to remove some functions. By default this is set to 0 to include full set of functions.
 
-**_FS_READONLY**
-    Setting _FS_READONLY to 1 defines read only configuration. By default this is set to 0.
-	
 
 API
 ---

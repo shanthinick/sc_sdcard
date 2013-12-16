@@ -40,7 +40,7 @@ SPI mode 3 is used by the SD card driver. The performance measured includes FAT 
 |   R/W    | PERFORMANCE       | 
 +==========+===================+
 |   WRITE  | 1061 KBytes/s     | 
-+------------------------------+
++----------+-------------------+
 |   READ   | 314 KBytes/s      |
 +----------+-------------------+
 

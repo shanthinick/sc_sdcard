@@ -1,326 +1,294 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012/W32TeX)
- \write18 enabled.
-entering extended mode
-
-(c:/Users/Shanthini/Documents/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_
-build/xlatex/xmos_texfile.tex
-LaTeX2e <2011/06/27>
-Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
-aded.
-
-(c:/Users/Shanthini/Documents/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_
-build/xlatex/quickstart.tex
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xmosmodern.cls
-Document Class: xmosmodern 2010/12/10 v3.0b XMOS Modern Style Class
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/memoir.cls
-Document Class: memoir 2010/02/20 v1.618033988c configurable book, report, arti
-cle document class
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/ifpdf.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/i
-fxetex/ifxetex.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/ifluatex.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ete
-x-pkg/etex.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/mem9.clo)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/mempatch.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
-ls/calc.sty)
-
-******************************************************
-Stock height and width: 668.63976pt by 506.45905pt
-Top and edge trims: 0.0pt and 0.0pt
-Page height and width: 668.63976pt by 506.45905pt
-Text height and width: 519.0pt by 341.0pt
-Spine and edge margins: 113.81102pt and 51.21497pt
-Upper and lower margins: 71.13188pt and 78.50787pt
-Headheight and headsep: 10.0pt and 20.0pt
-Footskip: 20.0pt
-Columnsep and columnseprule: 10.0pt and 0.0pt
-Marginparsep and marginparwidth: 11.38109pt and 51.21495pt
-Sidecapsep and sidecapwidth: 7.0pt and 85.0pt
-Sidebarhsep and sidebarwidth: 7.0pt and 85.0pt
-Sidebarvsep and sidebartopsep: 10.0pt and 0.0pt
-Sidebarheight: 546.99997pt
-Sidefoothsep and sidefootwidth: 7.0pt and 85.0pt
-Sidefootvsep and sidefootheight: 10.0pt and 546.99997pt
-******************************************************
-
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
-phics/graphicx.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
-phics/keyval.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
-phics/graphics.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
-phics/trig.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
-exconfig/graphics.cfg)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/pdf
-tex-def/pdftex.def
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/infwarerr.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/ltxcmds.sty))))
-Writing index file xmos_texfile.idx 
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-math/amsmath.sty
-For additional information on amsmath, use the `?' option.
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-math/amstext.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-math/amsgen.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-math/amsbsy.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-math/amsopn.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/pst
-ool/pstool.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/catchfile.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/etexcmds.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/gra
-phics/color.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
-exconfig/color.cfg))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/ifplatform.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/pdftexcmds.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/psfrag.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/suffix.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xkeyval.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/x
-keyval/xkeyval.tex)))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/microtype.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
-rotype/microtype.cfg))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/stmaryrd.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/alltt.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-fonts/amsfonts.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
-ls/multicol.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/ifthen.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
-ls/longtable.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/textcomp.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/ts1enc.def))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/url.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/listings.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lis
-tings/lstmisc.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lis
-tings/listings.cfg))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/gensymb.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/man
-fnt/manfnt.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psn
-fss/pifont.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psn
-fss/upzd.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psn
-fss/upsy.fd))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
-ls/xspace.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/multirow.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/col
-ortbl/colortbl.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
-ls/varioref.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/fixltx2e.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/enumitem.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/placeins.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/flafter.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/float.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/marginnote.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lay
-outs/layouts.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/uni
-ts/units.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/uni
-ts/nicefrac.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/sav
-esym/savesym.sty
-
-LaTeX Warning: You have requested package `savesym',
-               but the package provides `savesymbol'.
-
-) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/marvosym.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bbd
-ing/bbding.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/din
-gbat/dingbat.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
-erref/hyperref.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/hobsub-hyperref.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/hobsub-generic.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
-rdiek/auxhook.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
-rdiek/kvoptions.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
-erref/pd1enc.def)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
-exconfig/hyperref.cfg))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/memhfixc.sty)
-
-Package hyperref Message: Driver (autodetected): hpdftex.
-
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
-erref/hpdftex.def
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
-rdiek/rerunfilecheck.sty))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/lastpage.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/too
-ls/afterpage.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/fontenc.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/t1enc.def))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cidabr/lucidabr.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cida/t1hls.fd))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/upquote.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/terminology.tex)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/bib.tex))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/inputenc.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/utf8.def
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/t1enc.dfu)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/ot1enc.dfu)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/omsenc.dfu)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/ts1enc.dfu)))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xsphinx.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/framed.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/fancyvrb.sty
-Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
-<2008/02/07> (tvz))
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/threeparttable.s
-ty)) (c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/indent.sty)
-Writing index file xmos_texfile.idx 
-
-(c:/Users/Shanthini/Documents/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_
-build/xlatex/xmos_texfile.aux)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/ts1cmr.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cidabr/lmrhlcm.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/context/b
-ase/supp-pdf.mkii
-[Loading MPS to PDF converter (version 2006.09.02).]
-)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
-rdiek/epstopdf-base.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/obe
-rdiek/grfext.sty)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/lat
-exconfig/epstopdf-sys.cfg))
-
-Package layouts Warning: Layout scale set to 0.5 on input line 30.
-
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyp
-erref/nameref.sty
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/o
-berdiek/gettitlestring.sty))
-(c:/Users/Shanthini/Documents/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_
-build/xlatex/xmos_texfile.out)
-(c:/Users/Shanthini/Documents/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_
-build/xlatex/xmos_texfile.out)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mar
-vosym/umvs.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
-rotype/mt-mvs.cfg)
-Underfull \hbox (badness 10000) in paragraph at lines 39--39
-
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/t1cmtt.fd) <hardware_setup.jpg, id=9, 2007.5pt x 1164.35pt>
-<use hardware_setup.jpg>
-Overfull \hbox (1666.49512pt too wide) in paragraph at lines 101--102
-[][] 
-
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cida/t1hlh.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cidabr/omlhlcm.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cidabr/omshlcy.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cidabr/omxhlcv.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
-rotype/mt-cmr.cfg)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-fonts/umsa.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
-rotype/mt-msa.cfg)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/ams
-fonts/umsb.fd)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/mic
-rotype/mt-msb.cfg)
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lu
-cida/ts1hls.fd)
-
-LaTeX Warning: Float too large for page by 645.34717pt on input line 102.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<xmoslogo18pt.pdf, id=10, 54.06036pt x 15.07974pt> <use xmoslogo18pt.pdf>
-[1
-Non-PDF special ignored!{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/
-texmf-var/fonts/map/pdftex/updmap/pdftex.map} <c:/Program Files (x86)/XMOS/xSof
-tIPTools/1.0.17/xpd/texinputs/xmoslogo18pt.pdf>]
-(c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bas
-e/ts1cmtt.fd)
-Overfull \hbox (108.28627pt too wide) in paragraph at lines 115--116
-[]\T1/hls/m/n/9 (-20) There will be quite a num-ber of warn-ings that []\T1/cmt
-t/m/n/9 bidirectional buffered port not supported in hardware\T1/hls/m/n/9 (-20
-) .
-
-Overfull \hbox (24.05745pt too wide) in paragraph at lines 134--135
-[]\T1/hls/m/n/9 (-20) Select the file []\T1/cmtt/m/n/9 app_display_controller_d
-emo.xc \T1/hls/m/n/9 (-20) in the []\T1/cmtt/m/n/9 app_display_controller_demo
-<use xmoslogo18pt.pdf> [2] <use xmoslogo18pt.pdf> [3] <use xmoslogo18pt.pdf>
-[4 <c:/Users/Shanthini/Documents/GitHub/sc_sdcard/app_sdcard_test/doc_quickstar
-t/_build/xlatex/hardware_setup.jpg>] <use xmoslogo18pt.pdf>
-AED: lastpage setting LastPage [5]
-(c:/Users/Shanthini/Documents/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_
-build/xlatex/xmos_texfile.aux) ) )
-(see the transcript file for additional information){c:/Program Files (x86)/XMO
-S/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc
-}{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/enc/dv
-ips/base/8r.enc}{c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-di
-st/fonts/enc/dvips/cm-super/cm-super-ts1.enc}<c:/Program Files (x86)/XMOS/xSoft
-IPTools/1.0.17/latex/texmf-local/fonts/type1/bh/lucida/lbma.pfb><c:/Program Fil
-es (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/fonts/type1/bh/lucida/lsd.p
-fb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/fonts/typ
-e1/bh/lucida/lsi.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/tex
-mf-local/fonts/type1/bh/lucida/lsr.pfb><c:/Program Files (x86)/XMOS/xSoftIPTool
-s/1.0.17/latex/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb><c:/Program 
-Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/type1/public/cm-sup
-er/sftt0800.pfb><c:/Program Files (x86)/XMOS/xSoftIPTools/1.0.17/latex/texmf-di
-st/fonts/type1/public/cm-super/sftt0900.pfb>
-Output written on xmos_texfile.pdf (5 pages, 462091 bytes).
-Transcript written on xmos_texfile.log.
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012)
+ \write18 enabled.
+entering extended mode
+
+(/home/shanthini/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_build/xlatex/
+xmos_texfile.tex
+LaTeX2e <2011/06/27>
+Babel <v3.8m> and hyphenation patterns for english, dumylang, nohyphenation, lo
+aded.
+
+(/home/shanthini/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_build/xlatex/
+quickstart.tex
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xmosmodern.cls
+Document Class: xmosmodern 2010/12/10 v3.0b XMOS Modern Style Class
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/memoir.cls
+Document Class: memoir 2010/02/20 v1.618033988c configurable book, report, arti
+cle document class
+
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/ifpdf.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/ifxetex/
+ifxetex.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/ifluatex.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/etex-pkg/e
+tex.sty) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/mem9.clo)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/mempatch.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/tools/calc
+.sty)
+
+******************************************************
+Stock height and width: 668.63976pt by 506.45905pt
+Top and edge trims: 0.0pt and 0.0pt
+Page height and width: 668.63976pt by 506.45905pt
+Text height and width: 519.0pt by 341.0pt
+Spine and edge margins: 113.81102pt and 51.21497pt
+Upper and lower margins: 71.13188pt and 78.50787pt
+Headheight and headsep: 10.0pt and 20.0pt
+Footskip: 20.0pt
+Columnsep and columnseprule: 10.0pt and 0.0pt
+Marginparsep and marginparwidth: 11.38109pt and 51.21495pt
+Sidecapsep and sidecapwidth: 7.0pt and 85.0pt
+Sidebarhsep and sidebarwidth: 7.0pt and 85.0pt
+Sidebarvsep and sidebartopsep: 10.0pt and 0.0pt
+Sidebarheight: 546.99997pt
+Sidefoothsep and sidefootwidth: 7.0pt and 85.0pt
+Sidefootvsep and sidefootheight: 10.0pt and 546.99997pt
+******************************************************
+
+
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/graphics/g
+raphicx.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/graphics/k
+eyval.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/graphics/g
+raphics.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/graphics/t
+rig.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/latexconfi
+g/graphics.cfg)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/pdftex-def
+/pdftex.def
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/infwarerr.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/ltxcmds.sty))))
+Writing index file xmos_texfile.idx 
+
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsmath/am
+smath.sty
+For additional information on amsmath, use the `?' option.
+
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsmath/am
+stext.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsmath/am
+sgen.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsmath/am
+sbsy.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsmath/am
+sopn.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/pstool/pst
+ool.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/catchfile.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/etexcmds.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/graphics/c
+olor.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/latexconfi
+g/color.cfg))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/ifplatform.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/pdftexcmds.sty)
+(/home/shanthini/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_build/xlatex/
+xmos_texfile.w18))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/psfrag.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/suffix.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xkeyval.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/xkeyval/
+xkeyval.tex)))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/microtype.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/microtype/
+microtype.cfg))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/stmaryrd.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/alltt
+.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsfonts/a
+msfonts.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/tools/mult
+icol.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/ifthe
+n.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/tools/long
+table.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/textc
+omp.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/ts1en
+c.def)) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/url.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/listings.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/listings/l
+stmisc.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/listings/l
+istings.cfg))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/gensymb.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/manfnt/man
+fnt.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psnfss/pif
+ont.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psnfss/upz
+d.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/psnfss/ups
+y.fd))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/tools/xspa
+ce.sty) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/multirow.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/colortbl/c
+olortbl.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/tools/vari
+oref.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/fixlt
+x2e.sty) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/enumitem.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/placeins.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/flaft
+er.sty) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/float.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/marginnote.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/layouts/la
+youts.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/units/unit
+s.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/units/nice
+frac.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/savesym/sa
+vesym.sty
+
+LaTeX Warning: You have requested package `savesym',
+               but the package provides `savesymbol'.
+
+) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/marvosym.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/bbding/bbd
+ing.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/dingbat/di
+ngbat.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyperref/h
+yperref.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/hobsub-hyperref.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/hobsub-generic.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/oberdiek/a
+uxhook.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/oberdiek/k
+voptions.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyperref/p
+d1enc.def)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/latexconfi
+g/hyperref.cfg))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/memhfixc.sty)
+
+Package hyperref Message: Driver (autodetected): hpdftex.
+
+
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyperref/h
+pdftex.def
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/oberdiek/r
+erunfilecheck.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/lastpage.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/tools/afte
+rpage.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/fonte
+nc.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/t1enc
+.def))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucidabr/
+lucidabr.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucida/t1
+hls.fd)) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/upquote.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/terminology.tex)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/bib.tex))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/input
+enc.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/utf8.
+def
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/t1enc
+.dfu)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/ot1en
+c.dfu)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/omsen
+c.dfu)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/ts1en
+c.dfu))) (/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/xsphinx.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/framed.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/fancyvrb.sty
+Style option: `fancyvrb' v2.7a, with DG/SPQR fixes, and firstline=lastline fix 
+<2008/02/07> (tvz))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/threeparttable.sty))
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/xpd/texinputs/indent.sty)
+Writing index file xmos_texfile.idx 
+
+(/home/shanthini/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_build/xlatex/
+xmos_texfile.aux)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/ts1cm
+r.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucidabr/
+lmrhlcm.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/context/base/sup
+p-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/oberdiek/e
+pstopdf-base.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/oberdiek/g
+rfext.sty)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/latexconfi
+g/epstopdf-sys.cfg))
+
+Package layouts Warning: Layout scale set to 0.5 on input line 30.
+
+
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/hyperref/n
+ameref.sty
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/generic/oberdiek
+/gettitlestring.sty))
+(/home/shanthini/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_build/xlatex/
+xmos_texfile.out)
+(/home/shanthini/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_build/xlatex/
+xmos_texfile.out)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/marvosym/u
+mvs.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/microtype/
+mt-mvs.cfg)
+Underfull \hbox (badness 10000) in paragraph at lines 39--39
+
+
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/t1cmt
+t.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucida/ts
+1hls.fd) <xmoslogo18pt.pdf, id=9, 54.06036pt x 15.07974pt>
+<use xmoslogo18pt.pdf>
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucida/t1
+hlh.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucidabr/
+omlhlcm.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucidabr/
+omshlcy.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-local/tex/latex/lucidabr/
+omxhlcv.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/microtype/
+mt-cmr.cfg)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsfonts/u
+msa.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/microtype/
+mt-msa.cfg)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/amsfonts/u
+msb.fd)
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/microtype/
+mt-msb.cfg) [1
+Non-PDF special ignored!{/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-v
+ar/fonts/map/pdftex/updmap/pdftex.map} </home/shanthini/XMOS/xSoftIPTools/1.0.1
+7/xpd/texinputs/xmoslogo18pt.pdf>]
+(/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/tex/latex/base/ts1cm
+tt.fd) <use xmoslogo18pt.pdf> AED: lastpage setting LastPage [2]
+(/home/shanthini/GitHub/sc_sdcard/app_sdcard_test/doc_quickstart/_build/xlatex/
+xmos_texfile.aux) ) )
+(see the transcript file for additional information){/home/shanthini/XMOS/xSoft
+IPTools/1.0.17/latex/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{/hom
+e/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/enc/dvips/cm-super/
+cm-super-t1.enc}{/home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/font
+s/enc/dvips/base/8r.enc}</home/shanthini/XMOS/xSoftIPTools/1.0.17/latex/texmf-l
+ocal/fonts/type1/bh/lucida/lsd.pfb></home/shanthini/XMOS/xSoftIPTools/1.0.17/la
+tex/texmf-local/fonts/type1/bh/lucida/lsr.pfb></home/shanthini/XMOS/xSoftIPTool
+s/1.0.17/latex/texmf-dist/fonts/type1/public/marvosym/marvosym.pfb></home/shant
+hini/XMOS/xSoftIPTools/1.0.17/latex/texmf-dist/fonts/type1/public/cm-super/sftt
+0900.pfb>
+Output written on xmos_texfile.pdf (2 pages, 195549 bytes).
+Transcript written on xmos_texfile.log.

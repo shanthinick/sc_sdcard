@@ -42,8 +42,8 @@ int main(void)
     FATFS* unsafe fs;
     DWORD fre_clust, fre_sect, tot_sect;
 
-unsafe
-    {
+#if !_FS_READONLY && !_FS_MINIMIZE
+unsafe {
     /* Get volume information and free clusters of drive 0 */
     rc = f_getfree("0:", &fre_clust, &fs);
     if(rc) die(rc);
@@ -58,10 +58,11 @@ unsafe
     printstrln("KB total drive space.");
     printint(tot_sect / 2);
     printstrln(" KB available");
+#endif
   }
 
   /****************************/
-
+#if !_FS_READONLY && _FS_MINIMIZE
   printstr("\nDeleting file Data.bin if existing...");
   rc = f_unlink ("Data.bin");    /* delete file if exist */
   if( FR_OK == rc) printstrln("deleted.");
@@ -91,7 +92,7 @@ unsafe
   rc = f_close(&Fil);
   if(rc) die(rc);
   printstrln("done.");
-
+#endif
   /****************************/
 
   printstr("\nOpening an existing file: Data.bin...");
@@ -116,7 +117,7 @@ unsafe
   printstrln("done.");
 
   /****************************/
-
+#if _FS_MINIMIZE < 2
   printstrln("\nOpen root directory.");
   rc = f_opendir(&dir, "");
   if(rc) die(rc);
@@ -138,7 +139,7 @@ unsafe
     }
   }
   if(rc) die(rc);
-
+#endif
   /****************************/
 
   printstrln("\nTest completed.");

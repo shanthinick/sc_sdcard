@@ -1,7 +1,7 @@
 SD Card Libary
 ..............
 
-:Stable release: 1.0.1
+:Stable release: 0.0.1
 
 :Status:  alpha
 
@@ -30,7 +30,6 @@ Firmware Overview
 
 This module provides functions to initialize SD cards, read and write data.
 Resources (ports and clock blocks) used for the interface need to be specified in either "module_sdcardSPI/SDCardHostSPI.xc" or "module_sdcard4bit/SDCardHost4bit.xc" in the initialization of the SDif structure. 
-If you run it in a core other than XS1_G you need pull-up resistor for miso line (if in spi mode) or Cmd line and D0(=Dat port bit 3) line (if in 4bit bus mode)
 
 Known Issues
 ============

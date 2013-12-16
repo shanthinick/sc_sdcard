@@ -50,7 +50,7 @@
 </dd>
 </dl>
 <p>together to read/write files on SD card through SPI interface. This application showcases some of the key software
-features of SD card module and Fat filesystem module. At the end it prints read/write performances of Fat Filesystem on SD card using SPI interface</p>
+features of SD card module and FAT filesystem module. At the end it prints read/write performances of FAT Filesystem on SD card using SPI interface</p>
 <h3 id="hardware-setup">Hardware Setup</h3>
 <div><p>The XP-SKC-L16 sliceKIT Core board has four slots with edge connectors: <tt class="docutils literal"><span class="pre">SQUARE</span></tt>, <tt class="docutils literal"><span class="pre">CIRCLE</span></tt>, <tt class="docutils literal"><span class="pre">TRIANGLE</span></tt>
 and <tt class="docutils literal"><span class="pre">STAR</span></tt>.</p>
@@ -61,61 +61,33 @@ and <tt class="docutils literal"><span class="pre">STAR</span></tt>.</p>
 <li>Connect the xTAG Adapter to sliceKIT Core board, and connect xTAG-2 to the adapter.</li>
 <li>Connect the xTAG-2 to host PC. Note that the USB cable is not provided with the sliceKIT starter kit.</li>
 <li>Set the <tt class="docutils literal"><span class="pre">XMOS</span> <span class="pre">LINK</span></tt> to <tt class="docutils literal"><span class="pre">OFF</span></tt> on the xTAG Adapter(XA-SK-XTAG2).</li>
-<li>Ensure the jumper on the XA-SK-SCR480 is bridged if the back light is required.</li>
+<li>Make sure the SD card slot in XA-SK-FLASH slice has a Class-4 SD card in it.</li>
 <li>Switch on the power supply to the sliceKIT Core board.</li>
 </ol>
 </div></blockquote>
-<div align="center" class="figure">
-<div class="caption"><span>Hardware Setup for Display Controller Demo</span></div>
-<img alt="_images/hardware_setup.jpg" src="_images/hardware_setup.jpg" style="width: 400px;" />
-</div>
 </div><h3 id="import-and-build-the-application">Import and Build the Application</h3>
 <div><blockquote>
 <div><ol class="arabic simple">
 <li>Open xTIMEcomposer and check that it is operating in online mode. Open the edit perspective (Window-&gt;Open Perspective-&gt;XMOS Edit).</li>
-<li>Locate the <tt class="docutils literal"><span class="pre">'Display</span> <span class="pre">Controller</span> <span class="pre">Demo'</span></tt> item in the xSOFTip pane on the bottom left of the window and drag it into the Project Explorer window in the xTIMEcomposer. This will also cause the modules on which this application depends to be imported as well.</li>
-<li>Click on the app_display_controller_demo item in the Explorer pane then click on the build icon (hammer) in xTIMEcomposer. Check the console window to verify that the application has built successfully.</li>
-<li>There will be quite a number of warnings that <tt class="docutils literal"><span class="pre">bidirectional</span> <span class="pre">buffered</span> <span class="pre">port</span> <span class="pre">not</span> <span class="pre">supported</span> <span class="pre">in</span> <span class="pre">hardware</span></tt>. These can be safely ignored for this component.</li>
+<li>Locate the <tt class="docutils literal"><span class="pre">'SD</span> <span class="pre">card</span> <span class="pre">demo'</span></tt> item in the xSOFTip pane on the bottom left of the window and drag it into the Project Explorer window in the xTIMEcomposer. This will also cause the modules on which this application depends to be imported as well.</li>
+<li>Click on the app_sdcard_test item in the Explorer pane then click on the build icon (hammer) in xTIMEcomposer. Check the console window to verify that the application has built successfully.</li>
 </ol>
 </div></blockquote>
-<p>For help in using xTIMEcomposer, try the xTIMEcomposer tutorial, which you can find by selecting Help-&gt;Tutorials from the xTIMEcomposer menu.</p>
-<p>Note that the Developer Column in the xTIMEcomposer on the right hand side of your screen provides information on the xSOFTip components you are using. Select the module_display_controller component in the Project Explorer, and you will see its description together with API documentation. Having done this, click the <cite>back</cite> icon until you return to this quickstart guide within the Developer Column.</p>
 </div><h3 id="run-the-application">Run the Application</h3>
 <div><p>Now that the application has been compiled, the next step is to run it on the sliceKIT Core Board using the tools to load the application over JTAG (via the xTAG-2 and xTAG Adapter card) into the xCORE multicore microcontroller.</p>
 <blockquote>
 <div><ol class="arabic simple">
-<li>Select the file <tt class="docutils literal"><span class="pre">app_display_controller_demo.xc</span></tt> in the <tt class="docutils literal"><span class="pre">app_display_controller_demo</span></tt> project from the Project Explorer.</li>
+<li>Select the file <tt class="docutils literal"><span class="pre">app_sdcard_test.xe</span></tt> in the <tt class="docutils literal"><span class="pre">app_sdcard_test</span></tt> project from the Project Explorer.</li>
 <li>Click on the <tt class="docutils literal"><span class="pre">Run</span></tt> icon (the white arrow in the green circle).</li>
 <li>At the <tt class="docutils literal"><span class="pre">Select</span> <span class="pre">Device</span></tt> dialog select <tt class="docutils literal"><span class="pre">XMOS</span> <span class="pre">xTAG-2</span> <span class="pre">connect</span> <span class="pre">to</span> <span class="pre">L1[0..1]</span></tt> and click <tt class="docutils literal"><span class="pre">OK</span></tt>.</li>
-<li>Wait until the images have loaded over the xTAG connector from the host, this should take approximately 21 seconds.</li>
-<li>There should be a series of 6 images for transition from one to another.</li>
-<li>Once the first image is displayed, a message is displayed on the console to prompt the user to touch any of the corners or the center of LCD screen for watching different transition effects.</li>
+<li>The application starts executing and reads/writes contents into SD card.</li>
 </ol>
 </div></blockquote>
 </div><h3 id="next-steps">Next Steps</h3>
 <div><blockquote>
-<div><ol class="arabic">
-<li>Try changing the files that are loaded from the host. To do this, generate an image of 480 by 272 pixels, save it in <tt class="docutils literal"><span class="pre">tga</span></tt> format uncompressed in &#8220;top left&#8221; format (&#8220;bottom left&#8221; will also work but the image will have to be upside-down). Save the file(s) into <tt class="docutils literal"><span class="pre">the</span> <span class="pre">app_display_controller_demo</span></tt> directory within your workspace. Now, increment the <tt class="docutils literal"><span class="pre">IMAGE_COUNT</span></tt> define to 7 and add the name of your new image to the array <tt class="docutils literal"><span class="pre">images</span></tt>. Ensure the filename is less than 30 characters long.</li>
-<li>Each transition has a frame count that configures the speed of the transition, try adjusting them and observe the results. To do this take a look at the API for the display controller. Note how each of the transition effects have a <tt class="docutils literal"><span class="pre">frame_count</span></tt> parameter. This parameter specifies how many frames the transition should take.</li>
-<li>Try writing an exciting transition effect. To do this, begin with the template shown below and refer to the Display Controller API documentation.<pre class="snip-multi-inline">
-static void transition_exciting_impl(chanend server, unsigned next_image_fb,
-   unsigned image_from, unsigned image_to, unsigned line) {
-   //insert code here
-}
-unsigned transition_exciting(chanend server, unsigned frame_buf[2],
-  unsigned from, unsigned to, unsigned frames, unsigned cur_fb_index) {
-  unsigned next_fb_index;
-  for (unsigned frame = 0; frame &lt; frames; frame++) {
-    next_fb_index = (cur_fb_index + 1) & 1;
-    for (unsigned line = 0; line &lt; LCD_HEIGHT; line++)
-      transition_exciting_impl(server, frame_buf[next_fb_index], from, to, line);
-    frame_buffer_commit(server, frame_buf[next_fb_index]);
-    cur_fb_index = next_fb_index;
-  }
-  return cur_fb_index;
-}
-</pre>
-</li>
+<div><ol class="arabic simple">
+<li>Try altering the size of file and make sure file sizes during write/read operations are still accurate. You can do so by reducing the size of Buff which is initialized with 40 blocks (each 512 bytes).</li>
+<li>You can vary the speed of SPI clock and see if that makes any difference. You can do so by changing the second parameter in spi_master_init() function called in disk_initialize() in module_sdcardSPI/src/SDCardHostSPI.xc.</li>
 </ol>
 </div></blockquote>
 </div></div>
