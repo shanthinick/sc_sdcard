@@ -1,7 +1,7 @@
 SD Card Libary
 ..............
 
-:Latest release: 0.0.1alpha2
+:Latest release: 0.0.1beta0
 :Maintainer: davelxmos
 :Description: SD card
 

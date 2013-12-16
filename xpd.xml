@@ -39,7 +39,8 @@
     <partnumber>XM-004511-DH</partnumber>
     <release parenthash = "165bb23b9126b6fcf7de99d50be81e8de43d42ea" version = "0.0.1alpha0" githash = "0e080821c90959c1e641a5f452e66b1be208d8e0"></release>
     <release parenthash = "5e3fef689df708fa90a65d0e9a5544eff96bc916" version = "0.0.1alpha1" githash = "17af849f342d3eb72c863ebab5b9c309757ab818"></release>
-    <release parenthash = "0e6e083788844721965c251e9f54e60ffff7e391" version = "0.0.1alpha2"></release>
+    <release parenthash = "0e6e083788844721965c251e9f54e60ffff7e391" version = "0.0.1alpha2" githash = "bbfc5e70497881ef855e1560af268e0dd728aa9d"></release>
+    <release parenthash = "6c2cf14ee71b32ab09be9e101367a89eab9c80a5" version = "0.0.1beta0"></release>
     <subpartnumber>XM-004512-SM</subpartnumber>
     <vendor>XMOS</vendor>
     <version_defines></version_defines>
