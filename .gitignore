@@ -1,5 +1,6 @@
 */.build_*/*
 */_build/*
+*/*/_build/*
 */bin/*
 *.o
 *.xe
